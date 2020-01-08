@@ -1,3 +1,11 @@
+/*-----------------------Header----*/
+.header {
+    text-align: right;
+}
+
+
+/*-----------------------Section----*/
+
 .section {
     background-color: red;
 }   
