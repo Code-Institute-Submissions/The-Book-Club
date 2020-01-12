@@ -1,15 +1,109 @@
-/*-----------------------Header----*/
-.header {
-    text-align: right;
+body {
+    padding:0;
+    margin: 0;
+    border: 0;
 }
+
+/*-----------------------Header----*/
+
+.logo {
+    height: 100px;
+    width: 100px;
+    background-image: url("../images/logo2.jpg");
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    text-align: right;
+  
+}
+
+.navigation-bar {
+    height: 60px;
+}
+
+.dropdown-menu {
+    min-width: 14rem;
+}
+
+
+
+.container-fluid {
+    padding: 0;
+    background-color: green;
+}
+
+/*----------------------Footer-----*/
+
+.contact-header {
+    text-align: left;
+    padding-left: 5%;
+    background-color: purple;
+    text-align: center;
+}
+
+.social-header {
+    background-color: green;
+    text-align: left;
+     padding-left: 5%;
+     background-color: purple;
+     text-align: center;
+}
+
+.contact-list, .social-list {
+    padding-left: 5%;
+     text-align: center;
+}
+
+
+.row {
+    margin:0;
+}
+
+.fab {
+    color: black;
+}
+
+.social-md-list {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    text-decoration: none;
+}
+/*----------------------Index-----*/
+
+
 
 
 /*-----------------------Section----*/
 
-.section {
-    background-color: red;
-}   
+.carousel {
+    background-color: yellow;
+    height: 200px;
+}
+
+.carousel-section {
+    padding-top:60px;
+}
+
+.pricing {
+    background-color: blue;
+    height: 200px;
+}
+  
 
 .carousel-inner {
     height: 90vh;
 }
+
+
+/*----------------------Meetings-----*/
+
+
+/*----------------------Sign-Up-----*/
+
+
+
+/*----------------------Members-----*/

@@ -5,58 +5,137 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/3129319209.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
     <title>The Book Club</title>
 </head>
 <body>
-    <header class="header">
-    Home
-    Pricing
-    Meetings
-    Sign-Up
-    Members
-    </header>
-    <section class="section">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-         <div class="carousel-item active">
-            <img src="assets/images/3.JPG" class="d-block w-100" alt="...">
-         </div>
-         <div class="carousel-item">
-            <img src="assets/images/1.JPG" class="d-block w-100" alt="...">
-         </div>
-         <div class="carousel-item">
-            <img src="assets/images/4.JPG" class="d-block w-100" alt="...">
-         </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+ <header>
+   <div class="container-fluid fixed-top">
+     <div class="row navigation-bar">
+      <div class="col-3">
+        <a class="navbar-brand logo" href="index.html"></a> <!--This is where your logo will go-->
       </div>
-    </section>
-    <section class="section2">
-    Pricing
-    </section>
+      <div class="col-8 offset-1">
+                           <!--navbar-expand is the breakpoint at which it stops being an icon. I've set md for tablet to have the full menu.-->
+        <nav class="navbar navbar-expand-md navbar-light"> <!--navbar-light is will make your burger icon disappear if you take it out!!-->
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span> <!--This is the actual Hamburger button-->
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent"><!--This the container for the drop down menu-->
+                <ul class="navbar-nav ml-auto"><!--List of all the links-->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="meetings.html">Meetings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>                  
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Login</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                </div>
+                                <a href="members.html"><div class="btn btn-primary">Login</div></a> <!--This is a pretend login button and will take you to a "in progress" members site-->
+                            </form>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="signup.html">Sign-Up!</a>
+                    </li>  
+                </ul>
+            </div>
+        </nav>
+      </div>   
+     </div>
+   </div>
+ </header>
+ <section class="section carousel-section">
+        <div class="container-fluid carousel">
+            <div class="row">
+                <div class="col-12">This is where the carousel will go</div>
+            </div>
+        </div>
+ </div>
+ <section class="section carousel">
+        <div class="container-fluid pricing">
+            <div class="row">
+                <div class="col-12">This is where the pricing will go</div>
+            </div>
+        </div>
+ </section>
+    
     
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-<footer class="footer">
-Footer
-Social media
-Contact details
+<footer class="footer fixed-to-bottom">
+    <div class="container-fluid">
+        <div class="row d-md-none">
+            <div class="col-12 col-sm-12 social-header">Social</div>
+        </div>
+        <div class="row d-md-none">
+            <div class="col-6 col-sm-6 col-md-3 social-list">
+                <a target="_blank" href="#">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 social-list">
+                <a target="_blank" href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>     
+            <div class="col-6 col-sm-6 col-md-3 social-list">
+                <a target="_blank" href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div> 
+            <div class="col-6 col-sm-6 col-md-3 social-list">
+                <a target="_blank" href="#">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>         
+        </div>   
+    </div>
+ 
+    <div class="container-fluid">
+        <div class="row contact">
+            <div class="col-12 col-sm-12 col-md-8 contact-header">Contact</div>     
+            <div class="d-none d-sm-none col-md-4 d-md-inline social-header">Social</div>
+            <div class="col-12 col-sm-12 col-md-2 contact-list"><i class="fas fa-phone-alt"></i><p class="contact-method d-none d-sm-inline"> Telephone: </p><p>01298 283191</p></div>
+            <div class="col-12 col-sm-12 col-md-3 contact-list"><i class="fas fa-address-card"></i><p class="contact-method d-none d-sm-inline">  Address:</p><p>The Book Club, <br>Green Lane,<br>Manchester,<br>M1 9BC</br></p></div>
+            <div class="col-12 col-sm-12 col-md-3 contact-list"><i class="fas fa-envelope"></i><p class="contact-method d-none d-sm-inline">  Email Address:  </p><p>thebookclub@gmail.com</p></div>
+            <div class="d-none d-sm-none d-md-inline col-md-4 social-list social-md-list">
+              <li> 
+                <a target="_blank" href="#">
+                    <i class="fab fa-facebook"></i>
+                </a> 
+                <a target="_blank" href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a target="_blank" href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a target="_blank" href="#">
+                    <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+            </div>
+        </div>
+    </div>
 </footer>
 
 </body>
