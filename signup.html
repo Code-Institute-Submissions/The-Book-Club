@@ -50,52 +50,68 @@
     <div class="row">
         
     </div>
+   <div class="container"> 
     <form>
-        <div class="form-row">
-            <div class="form-group col-md-6">
+       <div class="form-row">
+        <div class="form-group col-12">
+            <label for="inputEmail4">First Name</label>
+            <input type="text" class="form-control" id="FirstName" placeholder="First Name">
+        </div>
+        <div class="form-group col-12">
+            <label for="inputSurname">Surname</label>
+            <input type="text" class="form-control" id="surname" placeholder="Surname">
+        </div>    
+        <div class="form-group col-md-12">
             <label for="inputEmail4">Email</label>
             <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-            </div>
-            <div class="form-group col-md-6">
+        </div>
+        <div class="form-group col-12">
+            <label for="inputMobile">Mobile</label>
+            <input type="text" class="form-control" id="mobile" placeholder="Mobile (optional)">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Location meeting</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Manchester</option>
+                    <option>York</option>
+                    <option>Leeds</option>
+                    <option>Nottingham</option>
+                    <option>Cambridge</option>
+                </select>
+        </div>
+        <div class="form-group col-md-12">
             <label for="inputPassword4">Password</label>
             <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+        </div>
+        <div class="form-group col-md-12">
+            <label for="inputRPassword">Repeat Password</label>
+            <input type="password" class="form-control" id="inputRPassword" placeholder="Repeat Password">
+        </div>
+        <div class="form-group col-md-12">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Bronze-Membership">
+                <label class="form-check-label" for="inlineCheckbox1">£5 - Bronze Memebership</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="Silver-Membership">
+                <label class="form-check-label" for="inlineCheckbox2">£10 - Silver Memebership</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="Gold-Membership">
+                <label class="form-check-label" for="inlineCheckbox3">£15 - Gold Memebership</label>
             </div>
         </div>
-        <div class="form-group">
-            <label for="inputAddress">Address</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-        </div>
-        <div class="form-group">
-            <label for="inputAddress2">Address 2</label>
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-        </div>
-        <div class="form-row">
-            <div class="form-group col-md-6">
-            <label for="inputCity">City</label>
-            <input type="text" class="form-control" id="inputCity">
-            </div>
-            <div class="form-group col-md-4">
-            <label for="inputState">State</label>
-            <select id="inputState" class="form-control">
-                <option selected>Choose...</option>
-                <option>...</option>
-            </select>
-            </div>
-            <div class="form-group col-md-2">
-            <label for="inputZip">Zip</label>
-            <input type="text" class="form-control" id="inputZip">
+        <div class="form-group col-md-12">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineConsent" value="consent">
+                <label class="form-check-label" for="inlineConsent">I consent for this information to be stored</label>
             </div>
         </div>
-        <div class="form-group">
-            <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
-                Check me out
-            </label>
-            </div>
+        <div class="signup">
+            <button type="submit" class="btn btn-primary">Sign Up!</button>
         </div>
-        <button type="submit" class="btn btn-primary">Sign in</button>
     </form>
+   </div> 
  </section>
 
  <footer class="footer">
