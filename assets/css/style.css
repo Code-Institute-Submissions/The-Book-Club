@@ -18,19 +18,14 @@ body {
   
 }
 
-.navigation-bar {
-    height: 60px;
+
+.navbar-nav {
+    padding-right: 5px;
 }
-
-.dropdown-menu {
-    min-width: 14rem;
-}
-
-
 
 .container-fluid {
     padding: 0;
-    background-color: green;
+   
 }
 
 /*----------------------Footer-----*/
@@ -81,16 +76,18 @@ li {
 
 .carousel {
     background-color: yellow;
-    height: 200px;
+   height: 40vh;
 }
 
 .carousel-section {
-    padding-top:60px;
+    padding-top:79px;
+    
 }
 
 .pricing {
     background-color: blue;
-    height: 200px;
+    height: 40vh;
+    
 }
   
 

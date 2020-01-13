@@ -10,15 +10,9 @@
     <title>The Book Club</title>
 </head>
 <body>
- <header>
-   <div class="container-fluid fixed-top">
-     <div class="row navigation-bar">
-      <div class="col-3">
-        <a class="navbar-brand logo" href="index.html"></a> <!--This is where your logo will go-->
-      </div>
-      <div class="col-8 offset-1">
-                           <!--navbar-expand is the breakpoint at which it stops being an icon. I've set md for tablet to have the full menu.-->
-        <nav class="navbar navbar-expand-md navbar-light"> <!--navbar-light is will make your burger icon disappear if you take it out!!-->
+ <header class="header">                           <!--navbar-expand is the breakpoint at which it stops being an icon. I've set md for tablet to have the full menu.-->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light"> <!--navbar-light is will make your burger icon disappear if you take it out!!-->
+            <a class="navbar-brand" href="index.html"><img src="assets/images/logo2.jpg" alt="Logo of The Book Club"/></a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span> <!--This is the actual Hamburger button-->
             </button>
@@ -34,22 +28,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Pricing</a>
                     </li>                  
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <li class="nav-item">
+                        <a class="nav-link" href="members.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Login</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <form>
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleInputPassword1">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                                </div>
-                                <a href="members.html"><div class="btn btn-primary">Login</div></a> <!--This is a pretend login button and will take you to a "in progress" members site-->
-                            </form>
-                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="signup.html">Sign-Up!</a>
@@ -57,9 +38,6 @@
                 </ul>
             </div>
         </nav>
-      </div>   
-     </div>
-   </div>
  </header>
  <section class="section carousel-section">
         <div class="container-fluid carousel">
@@ -67,7 +45,7 @@
                 <div class="col-12">This is where the carousel will go</div>
             </div>
         </div>
- </div>
+ </section>
  <section class="section carousel">
         <div class="container-fluid pricing">
             <div class="row">
@@ -78,65 +56,67 @@
     
     
 
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-<footer class="footer fixed-to-bottom">
-    <div class="container-fluid">
-        <div class="row d-md-none">
-            <div class="col-12 col-sm-12 social-header">Social</div>
-        </div>
-        <div class="row d-md-none">
-            <div class="col-6 col-sm-6 col-md-3 social-list">
-                <a target="_blank" href="#">
-                    <i class="fab fa-facebook"></i>
-                </a>
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row d-md-none">
+                <div class="col-12 col-sm-12 social-header">Social</div>
             </div>
-            <div class="col-6 col-sm-6 col-md-3 social-list">
-                <a target="_blank" href="#">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </div>     
-            <div class="col-6 col-sm-6 col-md-3 social-list">
-                <a target="_blank" href="#">
-                    <i class="fab fa-twitter"></i>
-                </a>
-            </div> 
-            <div class="col-6 col-sm-6 col-md-3 social-list">
-                <a target="_blank" href="#">
-                    <i class="fab fa-youtube"></i>
-                </a>
-            </div>         
-        </div>   
-    </div>
- 
-    <div class="container-fluid">
-        <div class="row contact">
-            <div class="col-12 col-sm-12 col-md-8 contact-header">Contact</div>     
-            <div class="d-none d-sm-none col-md-4 d-md-inline social-header">Social</div>
-            <div class="col-12 col-sm-12 col-md-2 contact-list"><i class="fas fa-phone-alt"></i><p class="contact-method d-none d-sm-inline"> Telephone: </p><p>01298 283191</p></div>
-            <div class="col-12 col-sm-12 col-md-3 contact-list"><i class="fas fa-address-card"></i><p class="contact-method d-none d-sm-inline">  Address:</p><p>The Book Club, <br>Green Lane,<br>Manchester,<br>M1 9BC</br></p></div>
-            <div class="col-12 col-sm-12 col-md-3 contact-list"><i class="fas fa-envelope"></i><p class="contact-method d-none d-sm-inline">  Email Address:  </p><p>thebookclub@gmail.com</p></div>
-            <div class="d-none d-sm-none d-md-inline col-md-4 social-list social-md-list">
-              <li> 
-                <a target="_blank" href="#">
-                    <i class="fab fa-facebook"></i>
-                </a> 
-                <a target="_blank" href="#">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a target="_blank" href="#">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a target="_blank" href="#">
-                    <i class="fab fa-youtube"></i>
-                </a>
-              </li>
+            <div class="row d-md-none">
+                <div class="col-6 col-sm-6 col-md-3 social-list">
+                    <a target="_blank" href="#">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 social-list">
+                    <a target="_blank" href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>     
+                <div class="col-6 col-sm-6 col-md-3 social-list">
+                    <a target="_blank" href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div> 
+                <div class="col-6 col-sm-6 col-md-3 social-list">
+                    <a target="_blank" href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>         
+            </div>   
+        </div>
+    
+        <div class="container-fluid">
+            <div class="row contact">
+                <div class="col-12 col-sm-12 col-md-8 contact-header">Contact</div>     
+                <div class="d-none d-sm-none col-md-4 d-md-inline social-header">Social</div>
+                <div class="col-12 col-sm-12 col-md-2 contact-list"><i class="fas fa-phone-alt"></i><p class="contact-method d-none d-sm-inline"> Telephone: </p><p>01298 283191</p></div>
+                <div class="col-12 col-sm-12 col-md-3 contact-list"><i class="fas fa-address-card"></i><p class="contact-method d-none d-sm-inline">  Address:</p><p>The Book Club, <br>Green Lane,<br>Manchester,<br>M1 9BC</p></div>
+                <div class="col-12 col-sm-12 col-md-3 contact-list"><i class="fas fa-envelope"></i><p class="contact-method d-none d-sm-inline">  Email Address:  </p><p>thebookclub@gmail.com</p></div>
+                <div class="d-none d-sm-none d-md-inline col-md-4 social-list social-md-list">
+                    <ul>
+                        <li><!--Add in a ul tag beforehand--> 
+                            <a target="_blank" href="#">
+                                <i class="fab fa-facebook"></i>
+                            </a> 
+                            <a target="_blank" href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a target="_blank" href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a target="_blank" href="#">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 
 </body>
 </html>
