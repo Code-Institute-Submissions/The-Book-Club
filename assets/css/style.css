@@ -72,19 +72,13 @@ li {
 
 /*-----------------------Section carousel----*/
 
-.carousel {
-    background-color: yellow;
-   height: 40vh;
-}
 
 .carousel-section {
     padding-top:79px;
     
 }
 
-.carousel-inner {
-    height: 90vh;
-}
+
 
 /*---Index About----*/
 
