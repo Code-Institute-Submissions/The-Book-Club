@@ -110,3 +110,12 @@ li {
 
 
 /*----------------------Members-----*/
+
+.members-form{
+    background-color: green;
+    height: 50vh;
+}
+
+.membership-wrapper {
+    background-color: red;
+}
