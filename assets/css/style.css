@@ -136,6 +136,33 @@ li {
 
 .location-header {
     text-align: center;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.location-picture {
+    border: 1px solid black;
+}
+.information-manchester {
+    border: 1px solid black;
+
+}
+
+.information-york {
+    border: 1px solid black;
+
+}
+.information-leeds {
+    border: 1px solid black;
+
+}
+.information-cambridge {
+    border: 1px solid black;
+
+}
+.information-nottingham {
+    border: 1px solid black;
+
 }
 
 /*----------------------Sign-Up-----*/
