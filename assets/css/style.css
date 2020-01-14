@@ -21,7 +21,24 @@ body {
 
 .navbar-nav {
     padding-right: 5px;
+   
 }
+
+
+
+
+
+ul li a {
+    width: 80px;
+    
+}
+
+ul li p {
+    width: 80px;
+    
+}
+
+
 
 .container-fluid {
     padding: 0;
@@ -113,7 +130,13 @@ li {
 
 
 /*----------------------Meetings-----*/
+.meetings-header-wrapper {
+    padding-top:79px;
+}
 
+.location-header {
+    text-align: center;
+}
 
 /*----------------------Sign-Up-----*/
 .container-membership {
