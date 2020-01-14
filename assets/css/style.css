@@ -42,6 +42,10 @@ li p:hover {
 
 /*----------------------Footer-----*/
 
+.footer {
+    padding-top: 70vh;
+}
+
 .social-header {
     background-color: green;
     text-align: left;
@@ -130,11 +134,13 @@ li {
 
 /*----------------------Members-----*/
 
-.members-form{
-    background-color: green;
-    height: 50vh;
-}
 
+
+.members {
+        padding-top: 79px;
+        height: 60vh;
+
+    }
 
 /*----------------------Contact Us-----*/
 .contact-list{
