@@ -143,6 +143,12 @@ li {
 .location-picture {
     border: 1px solid black;
 }
+
+.information-grid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .information-manchester {
     border: 1px solid black;
 

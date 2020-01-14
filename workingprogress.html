@@ -1,73 +1,45 @@
-<div class="container-fluid">
-        <div class="row contact">
-            <div class="col-12 col-sm-12 col-md-8 contact-header">Contact</div>     
-            
-            <div class="col-12 col-sm-12 col-md-2 contact-list"><i class="fas fa-phone-alt"></i><p class="contact-method d-none d-sm-inline"> Telephone: </p><p>01298 283191</p></div>
-            <div class="col-12 col-sm-12 col-md-3 contact-list"><i class="fas fa-address-card"></i><p class="contact-method d-none d-sm-inline">  Address:</p><p>The Book Club, <br>Green Lane,<br>Manchester,<br>M1 9BC</br></p></div>
-            <div class="col-12 col-sm-12 col-md-3 contact-list"><i class="fas fa-envelope"></i><p class="contact-method d-none d-sm-inline">  Email Address:  </p><p>thebookclub@gmail.com</p></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/3129319209.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <title>The Book Club</title>
+</head>
+<body>
 
-
-
-<div class="modal fade" id="contactUs" tabindex="-1" role="dialog" aria-labelledby="contactUsTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" >
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="contactUsTitle">Get in touch!</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div class="row">
-            <div class="col-12">We are always happy to hear from you!</div>
-            <div class="col-12 text-muted"><small>Please leave your details and a message and will will get back to you as soon as possible.</small></div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <form>
-                    <div class="form-group">
-                        <label for="inputEmail">Email address</label>
-                        <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
-                        <small id="emailHelp" class="form-text text-muted">We will use your email to reply to your message. We'll never share your email with anyone else.</small>
+    <div class="manchester-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 location-header">Manchester</div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 location-picture">Picture</div>
+                <div class="col-12 col-sm-12 col-md-6 information-grid">
+                    <div class="row">
+                        <div class="col-12 information-manchester"><p>Name of Venue</p></div>
                     </div>
-                    <div class="form-group">
-                        <label for="textArea">Please leave your message in the box below.</label>
-                        <textarea class="form-control" id="textArea" rows="3"></textarea>
+                    <div class="row">
+                        <div class="col-12 information-manchester"><i class="fas fa-calendar-day"></i> <p class="d-md-inline d-none d-sm-none "> Mid-book meeting: </p><p class="d-block">Tuesday 11th February - 19:00 </p></div>
                     </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>                               
-                    <button type="submit" class="btn btn-primary">Send</button>
-                </form>
+                    <div class="row">
+                        <div class="col-12 information-manchester"><i class="fas fa-calendar-day"></i> <p class="d-md-inline d-none d-sm-none "> Monthly End-of-book meeting: </p><p class="d-block">Tuesday 25th February - 19:00 </p></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 information-manchester"><i class="fas fa-phone-alt"></i> <p class="d-md-inline d-none d-sm-none ">Telephone number: </p><p class="d-block">09231 933748</p></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 information-manchester"><i class="fas fa-address-card"></i> <p class="d-md-inline d-none d-sm-none ">Address: </p><p class="d-block">1 Book Lane,<br>Manchester<br>M1 9FD</p></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 information-manchester"><i class="fas fa-map-marked-alt"></i> <p class="d-block">Link to address on Google Maps</p></div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12">Prefer social media?</div>
-            <div class="col-12">Contact us through our Facebook or Twitter page!</div>
-            <div class="col-3 offset-3">
-                <a target="_blank" href="#">
-                    <i class="fab fa-facebook"></i>
-                </a>
-            </div>
-            <div class="col-3">
-                <a target="_blank" href="#">
-                    <i class="fab fa-twitter"></i>
-                </a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                Alternatively, you can contact us via:
-            </div>
-            <div class="col-12 contact-list"><i class="fas fa-phone-alt"></i><p class="contact-method d-none d-sm-inline"> Telephone: </p><p>01298 283191</p></div>
-            <div class="col-12 contact-list"><i class="fas fa-address-card"></i><p class="contact-method d-none d-sm-inline">  Address:</p><p>The Book Club, <br>Green Lane,<br>Manchester,<br>M1 9BC</br></p></div>
-            <div class="col-12 contact-list"><i class="fas fa-envelope"></i><p class="contact-method d-none d-sm-inline">  Email Address:  </p><p>thebookclub@gmail.com</p></div>
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
+        </div>  
     </div>
-  </div>
-</div>
+</body>
+</html>
