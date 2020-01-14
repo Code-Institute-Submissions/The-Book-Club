@@ -42,13 +42,6 @@ li p:hover {
 
 /*----------------------Footer-----*/
 
-.contact-header {
-    text-align: left;
-    padding-left: 5%;
-    background-color: purple;
-    text-align: center;
-}
-
 .social-header {
     background-color: green;
     text-align: left;
@@ -57,7 +50,7 @@ li p:hover {
      text-align: center;
 }
 
-.contact-list, .social-list {
+.social-list {
     padding-left: 5%;
      text-align: center;
 }
@@ -140,6 +133,13 @@ li {
 .members-form{
     background-color: green;
     height: 50vh;
+}
+
+
+/*----------------------Contact Us-----*/
+.contact-list{
+     padding-left: 5%;
+     text-align: center;
 }
 
 
