@@ -43,7 +43,8 @@ li p:hover {
 /*----------------------Footer-----*/
 
 .footer {
-    padding-top: 70vh;
+    padding-top: 100vh;
+    position: relative;
 }
 
 .social-header {
