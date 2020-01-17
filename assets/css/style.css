@@ -15,14 +15,40 @@ body {
 
 .navbar {
     text-align: right;
-  
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 1rem;
 }
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .15rem;
+    padding-bottom: 0.15rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+  
 
 
 .navbar-nav {
-    padding-right: 5px;
+    bottom:0;
+    right: .5rem;
+    position: absolute;
+
    
 }
+
+
+
 
 
 
@@ -100,11 +126,12 @@ li {
 
 
 
-/*-----------------------Section carousel----*/
+/*-----------------------Index Section carousel----*/
 
 
 .carousel-section {
-    padding-top:79px;
+    padding-top:79px
+
     
 }
 
