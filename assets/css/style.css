@@ -40,17 +40,26 @@ body {
   
 
 
-.navbar-nav {
-    bottom:0;
-    right: .5rem;
-    position: absolute;
 
+
+.nav-link {
+    display: block;
+    
+    
+}
+
+.nav-link-signup {
+    color:#fff !important;
+    padding-top: 0.375em;
    
 }
 
-
 ul li a {
     width: auto;
+    color: #fff;
+    padding-bottom: 0.6rem;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
     
 }
 
@@ -76,6 +85,37 @@ li p:hover {
     cursor: pointer;
 }
 
+.btn {
+    display: inline-block;
+    font-weight: 400; 
+    color: #fff; 
+    text-align: center; 
+    vertical-align: middle; 
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-bottom: 2.4px;
+}
+
+.btn-signup {
+    background-color: rgb(1, 1, 173);
+    border: 1px solid rgb(1, 1, 173);
+}
+
+.btn-signup:hover {
+    background-color: darkblue;
+    border: 1px solid darkblue;
+    
+}
+
+    
 /*----------------------Footer-----*/
 
 .footer {
