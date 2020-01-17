@@ -122,6 +122,14 @@ li {
     
 }
 
+.carousel-caption {
+    width: auto;
+    height: auto;
+    background-color: rgba(194, 194, 194, 0.5);
+
+
+}
+
 
 
 /*---Index About----*/
