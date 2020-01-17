@@ -25,6 +25,7 @@ body {
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 0 1rem;
+    background-color: aliceblue;
 }
 
 .navbar-brand {
@@ -130,7 +131,7 @@ li {
     padding: 20px 20px 20px;
     color: #fff;
     text-align: center;
-    background-color: rgba(165, 165, 165, 0.275);
+   
 
 }
 
@@ -151,9 +152,70 @@ h5 {
 /*---Pricing-----*/
 
 .pricing {
-    background-color: blue;
-    height: 40vh;
+    background-color: aliceblue;
     
+    
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: .25rem;
+    border: transparent;
+}
+
+
+.card-wrapper {
+    text-align: center;
+    
+}
+
+.bronze-membership {
+    background-color:#fff;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: inline-block;
+}
+
+.silver-membership {
+    background-color: #fff;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: inline-block;
+}
+
+.gold-membership {
+    background-color:#fff;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: inline-block;
+}
+
+
+
+.membership-card-header-gold {
+    background-color: gold;
+    background-clip: border-box;
+    border-radius: .25rem;
+}
+
+.membership-card-header-silver {
+    background-color:silver;
+    background-clip: border-box;
+    border-radius: .25rem;
+}
+
+.membership-card-header-bronze {
+    background-color: #cd7f32;
+    background-clip: border-box;
+    border-radius: .25rem;
 }
   
 
