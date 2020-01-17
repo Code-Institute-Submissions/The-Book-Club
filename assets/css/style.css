@@ -25,7 +25,7 @@ body {
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 0 1rem;
-    background-color: aliceblue;
+    background-color: rgb(236, 242, 248);
 }
 
 .navbar-brand {
@@ -152,7 +152,7 @@ h5 {
 /*---Pricing-----*/
 
 .pricing {
-    background-color: aliceblue;
+    background-color: rgb(236, 242, 248);
     
     
 }
