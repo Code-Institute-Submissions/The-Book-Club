@@ -302,6 +302,7 @@ li {
 
 .card-body {
     text-align: left;
+    padding: 10px 10px!important;
 }
 
 .card-text {
@@ -353,6 +354,7 @@ li {
     background-clip: border-box;
     border-radius: .25rem;
     height: 50px;
+    margin: 0;
 }
   
 
