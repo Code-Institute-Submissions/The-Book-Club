@@ -300,6 +300,17 @@ li {
     
 }
 
+.card-body {
+    text-align: left;
+}
+
+.card-text {
+    list-style-type: disc;
+    
+}
+
+
+
 .bronze-membership {
     background-color:#fff;
     margin-top: 60px;
