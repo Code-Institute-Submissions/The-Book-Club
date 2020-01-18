@@ -169,10 +169,10 @@ li {
 
 .carousel-item img {
     position: absolute;
-    object-fit:cover;
+    object-fit: cover;
     top: 0;
     left: 0;
-    height: 500px;
+    height: 600px;
 }
 
 
@@ -186,6 +186,7 @@ li {
     padding: 20px 20px 20px;
     color: #fff;
     text-align: center;
+    background-color: rgba(248, 248, 248, 0.233);
 }
 
 h5 {
