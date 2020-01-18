@@ -327,18 +327,21 @@ li {
     background-color: gold;
     background-clip: border-box;
     border-radius: .25rem;
+    height: 50px;
 }
 
 .membership-card-header-silver {
     background-color:silver;
     background-clip: border-box;
     border-radius: .25rem;
+    height: 50px;
 }
 
 .membership-card-header-bronze {
     background-color: #cd7f32;
     background-clip: border-box;
     border-radius: .25rem;
+    height: 50px;
 }
   
 
