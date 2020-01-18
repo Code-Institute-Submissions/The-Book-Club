@@ -161,12 +161,22 @@ li {
 
 /*-----------------------Index Section carousel----*/
 
+.carousel-item {
 
 
-.carousel {
-    height: 90vh;
-    
+  height: 500px;
 }
+
+.carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    height: 500px;
+}
+
+
+
 
 .carousel-caption-edit {
     position: absolute;
@@ -328,7 +338,7 @@ p.padding {
 
 .signup-containter {
 text-align: center;
-height: 90vh;
+
 }
 
 .member-col-10 {
