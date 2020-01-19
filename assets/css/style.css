@@ -12,7 +12,7 @@ body {
 
 .navbar {
     text-align: right;
-    position: relative;
+    position: fixed;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -186,9 +186,12 @@ li {
 
 /*-----------------------Index Section carousel----*/
 
+.carousel-section {
+    padding-top: 57px;
+}
+
 .carousel-item {
-
-
+ 
   height: 500px;
 }
 
