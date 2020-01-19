@@ -117,7 +117,7 @@ li p:hover {
 
 .footer {
     height: 100px;
-    background-color: red;
+    background-color:  rgb(236, 242, 248) ;
     bottom: 0;
     left: 0;
     right: 0;
@@ -132,11 +132,18 @@ li p:hover {
 .social-header {
      background-color: rgb(236, 242, 248);
      text-align: center;
+     padding-top: 5px;
+}
+
+.social-header h5{
+     background-color: rgb(236, 242, 248);
+     text-align: center; 
+     margin: 0;  
 }
 
 .social-list {
     text-align: center;
-
+    background-color: rgb(236, 242, 248);
     height: 74px;
 }
 
