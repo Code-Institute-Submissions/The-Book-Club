@@ -191,8 +191,7 @@ li {
 }
 
 .carousel-item {
- 
-  height: 500px;
+   height: 500px;
 }
 
 .carousel-item img {
@@ -204,13 +203,18 @@ li {
     
 }
 
+/*.carousel-img-1 {     -------------------Move to media query---
+    padding-bottom: 250px;
+    
+}*/
+
 
 
 
 .carousel-caption-edit-picture1 {
     position: absolute;
     top: 20px;
-    right: 50px;
+    right: 0;
     z-index: 10;
     padding: 20px 20px 20px;
     color: black;
