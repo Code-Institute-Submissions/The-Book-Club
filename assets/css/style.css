@@ -273,6 +273,18 @@ li {
 
 /*----------------------------------------------------------Why not pop in?-----*/
 
+
+.visit-header {
+    text-align: center;
+    font-weight: 700;
+}
+
+.visit-header p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.2rem;
+
+}
 .next-meeting-pic {
     background-image: url("/assets/images/test.jpg");
     background-size: cover;
