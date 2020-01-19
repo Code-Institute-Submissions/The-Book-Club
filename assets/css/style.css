@@ -521,6 +521,12 @@ li {
     height: 3.125rem;
     margin: 0;
 }
+
+.membership-card-header-bronze h3, .membership-card-header-silver h3, .membership-card-header-gold h3 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+}
   
 
 .card p {
