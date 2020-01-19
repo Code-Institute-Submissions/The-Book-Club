@@ -294,15 +294,16 @@ li {
 .about-text-container2 {
     padding-top:0;
     padding-bottom: 30px;
-    padding-right: 0;
-    padding-left: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
  
 }
 .about-text {
-    background-color:rgb(236, 242, 248);
+    background-color: rgba(170, 170, 170, 0.6) ;
     height:300px;
     padding: 20px;
     overflow: hidden;
+    color: #fff;
   
     
 }
@@ -342,6 +343,9 @@ li {
 
 /*----------------------------------------------------------Why not pop in?-----*/
 
+.visit {
+    background-color: aliceblue;
+}
 
 .visit-header {
     text-align: center;
