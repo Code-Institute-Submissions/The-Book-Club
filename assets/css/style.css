@@ -136,6 +136,8 @@ li p:hover {
      background-color: rgb(217, 240, 255);
      text-align: center;
      padding-top: 5px;
+     letter-spacing: 2px;
+     font-weight: bold;
 }
 
 .social-header h5{
@@ -354,18 +356,26 @@ li {
 .visit-header {
     text-align: center;
     font-weight: 700;
+    padding: 10px 30px 0px 30px;
 }
 
 .visit-header p {
     text-align: center;
     font-weight: 400;
     font-size: 1.2rem;
+    padding: 10px 30px 0px 30px;
+    margin: 0;
 
 }
 
 .next-meeting-wrapper {
     padding-left: 30px;
     padding-right: 30px;
+    margin-top: 30px;
+}
+
+.next-meeting-wrapper-last {
+    margin-bottom: 30px;
 }
 
 .next-meeting-pic {
@@ -378,10 +388,11 @@ li {
     color: #fff;
     text-align: center;
     background-color: rgba(170, 170, 170, 0.4);
-   
-
+    font-weight: 600;
 }
 
+.next-meeting-info p {
+    margin: 0;
 }
 
 /*---Pricing-----*/
