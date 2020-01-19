@@ -211,12 +211,14 @@ li {
 
 
 
+
+
 .carousel-caption-edit-picture1 {
     position: absolute;
-    top: 20px;
-    right: 0;
+    top: 20px; /*Put this padding in the media query - padding: top 20px right 0px;*/
+    right: 5px;
     z-index: 10;
-    padding: 20px 20px 20px;
+    padding: 20px 20px 20px; 
     color: black;
     text-align: center;
     background-color: rgba(170, 170, 170, 0.6);
@@ -225,7 +227,7 @@ li {
 .carousel-caption-edit-picture2 {
    position: absolute;
     top: 20px;
-    right: 50px;
+    right: 5px;
     z-index: 10;
     padding: 20px 20px 20px;
     color: black;
@@ -237,7 +239,7 @@ li {
 .carousel-caption-edit-picture3 {
     position: absolute;
     top: 20px;
-    right: 50px;
+    right: 5px;
     z-index: 10;
     padding: 20px 20px 20px;
     color: black;
@@ -264,13 +266,13 @@ li {
     padding-top:30px;
     padding-bottom: 30px;
     padding-right: 30px;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 .about-image-container2 {
     padding-top:0;
     padding-bottom: 30px;
-    padding-right: 20px;
+    padding-right: 30px;
     padding-left: 30px;
 }
 
@@ -279,6 +281,45 @@ li {
     object-fit: cover;
     width: 100%;
     height: 300px;
+}
+
+.about-text-container1 {
+    padding-top:0;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+ 
+}
+
+.about-text-container2 {
+    padding-top:0;
+    padding-bottom: 30px;
+    padding-right: 0;
+    padding-left: 20px;
+ 
+}
+.about-text {
+    background-color:rgb(236, 242, 248);
+    height:300px;
+    padding: 20px;
+    overflow: hidden;
+  
+    
+}
+
+/*media query 1
+.about-image-container1 {
+    padding-top:30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+.about-image-container2 {
+    padding-top:0;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 30px;
 }
 
 .about-text-container1 {
@@ -296,12 +337,8 @@ li {
     padding-left: 20px;
  
 }
-.about-text {
-    background-color:rgb(236, 242, 248);
-    height:300px;
-  
-    
-}
+
+*/
 
 /*----------------------------------------------------------Why not pop in?-----*/
 
