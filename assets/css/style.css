@@ -1,5 +1,8 @@
 body {
-    margin-bottom:0;
+
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
 /*-----------------------Header----*/
 
@@ -22,7 +25,7 @@ body {
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 0 1rem;
-    background-color: rgb(236, 242, 248);
+    background-color: rgb(217, 240, 255);
 }
 
 .navbar-brand {
@@ -117,7 +120,7 @@ li p:hover {
 
 .footer {
     height: 100px;
-    background-color:  rgb(236, 242, 248) ;
+    background-color:rgb(217, 240, 255);
     bottom: 0;
     left: 0;
     right: 0;
@@ -130,20 +133,20 @@ li p:hover {
 }
 
 .social-header {
-     background-color: rgb(236, 242, 248);
+     background-color: rgb(217, 240, 255);
      text-align: center;
      padding-top: 5px;
 }
 
 .social-header h5{
-     background-color: rgb(236, 242, 248);
+     background-color: rgb(217, 240, 255);
      text-align: center; 
      margin: 0;  
 }
 
 .social-list {
     text-align: center;
-    background-color: rgb(236, 242, 248);
+    background-color: rgb(217, 240, 255);
     height: 74px;
 }
 
@@ -299,11 +302,11 @@ li {
  
 }
 .about-text {
-    background-color: rgba(170, 170, 170, 0.6) ;
+    background-color:rgb(217, 240, 255);
     height:300px;
     padding: 20px;
     overflow: hidden;
-    color: #fff;
+    color:black;
   
     
 }
@@ -344,7 +347,7 @@ li {
 /*----------------------------------------------------------Why not pop in?-----*/
 
 .visit {
-    background-color: aliceblue;
+    background-color:rgb(217, 240, 255);
     color: black;
 }
 
