@@ -368,6 +368,10 @@ li {
     
 }
 
+.card-body ul {
+    margin-bottom: 0;
+}
+
 .card-text {
     list-style-type: disc;
     
