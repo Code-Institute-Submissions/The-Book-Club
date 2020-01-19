@@ -305,8 +305,6 @@ li {
 
 .pricing {
     background-color: rgb(236, 242, 248);
-
-    
     
 }
 
@@ -321,7 +319,7 @@ li {
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    border: 2px solid #cd7f32;
+    border: 1px solid #cd7f32;
     border-top-left-radius: 0.25rem;
     border-top-left-radius: 0.25rem;
 
@@ -337,7 +335,7 @@ li {
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    border: 2px solid silver;
+    border: 1px solid silver;
     border-top-left-radius: 0.25rem;
     border-top-left-radius: 0.25rem;
 }
@@ -352,7 +350,7 @@ li {
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    border: 2px solid gold;
+    border: 1px solid gold;
     border-top-left-radius: 0.25rem;
     border-top-left-radius: 0.25rem;
 }
@@ -366,7 +364,7 @@ li {
 
 .card-body {
     text-align: left;
-    padding: 10px 10px!important;
+    padding: 30px 20px!important;
     
 }
 
@@ -383,6 +381,7 @@ li {
     margin-top: 60px;
     margin-bottom: 60px;
     display: inline-block;
+    width: 100%;
 }
 
 .silver-membership {
@@ -398,6 +397,7 @@ li {
     margin-top: 30px;
     margin-bottom: 60px;
     display: inline-block;
+    width: 100%;
 }
 
 
