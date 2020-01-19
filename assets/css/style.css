@@ -394,6 +394,12 @@ li {
     text-align: center;
     background-color: rgba(170, 170, 170, 0.4);
     font-weight: 600;
+    padding: 20px 20px;
+}
+
+.visit-title {
+    text-decoration: underline;
+    padding-bottom: 10px;
 }
 
 .next-meeting-info p {
