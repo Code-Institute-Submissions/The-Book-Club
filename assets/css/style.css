@@ -130,16 +130,31 @@ li p:hover {
 }
 
 .social-header {
-    background-color: green;
-    text-align: left;
-     padding-left: 5%;
-     background-color: purple;
+     background-color: rgb(236, 242, 248);
      text-align: center;
 }
 
 .social-list {
-    padding-left: 5%;
-     text-align: center;
+    text-align: center;
+
+    height: 74px;
+}
+
+.social-list ul {
+    padding: 0;
+    margin: 0;
+    height: 74px;
+    margin: 0 auto;
+}
+
+.social-list li {
+    height: 74px;
+    padding-top: 17px;
+}
+
+.social-list ul li a {
+    padding-bottom: 0;
+    padding-left: 0.8rem;
 }
 
 
