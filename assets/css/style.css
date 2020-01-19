@@ -310,7 +310,8 @@ li {
     
 }
 
-.card {
+.card-bronze {
+    
     position: relative;
     display: -ms-flexbox;
     display: flex;
@@ -320,7 +321,38 @@ li {
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    border: 2px solid black;
+    border: 2px solid #cd7f32;
+    border-top-left-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+
+}
+
+.card-silver {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 2px solid silver;
+    border-top-left-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+}
+
+.card-gold {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 2px solid gold;
     border-top-left-radius: 0.25rem;
     border-top-left-radius: 0.25rem;
 }
