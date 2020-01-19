@@ -390,7 +390,7 @@ li {
 }
 
 .next-meeting-pic {
-    background-image: url("./images/test.jpg");
+    background-image: url("/images/test.jpg");
     background-size: cover;
    
 }
