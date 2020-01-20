@@ -683,6 +683,9 @@ text-align: center;
     padding: 0.3125rem;
 }
 
+.contact-form-wrapper {
+    border-bottom: 0.125rem solid #dee2e6;
+}
 
 .form-group label {
     font-size: 1.5rem;
@@ -695,7 +698,7 @@ text-align: center;
 
 .modal-btn-wrapper {
     text-align: center;
-    border-bottom: 0.125rem solid #dee2e6;
+    
 }
 
 .btn-modal {
@@ -711,17 +714,14 @@ text-align: center;
 
 .social-contact-wrapper {
     border-bottom: 0.125rem solid #dee2e6;
-    width: 20.875rem;
-    margin-left: 0.3125rem;
+    width: inherit;
+   
     
 }
 
 .social-contact {
     text-align: left;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0.3125rem;
 }
 
 .contact-modal-p-wrapper {
