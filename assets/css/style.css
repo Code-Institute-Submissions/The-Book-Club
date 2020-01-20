@@ -705,12 +705,17 @@ text-align: center;
 
 .social-contact-wrapper {
     border-bottom: 2px solid #dee2e6;
+    width: 334px;
+    margin-left: 15px;
+    
 }
 
 .social-contact {
     text-align: left;
     padding-top: 2rem;
     padding-bottom: 1rem;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .contact-modal-p-wrapper {
@@ -725,6 +730,7 @@ text-align: center;
 
 .contact-icon-wrapper {
     width: 364px;
+    padding-bottom: 1rem;
 }
 
 .contact-social-icon {
