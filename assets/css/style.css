@@ -740,3 +740,7 @@ text-align: center;
 .alternative-comm-wrapper {
     margin-top: 2rem;
 }
+
+.btn-contact-close {
+    padding: 6px 6px;
+}
