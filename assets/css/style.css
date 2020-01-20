@@ -315,7 +315,7 @@ li {
  
 }
 .about-text {
-    background-color:rgb(217, 240, 255);
+    background-color:rgb(112, 176, 219);
     height:300px;
     padding: 20px;
     overflow: hidden;
@@ -360,7 +360,7 @@ li {
 /*----------------------------------------------------------Why not pop in?-----*/
 
 .visit {
-    background-color:rgb(217, 240, 255);
+    background-color: #eceff1;
     color: black;
 }
 
@@ -390,7 +390,7 @@ li {
 }
 
 .next-meeting-pic {
-    background-image: url("/images/test.jpg");
+    background-image: url("../images/test.jpg");
     background-size: cover;
    
 }
