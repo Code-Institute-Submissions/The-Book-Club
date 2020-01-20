@@ -118,6 +118,7 @@ li p:hover {
 .btn-signup {
     background-color: rgb(1, 1, 173);
     border: 1px solid rgb(1, 1, 173);
+    margin-bottom: 1rem;
 }
 
 .btn-signup:hover {
@@ -413,12 +414,17 @@ li {
 .visit-title {
     text-decoration: underline;
     padding-bottom: 10px;
-    font-size: 1.5rem;
 }
 
 .next-meeting-info p {
     margin: 0;
     font-size: 1.2rem;
+}
+
+p.visit-title {
+    text-decoration: underline;
+    padding-bottom: 10px;
+    font-size: 1.75rem;
 }
 
 /*---Pricing-----*/
