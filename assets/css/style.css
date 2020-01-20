@@ -709,9 +709,20 @@ text-align: center;
     padding-bottom: 1rem;
 }
 
+.contact-modal-p-wrapper {
+    padding:0;
+}
 
 
 .contact-modal-p {
     font-size: 1.4rem;
     margin-bottom: 0;
+}
+
+.contact-icon-wrapper {
+    width: 364px;
+}
+
+.contact-social-icon {
+    text-align: center;
 }
