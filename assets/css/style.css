@@ -681,5 +681,8 @@ text-align: center;
     padding: 15px;
 }
 
+.form-group label {
+    font-size: 1.5rem;
+}
 
 
