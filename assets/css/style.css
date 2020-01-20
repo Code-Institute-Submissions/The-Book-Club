@@ -703,6 +703,10 @@ text-align: center;
     margin-bottom: 2px;
 }
 
+.social-contact-wrapper {
+    border-bottom: 2px solid #dee2e6;
+}
+
 .social-contact {
     text-align: left;
     padding-top: 2rem;
@@ -725,4 +729,8 @@ text-align: center;
 
 .contact-social-icon {
     text-align: center;
+}
+
+.alternative-comm-wrapper {
+    margin-top: 2rem;
 }
