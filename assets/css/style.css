@@ -406,16 +406,19 @@ li {
     text-align: center;
     background-color: rgba(170, 170, 170, 0.4);
     font-weight: 600;
-    padding: 20px 20px;
+    padding: 30px 20px;
+    
 }
 
 .visit-title {
     text-decoration: underline;
     padding-bottom: 10px;
+    font-size: 1.5rem;
 }
 
 .next-meeting-info p {
     margin: 0;
+    font-size: 1.2rem;
 }
 
 /*---Pricing-----*/
