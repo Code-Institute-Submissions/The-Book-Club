@@ -743,4 +743,5 @@ text-align: center;
 
 .btn-contact-close {
     padding: 6px 6px;
+    background-color: rgba(170, 170, 170, 0.4)
 }
