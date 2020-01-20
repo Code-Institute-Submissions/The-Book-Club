@@ -704,13 +704,14 @@ text-align: center;
 }
 
 .social-contact {
-    text-align: center;
+    text-align: left;
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
 
-.social-contact h4 {
-    font-size: 1.5rem;
+
+
+.contact-modal-p {
+    font-size: 1.4rem;
+    margin-bottom: 0;
 }
-
-
