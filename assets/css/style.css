@@ -663,6 +663,20 @@ text-align: center;
      text-align: center;
 }
 
+.modal-header {
+    text-align: center;
+    
+}
+
+.modal-title {
+    font-size: 2.5rem;
+}
+
+.modal-header .close {
+    padding: 1rem 1rem;
+    margin: -1rem -1rem -1rem auto;
+}
+
 .modal-about-text {
     text-align: left;
 }
