@@ -689,6 +689,7 @@ text-align: center;
 
 .modal-btn-wrapper {
     text-align: center;
+    border-bottom: 2px solid #dee2e6;
 }
 
 .btn-modal {
