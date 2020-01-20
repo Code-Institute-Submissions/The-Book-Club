@@ -665,7 +665,6 @@ text-align: center;
 
 .modal-header {
     text-align: center;
-    
 }
 
 .modal-title {
@@ -679,6 +678,7 @@ text-align: center;
 
 .modal-about-text {
     text-align: left;
+    padding: 15px;
 }
 
 
