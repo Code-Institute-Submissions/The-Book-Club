@@ -573,6 +573,9 @@ p.visit-title {
 
 
 /*----------------------Meetings-----*/
+.location-wrapper {
+    margin-bottom: 2rem;
+}
 .location-information{
     padding-top:4.9375rem;
 }
