@@ -676,15 +676,26 @@ text-align: center;
 .additional-questions {
     text-align: center;
     margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.additional-questions a {
+    text-decoration: none;
 }
 
 .login-button {
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.75rem;
+    margin-top: 0.75rem;
 }
 
 .login-button-submit {
-    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.75rem;
+
+    font-size: 1.5rem;
 }
 
 .form-check-label p {
