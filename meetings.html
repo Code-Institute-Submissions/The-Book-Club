@@ -10,7 +10,7 @@
     <title>The Book Club</title>
 </head>
  <header class="header">                           <!--navbar-expand is the breakpoint at which it stops being an icon. I've set md for tablet to have the full menu.-->
-    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light"> <!--navbar-light is will make your burger icon disappear if you take it out!!-->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top"> <!--navbar-light is will make your burger icon disappear if you take it out!!-->
             <a class="navbar-brand" href="index.html"><img src="assets/images/logo2.jpg" alt="Logo of The Book Club"/></a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span> <!--This is the actual Hamburger button-->
@@ -18,24 +18,23 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent"><!--This the container for the drop down menu-->
                 <ul class="navbar-nav ml-auto"><!--List of all the links-->
-                    <li class="nav-item ml-auto">
+                    <li class="nav-item ml-auto active">
                         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item ml-auto active">
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link" href="members.html">Login</a>
+                    </li>
+                    <li class="nav-item ml-auto">
                         <a class="nav-link" href="meetings.html">Meetings</a>
                     </li>
                     <li class="nav-item ml-auto">
                         <a class="nav-link" href="index.html#pricingSection">Pricing</a>
                     </li>    
-                    <li class="nav-item ml-auto" data-toggle="modal" data-target="#contactUs">
+                    <li class="nav-item ml-auto li-contact-us" data-toggle="modal" data-target="#contactUs">
                            <p class="nav-link">Contact Us</p>                                    
                     </li>                
-                    <li class="nav-item ml-auto">
-                        <a class="nav-link" href="members.html">
-                        Login</a>
-                    </li>
-                    <li class="nav-item ml-auto">
-                        <a class="nav-link" href="signup.html">Sign-Up!</a>
+                    <li class="nav-item ml-auto btn btn-signup">
+                        <a class="nav-link nav-link-signup" href="signup.html">Sign-Up!</a>
                     </li>  
                 </ul>
             </div>
