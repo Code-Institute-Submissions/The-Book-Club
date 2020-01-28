@@ -661,6 +661,21 @@ text-align: center;
     
     }
 
+.members-heading {
+    text-align: center;
+}
+
+.members-info {
+    text-align: center;
+}
+
+.additional-questions {
+    text-align: center;
+}
+
+.login-button {
+    text-align: center;
+}
 /*----------------------Contact Us-----*/
 .contact-list{
      padding-left: 5%;
