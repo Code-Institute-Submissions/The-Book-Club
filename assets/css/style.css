@@ -60,14 +60,13 @@ body {
 }
 
 
-
+/* This bit caused issues with the footer"*/
 ul li a {
     width: auto;
     color: #fff;
     padding-bottom: 0.6rem;
-    padding-left: 0.6rem!important;
+    padding-left: 0.6rem;
     padding-right: 0.6rem;
-    
 }
 
 ul li p {
@@ -132,7 +131,8 @@ li p:hover {
 
 .footer {
     height: 6.25rem;
-    background-color:rgb(217, 240, 255);
+    background: rgb(252,242,43);
+    background: radial-gradient(circle, rgba(252,242,43,1) 19%, rgba(252,178,43,1) 44%, rgba(254,117,23,1) 62%, rgba(255,62,5,1) 78%, rgba(255,0,0,1) 100%);
     bottom: 0;
     left: 0;
     right: 0;
@@ -145,7 +145,7 @@ li p:hover {
 }
 
 .social-header {
-     background-color: rgb(217, 240, 255);
+     
      text-align: center;
      padding-top: 0.3125rem;
      letter-spacing: 0.125rem;
@@ -153,14 +153,15 @@ li p:hover {
 }
 
 .social-header h5{
-     background-color: rgb(217, 240, 255);
+   
      text-align: center; 
      margin: 0;  
 }
 
 .social-list {
     text-align: center;
-    background-color: rgb(217, 240, 255);
+    background: rgb(252,242,43);
+background: radial-gradient(circle, rgba(252,242,43,1) 19%, rgba(252,178,43,1) 44%, rgba(254,117,23,1) 62%, rgba(255,62,5,1) 78%, rgba(255,0,0,1) 100%);
     height: 4.625rem;
 }
 
@@ -177,13 +178,10 @@ li p:hover {
 }
 
 .social-list ul li a {
-    padding-bottom: 0;
-    padding-left: 0.8rem;
+    padding: 0 1rem;
 }
 
 .social-list ul li a:hover {
-    padding-bottom: 0;
-    padding-left: 0.8rem;
     text-decoration: none;
 }
 
@@ -193,7 +191,7 @@ li p:hover {
 }
 
 .fab {
-    color: black;
+    color:black;
 }
 
 
