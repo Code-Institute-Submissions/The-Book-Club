@@ -675,10 +675,21 @@ text-align: center;
 
 .additional-questions {
     text-align: center;
+    margin-top: 0.5rem;
 }
 
 .login-button {
     text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.form-check-label p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.form-check {
+    margin-bottom: 0;
 }
 
 /*this is from https://stackoverflow.com/questions/4137255/checkboxes-in-web-pages-how-to-make-them-bigger
