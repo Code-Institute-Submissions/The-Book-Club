@@ -657,16 +657,20 @@ text-align: center;
 
 
 .members {
-        padding-top: 4.9375rem;
+        padding-top: 3.5625rem;
     
     }
 
 .members-heading {
     text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 0.75rem;
 }
 
 .members-info {
     text-align: center;
+    padding-bottom: 0.625rem;
+
 }
 
 .additional-questions {
@@ -676,6 +680,21 @@ text-align: center;
 .login-button {
     text-align: center;
 }
+
+/*this is from https://stackoverflow.com/questions/4137255/checkboxes-in-web-pages-how-to-make-them-bigger
+input[type='checkbox'] {
+    -webkit-appearance:none;
+    width:30px;
+    height:30px;
+    background:white;
+    border-radius:5px;
+    border:2px solid #555;
+}
+input[type='checkbox']:checked {
+    background: #abd;
+}
+*/
+
 /*----------------------Contact Us-----*/
 .contact-list{
      padding-left: 5%;
