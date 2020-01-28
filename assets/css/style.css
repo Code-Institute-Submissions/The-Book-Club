@@ -25,12 +25,13 @@ body {
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 0 1rem;
-    background-color: rgb(217, 240, 255);
+    background: rgb(252,242,43);
+    background: radial-gradient(circle, rgba(252,242,43,1) 19%, rgba(252,178,43,1) 44%, rgba(254,117,23,1) 62%, rgba(255,62,5,1) 78%, rgba(255,0,0,1) 100%);
 }
 
 .navbar-nav .nav-link {
     padding-right: 0.5rem;
-    padding-left: 0;
+    padding-left: 0.5rem;
 }
 
 .navbar-brand {
@@ -61,7 +62,7 @@ body {
 
 
 /* This bit caused issues with the footer"*/
-ul li a {
+nav div ul li a {
     width: auto;
     color: #fff;
     padding-bottom: 0.6rem;
