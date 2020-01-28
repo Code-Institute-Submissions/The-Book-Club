@@ -658,8 +658,7 @@ text-align: center;
 
 .members {
         padding-top: 4.9375rem;
-        height: 60vh;
-
+    
     }
 
 /*----------------------Contact Us-----*/
@@ -740,6 +739,7 @@ text-align: center;
 
 .contact-social-icon {
     text-align: center;
+    
 }
 
 .alternative-comm-wrapper {
