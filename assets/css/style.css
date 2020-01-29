@@ -659,6 +659,21 @@ text-align: center;
 
 }
 
+.container-membership .form-group label, .form-check-input  {
+    margin-top: 0.5rem;
+    
+}
+
+.form-check-inline .form-check-input {
+    position: static;
+    margin-top: 0.5rem;
+    margin-right: .3125rem;
+    margin-left: 0;
+}
+.container-membership .form-group label {
+    margin-bottom: 0;
+
+}
 
 
 
