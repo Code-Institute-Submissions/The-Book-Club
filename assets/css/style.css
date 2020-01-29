@@ -660,13 +660,13 @@ text-align: center;
 }
 
 .container-membership .form-group label, .form-check-input  {
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     
 }
 
 .form-check-inline .form-check-input {
     position: static;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     margin-right: .3125rem;
     margin-left: 0;
 }
