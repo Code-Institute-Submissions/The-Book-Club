@@ -620,6 +620,9 @@ p.padding {
 }
 
 /*----------------------Sign-Up-----*/
+.sign-up-header {
+    padding-top: 3.5625rem;
+}
 
 .signup-containter {
 text-align: center;
