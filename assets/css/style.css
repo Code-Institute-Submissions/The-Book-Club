@@ -622,6 +622,13 @@ p.padding {
 /*----------------------Sign-Up-----*/
 .sign-up-header {
     padding-top: 3.5625rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.sign-up-header h2 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .signup-containter {
