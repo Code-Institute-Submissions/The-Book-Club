@@ -593,6 +593,7 @@ p.visit-title {
     padding: 0.25rem;
     background-color: blue;
     border-color: blue;
+    margin-bottom: 1rem;
 }
 
 .location-wrapper {
