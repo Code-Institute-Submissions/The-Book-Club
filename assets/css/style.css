@@ -569,6 +569,20 @@ p.visit-title {
 
 
 /*----------------------Meetings-----*/
+.meetings-header {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.meeting-info-text {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.drpdwn-btn {
+    text-align: center;
+}
+
 .location-wrapper {
     margin-bottom: 2rem;
 }
