@@ -583,6 +583,12 @@ p.visit-title {
     text-align: center;
 }
 
+.location-information .drp-dwn-btn-design {
+    padding: 0.25rem;
+    background-color: blue;
+    border-color: blue;
+}
+
 .location-wrapper {
     margin-bottom: 2rem;
 }
