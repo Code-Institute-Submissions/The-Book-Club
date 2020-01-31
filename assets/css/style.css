@@ -116,14 +116,14 @@ li p:hover {
 }
 
 .btn-signup {
-    background-color: rgb(1, 1, 173);
-    border: 0.0625rem solid rgb(1, 1, 173);
+    background-color: rgba(11,77,225,1);
+    border: 0.0625rem solid rgba(11,77,225,1);
     margin-bottom: 1rem;
 }
 
 .btn-signup:hover {
-    background-color: darkblue;
-    border: 0.0625rem solid darkblue;
+    background-color: rgb(0, 65, 204);
+    border-color: rgb(0, 65, 204);
     
 }
 
@@ -604,16 +604,17 @@ p.visit-title {
 
 .show>.btn-secondary.dropdown-toggle {
     color: #fff;
-    background-color: blue;
-    border-color: blue;
+    background-color: rgba(11,77,225,1);
+    border-color: rgba(11,77,225,1);
 }
 
 .location-information .drp-dwn-btn-design {
     padding: 0.25rem;
-    background-color: blue;
-    border-color: blue;
+    background-color: rgba(11,77,225,1);
+    border-color: rgba(11,77,225,1);
     margin-bottom: 1rem;
 }
+
 
 .location-wrapper {
     margin-bottom: 2rem;
@@ -731,14 +732,19 @@ text-align: center;
 }
 
 .sign-up-button-submit {
-    padding-left: 1rem;
+   padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 0.5rem;
     padding-bottom: 0.75rem;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    background-color: rgba(11,77,225,1);
+    border-color: rgba(11,77,225,1);
 }
 
+.sign-up-button-submit:hover {
+        background-color: rgb(0, 65, 204);
+        border-color: rgb(0, 65, 204);
+}
 
 
 
@@ -777,6 +783,7 @@ text-align: center;
     text-align: center;
     margin-bottom: 0.75rem;
     margin-top: 0.75rem;
+
 }
 
 .login-button-submit {
@@ -784,8 +791,14 @@ text-align: center;
     padding-right: 1rem;
     padding-top: 0.5rem;
     padding-bottom: 0.75rem;
+    font-size: 1.2rem;
+    background-color: rgba(11,77,225,1);
+    border-color: rgba(11,77,225,1);
+}
 
-    font-size: 1.5rem;
+.login-button-submit:hover {
+    background-color: rgb(0, 65, 204);
+    border-color: rgb(0, 65, 204);
 }
 
 .form-check-label p {
@@ -863,9 +876,14 @@ input[type='checkbox']:checked {
 
 .btn-modal {
     padding: 0.375rem 0.75rem;
-    background-color: rgb(1, 1, 173);
-    border-color: rgb(1, 1, 173);
+    background-color: rgba(11,77,225,1);
+    border-color: rgba(11,77,225,1);
     margin-bottom: 1rem;
+}
+
+.btn-modal:hover {
+    background-color: rgb(0, 65, 204);
+    border-color: rgb(0, 65, 204);
 }
 
 .btn-modal h5 {
