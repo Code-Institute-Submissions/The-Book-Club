@@ -569,9 +569,28 @@ p.visit-title {
 
 
 /*----------------------Meetings-----*/
+.location-information {
+    background-color: #eceff1;
+}
+
+.location-wrapper-container {
+    background-color: #fff;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.location-wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
 .meetings-header {
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 0.75rem;
 }
 
 .meeting-info-text {
@@ -600,7 +619,7 @@ p.visit-title {
     margin-bottom: 2rem;
 }
 .location-information{
-    padding-top:4.9375rem;
+    padding-top: 3.5625rem;
 }
 
 .location-header {
@@ -647,6 +666,10 @@ p.padding {
 }
 
 /*----------------------Sign-Up-----*/
+.sign-up-page {
+    background-color: #eceff1;
+}
+
 .sign-up-header {
     padding-top: 3.5625rem;
     text-align: center;
@@ -725,7 +748,7 @@ text-align: center;
 
 .members {
         padding-top: 3.5625rem;
-    
+        background-color: #eceff1;
     }
 
 .members-heading {
@@ -789,6 +812,18 @@ input[type='checkbox']:checked {
 */
 
 /*----------------------Contact Us-----*/
+.modal-header {
+    background-color: #eceff1;
+}
+
+.modal-body {
+    background-color: #eceff1;
+}
+
+.modal-footer {
+    background-color: #eceff1;
+}
+
 .contact-list{
      padding-left: 5%;
      text-align: center;
