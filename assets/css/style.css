@@ -953,6 +953,18 @@ input[type='checkbox']:checked {
     font-size: 1.2rem;
 }
 
+
+/*Footer*/
+
+.social-header h5{
+    font-size: 2rem;
+}
+
+.social-list ul li a {
+    padding: 0 2rem;
+}
+
+
 /*Index page */
 
 .about-image-container1  {
@@ -973,7 +985,7 @@ padding: 30px 30px 30px 30px;
 padding: 0px 0px 30px 30px;
 }
 
-/*----Why not pop in?*/
+/*---Index-Why not pop in?*/
 
 .visit-header p {
     font-size: 1.5rem;
@@ -1000,23 +1012,37 @@ padding: 0px 0px 30px 30px;
     padding-right: 30px;
 }
 
-/*------Membership info---*/
+/*---Index---Membership info---*/
 
 .gold-membership {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    padding-bottom:2.33125rem;
+    
+}
+
+.silver-membership {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    padding-bottom:2.33125rem;
+    
+}
+
+.bronze-membership {
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
     
 }
 
-.silver-membership {
-    margin-top: 2.5rem;
-    margin-bottom: 1.25rem;
+.card-wrapper-md1 {
+    padding-right: 30px;
     
 }
 
-.bronze-membership {
-    margin-top: 3rem;
-    margin-bottom: 1.25rem;
+
+
+.card-wrapper-md3 {
+    padding-left: 30px;
     
 }
 
