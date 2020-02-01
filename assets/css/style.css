@@ -1,9 +1,10 @@
 body {
-
     margin: 0;
     border: 0;
     padding: 0;
 }
+
+
 /*-----------------------Header----*/
 
 .logo {
@@ -129,22 +130,10 @@ li p:hover {
 
     
 /*----------------------Footer-----*/
-
-.footer {
-    height: 6.25rem;
+.footer-wrapper {
     background: rgb(11,77,225);
     background: linear-gradient(90deg, rgba(11,77,225,1) 0%, rgba(57,153,251,1) 37%, rgba(57,208,251,1) 91%);
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin-bottom: 0;
-    position: relative;
 }
-
-.social-wrapper {
-    height: inherit;
-}
-
 .social-header {
      
      text-align: center;
@@ -156,34 +145,29 @@ li p:hover {
 .social-header h5{
    
      text-align: center; 
-     margin: 0;  
-}
-
-.social-list {
-    text-align: center;
-    
-    height: 4.625rem;
+     margin: 0; 
+     font-size: 1.5rem; 
 }
 
 .social-list ul {
-    padding: 0;
     margin: 0;
-    height: 4.625rem;
-    margin: 0 auto;
+    padding: 0;
 }
 
 .social-list li {
-    height: 4.625rem;
-    padding-top: 1.0625rem;
+    padding: 1.0625rem 0;
 }
 
 .social-list ul li a {
-    padding: 0 1rem;
+    padding: 0 1.5rem;
+
 }
+
 
 .social-list ul li a:hover {
     text-decoration: none;
 }
+
 
 
 .row {
@@ -960,9 +944,22 @@ input[type='checkbox']:checked {
     font-size: 2rem;
 }
 
+.social-list {
+    text-align: center;
+    height: auto;
+    padding: 0 0;
+}
+
+
+
 .social-list ul li a {
     padding: 0 2rem;
 }
+
+.social-list li {
+    padding: 1.0625rem 0;
+}
+
 
 
 /*Index page */
@@ -1044,6 +1041,11 @@ padding: 0px 0px 30px 30px;
 .card-wrapper-md3 {
     padding-left: 30px;
     
+}
+
+.social-header{
+    font-size: 2rem;
+    letter-spacing: 0.25rem;
 }
 
 
