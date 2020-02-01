@@ -950,6 +950,34 @@ input[type='checkbox']:checked {
 /*-----------------------------------Media Queries--------*/
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
+    .navbar {
+    text-align: right;
+    position: fixed;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0;
+    background: rgb(11,77,225);
+    background: linear-gradient(90deg, rgba(11,77,225,1) 0%, rgba(57,153,251,1) 37%, rgba(57,208,251,1) 91%);
+}
+
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    padding-top: 0.75rem;
+    margin-bottom: 0;
+    list-style: none;
+}
 
     
 }
