@@ -949,6 +949,7 @@ input[type='checkbox']:checked {
 
 /*-----------------------------------Media Queries--------*/
 /* Medium devices (tablets, 768px and up)*/
+/*Navbar*/
 @media (min-width: 768px) {
     .navbar {
     text-align: right;
@@ -979,7 +980,25 @@ input[type='checkbox']:checked {
     list-style: none;
 }
 
-    
+/*Index page */
+
+.about-image-container1  {
+padding: 20px 0px 0px 20px;
+
+}
+
+.about-image-container2 {
+padding: 0px 20px 20px 20px;
+}
+
+.about-text-container1
+{
+padding: 20px 20px 20px 20px;
+
+}
+.about-text-container2 {
+padding: 0px 0px 20px 20px;
+}
 }
 
 /*Large devices (desktops, 992px and up)*/
