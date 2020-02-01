@@ -978,6 +978,12 @@ input[type='checkbox']:checked {
     padding-top: 0.75rem;
     margin-bottom: 0;
     list-style: none;
+    font-size: 1.2rem;
+   
+}
+
+.btn-signup {
+    font-size: 1.2rem;
 }
 
 /*Index page */
@@ -1026,6 +1032,27 @@ padding: 0px 0px 30px 30px;
     padding-left: 15px;
     padding-right: 30px;
 }
+
+/*------Membership info---*/
+
+.gold-membership {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    
+}
+
+.silver-membership {
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
+    
+}
+
+.bronze-membership {
+    margin-top: 3rem;
+    margin-bottom: 1.25rem;
+    
+}
+
 
 }
 
