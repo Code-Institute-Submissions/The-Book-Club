@@ -983,22 +983,29 @@ input[type='checkbox']:checked {
 /*Index page */
 
 .about-image-container1  {
-padding: 20px 0px 0px 20px;
+padding: 30px 0px 0px 30px;
 
 }
 
 .about-image-container2 {
-padding: 0px 20px 20px 20px;
+padding: 0px 30px 30px 30px;
 }
 
 .about-text-container1
 {
-padding: 20px 20px 20px 20px;
+padding: 30px 30px 30px 30px;
 
 }
 .about-text-container2 {
-padding: 0px 0px 20px 20px;
+padding: 0px 0px 30px 30px;
 }
+
+/*----Why not pop in?*/
+
+.visit-header p {
+    font-size: 1.5rem;
+}
+
 }
 
 /*Large devices (desktops, 992px and up)*/
