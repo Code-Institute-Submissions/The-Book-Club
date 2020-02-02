@@ -899,6 +899,65 @@ input[type='checkbox']:checked {
 
 
 /*-----------------------------------Media Queries--------*/
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+.about {
+    margin-bottom: 0;
+    background-color:#fff;
+
+
+}
+
+.about-image-container1 {
+    padding-top:1.875rem;
+    padding-bottom: 1.875rem;
+    padding-right: 1.875rem;
+    padding-left: 1.875rem;
+    text-align: center;
+}
+
+.about-image-container2 {
+    padding-top:0;
+    padding-bottom: 1.875rem;
+    padding-right: 1.875rem;
+    padding-left: 1.875rem;
+    
+}
+
+.about-image {
+    overflow: hidden;
+    object-fit: cover;
+    width: 100%;
+    height: 18.75rem;
+}
+
+.about-text-container1 {
+    padding-top:0;
+    padding-bottom: 1.875rem;
+    padding-right: 4.375rem;
+    padding-left: 4.375rem;
+ 
+}
+
+.about-text-container2 {
+    padding-top:0;
+    padding-bottom: 1.875rem;
+    padding-right: 4.375rem;
+    padding-left: 4.375rem;
+ 
+}
+.about-text {
+    background: rgb(11,77,225);
+    background: linear-gradient(180deg, rgba(11,77,225,1) 0%, rgba(57,153,251,1) 14%, rgba(57,208,251,1) 91%);
+    height:18.75rem;
+    padding: 1.25rem;
+    overflow: hidden;
+    color:black;    
+}
+
+}
+
 /* Medium devices (tablets, 768px and up)*/
 /*Navbar*/
 @media (min-width: 768px) {
