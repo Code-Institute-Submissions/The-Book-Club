@@ -4,6 +4,16 @@ body {
     padding: 0;
 }
 
+#content1 {
+    height: 100px;
+    background: blue;
+    display: none;
+}
+
+#content1:target {
+    display:block;
+}
+
 
 /*-----------------------Header----*/
 
@@ -380,8 +390,12 @@ p.visit-title {
 }
 
 /*---Pricing-----*/
-
-
+.anchor p{
+    margin-bottom: 40px;
+    visibility: hidden;
+    background: transparent;
+    z-index: -10;
+}
 
 .card-bronze {
     
