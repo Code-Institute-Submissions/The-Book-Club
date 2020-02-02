@@ -6,23 +6,22 @@ body {
 
 #anchor-container {
     height: 60px;
-    
     display: none;
 }
 
-#content1a {
+#pricing-target1a {
     background:#eceff1;
     color: #eceff1;
     height:30px;
 }
-#content1b{
+#pricing-target1b{
     background:#fff;
     color: #fff;
     height:30px;
 
 }
 
-#anchor-container:target {
+#anchor-container:target {    /*https://codepen.io/amiteshchauhan/pen/oxaBPG*/
     display:block;
 }
 
