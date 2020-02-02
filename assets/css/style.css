@@ -325,6 +325,11 @@ li {
     padding: 0.625rem 1.875rem 0px 1.875rem;
 }
 
+.visit-text {
+    text-align: center;
+    padding: 1rem 1.875rem 0px 1.875rem;
+}
+
 .visit-header p {
     text-align: center;
     font-weight: 400;
@@ -957,6 +962,26 @@ input[type='checkbox']:checked {
     overflow: hidden;
     color:black;    
 }
+
+/*---------Visit-------*/
+.visit-header {
+    padding-top: 2rem;
+}
+.visit-header p {
+    padding-top: 1rem;
+   
+}
+
+.visit-text {
+    padding: 1rem 30px 0 30px;
+}
+
+.next-meeting-wrapper {
+    margin-top: 1rem;
+}
+
+
+
 
 }
 
