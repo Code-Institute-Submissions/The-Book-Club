@@ -4,13 +4,25 @@ body {
     padding: 0;
 }
 
-#content1 {
-    height: 100px;
-    background: blue;
+#anchor-container {
+    height: 60px;
+    
     display: none;
 }
 
-#content1:target {
+#content1a {
+    background:#eceff1;
+    color: #eceff1;
+    height:30px;
+}
+#content1b{
+    background:#fff;
+    color: #fff;
+    height:30px;
+
+}
+
+#anchor-container:target {
     display:block;
 }
 
@@ -390,12 +402,7 @@ p.visit-title {
 }
 
 /*---Pricing-----*/
-.anchor p{
-    margin-bottom: 40px;
-    visibility: hidden;
-    background: transparent;
-    z-index: -10;
-}
+
 
 .card-bronze {
     
