@@ -905,8 +905,16 @@ input[type='checkbox']:checked {
 
 /*-----------------------------------Media Queries--------*/
 
+
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
+
+/*-----------Footer--------*/
+.social-list ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 .about {
     margin-bottom: 0;
     background-color:#fff;
