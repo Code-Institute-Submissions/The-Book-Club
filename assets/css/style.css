@@ -1194,8 +1194,15 @@ padding: 0px 0px 30px 30px;
     
 }
 
+.card-wrapper-md2 {
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
 .card-wrapper-md3 {
     padding-left: 10px;
+    padding-right: 10px;
     
 }
 
@@ -1229,7 +1236,7 @@ padding: 0px 0px 30px 30px;
 .card-body ul {
     padding-left: 40px;
 }
-}
+
 
 .card-body ul li {
     padding-left:0;
