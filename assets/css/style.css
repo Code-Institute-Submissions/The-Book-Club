@@ -1138,6 +1138,14 @@ input[type='checkbox']:checked {
 
 /*Index page */
 
+/*carousel*/
+.carousel-caption-edit-picture1 h5, .carousel-caption-edit-picture2 h5, .carousel-caption-edit-picture3 h5{
+    font-size: 2rem;
+}
+
+
+
+/*about*/
 .about-image-container1  {
 padding: 30px 0px 0px 30px;
 
