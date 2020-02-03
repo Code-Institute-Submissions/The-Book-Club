@@ -1166,10 +1166,13 @@ padding: 0px 0px 30px 30px;
 
 /*---Index-Why not pop in?*/
 
-.visit-header p {
-    font-size: 1.5rem;
+.visit-header h2 {
+    font-size: 3rem;
 }
 
+.visit-text p {
+    font-size: 1.75rem;
+}
 .next-meeting-wrapper {
     padding-left: 0;
     padding-right: 0;
