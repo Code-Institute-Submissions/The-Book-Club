@@ -1195,6 +1195,20 @@ padding: 0px 0px 30px 30px;
     padding-right: 30px;
 }
 
+.next-meeting-info p{
+    font-size: 1.5rem;
+}
+
+p.date, p.time {
+    margin-bottom: 8px;
+
+}
+
+.md-break {
+    display:block;
+}
+
+
 /*---Index---Pricing---*/
 
 .card-wrapper {
