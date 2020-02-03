@@ -1129,6 +1129,11 @@ input[type='checkbox']:checked {
     padding: 1.0625rem 0;
 }
 
+.social-header{
+    font-size: 2rem;
+    letter-spacing: 0.25rem;
+}
+
 
 
 /*Index page */
@@ -1178,19 +1183,33 @@ padding: 0px 0px 30px 30px;
     padding-right: 30px;
 }
 
-/*---Index---Membership info---*/
+/*---Index---Pricing---*/
+
+.card-wrapper {
+    padding-left: 10px;
+}
+
+.card-wrapper-md1 {
+    padding-right: 10px;
+    
+}
+
+.card-wrapper-md3 {
+    padding-left: 10px;
+    
+}
 
 .gold-membership {
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
-    padding-bottom:2.33125rem;
+    
     
 }
 
 .silver-membership {
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
-    padding-bottom:2.33125rem;
+    
     
 }
 
@@ -1200,22 +1219,32 @@ padding: 0px 0px 30px 30px;
     
 }
 
-.card-wrapper-md1 {
-    padding-right: 30px;
-    
+.card-body {
+    padding: 20px 10px;
+}
+.card-body h3 {
+    padding-left: 10px;
+}
+
+.card-body ul {
+    padding-left: 40px;
+}
+}
+
+.card-body ul li {
+    padding-left:0;
+}
+.card-text {
+    padding-left: 10px;
 }
 
 
 
-.card-wrapper-md3 {
-    padding-left: 30px;
-    
-}
 
-.social-header{
-    font-size: 2rem;
-    letter-spacing: 0.25rem;
-}
+
+
+
+
 
 
 }
