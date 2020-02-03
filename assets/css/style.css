@@ -1313,6 +1313,10 @@ p.date, p.time {
     margin-top: 0.68rem;
 }
 
+.form-group p.text-muted {
+    margin-left: 2px;
+}
+
 
 
 
