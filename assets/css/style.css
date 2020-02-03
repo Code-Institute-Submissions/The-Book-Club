@@ -399,6 +399,7 @@ p.visit-title {
 
 }
 
+
 #anchor-container:target {    /*https://codepen.io/amiteshchauhan/pen/oxaBPG*/
     display:block;
 }
@@ -546,26 +547,39 @@ p.visit-title {
 
 
 /*----------------------Meetings-----*/
-#cambridge-anchor-container {
-    height: 60px;
-    display: none;
+.location-info-container {
+    overflow:hidden;
+  
 }
 
-#cambridge-anchor-container:target {    /*https://codepen.io/amiteshchauhan/pen/oxaBPG*/
-    display:block;
+
+
+#anchor-container-cam, 
+#anchor-container-leeds,
+#anchor-container-notts, 
+#anchor-container-manc, 
+#anchor-container-york, 
+#anchor-container-ldn{
+   height: 65px;
+   background:#eceff1 ;
+   color: #eceff1;
+   display: none;
 }
 
-#cambridge-anchor-container:target {    /*https://codepen.io/amiteshchauhan/pen/oxaBPG*/
-    display:block;
-    
-    }
-    
-}
+#anchor-container-cam:target,
+#anchor-container-leeds:target, 
+#anchor-container-notts:target, 
+#anchor-container-manc:target, 
+#anchor-container-york:target, 
+#anchor-container-ldn:target {
+    display: block;
 
-#location-target {
-    background:blue;
-    color: #eceff1;
-    height:60px;
+} 
+
+
+
+.menu-for-locations {
+    background: yellow;
 }
 
 .location-information {

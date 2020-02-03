@@ -11,26 +11,46 @@
 </head>
 <body>
 
+<p>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="true">Toggle both elements</button>
+</p>
+<div class="row">
+  <div class="col">
+    <div class="show " id="multiCollapseExample1">
+      <div class="card card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="show multi-collapse" id="multiCollapseExample2">
+      <div class="card card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+      </div>
+    </div>
+  </div>
+</div>
 
-        <div id="cambridge-anchor-container">
-                <div id="location-target">content 1 text</div>
-        </div>
 
-<div onclick="cambridgeShow()">Just show Cambridge</div>
-<div onclick="londonShow()">Just show London</div>
-<div onclick="leedsShow()">Just show Leeds</div>
-<div onclick="manchesterShow()">Just show manchester</div>
-<div onclick="yorkShow()">Just show york</div>
-<div onclick="nottinghamShow()">Just show nottingham</div>
+<p role="button" class="btn btn-primary" type="button" data-toggle="collapse" data-target=".york-only" aria-expanded="true" aria-controls="locationCollapse1 locationCollapse2 locationCollapse3 locationCollapse4 ">Toggle both elements</p>
+<div class="row">
+  <div class="col">
+    <div class="show multi-collapse2" id="multiCollapseExample3">
+      <div class="card card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="show multi-collapse" id="multiCollapseExample4">
+      <div class="card card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+      </div>
+    </div>
+  </div>
+</div>
 
-<div id="location1">Cambridge</div>
-<div id="location2"> London</div>
-<div id="location3">leeds</div>
-<div id="location2">manchester<div>
-<div id="location2">york</div>
-<div id="location2">nottingham</div>
-
-    <script src="assets/javascript/myscripts.js"></script>
+<script src="assets/javascript/myscripts.js"></script>
        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
