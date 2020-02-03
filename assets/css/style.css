@@ -1176,13 +1176,14 @@ padding: 0px 0px 30px 30px;
 .next-meeting-wrapper {
     padding-left: 0;
     padding-right: 0;
-    margin-top: 1.875rem;
+
 }
 
 .next-meeting-wrapper-md-col1{
     padding-left: 30px;
-    padding-right: 15px;
+    padding-right: 0;
 }
+
 
 .next-meeting-wrapper-md-col2{
     padding-left: 15px;
@@ -1190,7 +1191,7 @@ padding: 0px 0px 30px 30px;
 }
 
 .next-meeting-wrapper-md-col3{
-    padding-left: 15px;
+    padding-left: 0;
     padding-right: 30px;
 }
 
