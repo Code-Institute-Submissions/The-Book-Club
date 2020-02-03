@@ -4,27 +4,6 @@ body {
     padding: 0;
 }
 
-#anchor-container {
-    height: 60px;
-    display: none;
-}
-
-#pricing-target1a {
-    background:#eceff1;
-    color: #eceff1;
-    height:30px;
-}
-#pricing-target1b{
-    background:#fff;
-    color: #fff;
-    height:30px;
-
-}
-
-#anchor-container:target {    /*https://codepen.io/amiteshchauhan/pen/oxaBPG*/
-    display:block;
-}
-
 
 /*-----------------------Header----*/
 
@@ -83,7 +62,7 @@ body {
 }
 
 
-/* This bit caused issues with the footer"*/
+
 nav div ul li a {
     width: auto;
     color: #fff;
@@ -177,10 +156,11 @@ li p:hover {
 
 .social-list li {
     padding: 1.0625rem 0;
+    text-align: center;
 }
 
 .social-list ul li a {
-    padding: 0 1.5rem;
+    padding: 0 1rem;
 
 }
 
@@ -401,6 +381,27 @@ p.visit-title {
 }
 
 /*---Pricing-----*/
+
+#anchor-container {
+    height: 60px;
+    display: none;
+}
+
+#pricing-target1a {
+    background:#eceff1;
+    color: #eceff1;
+    height:30px;
+}
+#pricing-target1b{
+    background:#fff;
+    color: #fff;
+    height:30px;
+
+}
+
+#anchor-container:target {    /*https://codepen.io/amiteshchauhan/pen/oxaBPG*/
+    display:block;
+}
 
 
 .card-bronze {
