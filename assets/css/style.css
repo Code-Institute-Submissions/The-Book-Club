@@ -617,31 +617,17 @@ p.visit-title {
     padding-right: 0;
 }
 
-.information-manchester {
+.information-manchester, .information-venue {
     border: 0.0625rem solid black;
 
 }
 
-.information-york {
-    border: 0.0625rem solid black;
-
-}
-.information-leeds {
-    border: 0.0625rem solid black;
-
-}
-.information-cambridge {
-    border: 0.0625rem solid black;
-
-}
-.information-nottingham {
-    border: 0.0625rem solid black;
+.information-venue i {
+    padding-right: 8px;
 
 }
 
-p.padding {
-    padding-left: 0.3125rem;
-}
+
 
 /*----------------------Sign-Up-----*/
 .sign-up-page {
