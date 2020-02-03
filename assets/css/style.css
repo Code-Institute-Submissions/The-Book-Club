@@ -839,11 +839,17 @@ input[type='checkbox']:checked {
 /*----------------------Contact Us-----*/
 .modal-header {
     background-color: #eceff1;
+    text-align: center;
+}
+
+.modal-title {
+    padding-left: 2rem;
 }
 
 .modal-body {
     background-color: #eceff1;
 }
+
 
 .modal-footer {
     background-color: #eceff1;
@@ -864,7 +870,7 @@ input[type='checkbox']:checked {
 }
 
 .modal-about-text {
-    text-align: left;
+    text-align: center;
     padding: 0.3125rem;
 }
 
@@ -910,7 +916,7 @@ input[type='checkbox']:checked {
 }
 
 .social-contact {
-    text-align: left;
+    text-align: center;
     padding: 0.3125rem;
 }
 
@@ -936,6 +942,7 @@ input[type='checkbox']:checked {
 
 .alternative-comm-wrapper {
     margin-top: 2rem;
+    text-align: center;
 }
 
 .btn-contact-close {
