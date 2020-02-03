@@ -1317,6 +1317,10 @@ p.date, p.time {
     margin-left: 2px;
 }
 
+.additional-questions p {
+    font-size: 2rem;
+}
+
 
 
 
