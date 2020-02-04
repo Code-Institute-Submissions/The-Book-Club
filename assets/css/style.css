@@ -855,10 +855,18 @@ input[type='checkbox']:checked {
     background-color: #eceff1;
 }
 
+.alternative-header {
+    margin-bottom: 1rem;
+}
+
 .contact-list{
      padding-left: 5%;
      text-align: center;
+     margin-bottom: 1rem;
 }
+
+
+
 
 .modal-title {
     font-size: 2.5rem;
@@ -1321,6 +1329,29 @@ p.date, p.time {
     font-size: 2rem;
 }
 
+.login-button-submit {
+    font-size: 2rem;
+}
+
+/*-----Meetings---*/
+
+.location-information {
+    padding-top:150px;
+}
+
+.meetings-header {
+    padding-top: 2.5rem;
+    margin:0;
+}
+
+.meetings-header h1 {
+      font-size: 3.5rem;
+}
+
+.meeting-info-text h5 {
+    font-size: 1.75rem;
+}
+    
 
 
 
