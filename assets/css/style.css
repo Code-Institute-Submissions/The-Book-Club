@@ -643,7 +643,9 @@ p.visit-title {
 }
 
 .location-picture {
-    border: 0.0625rem solid black;
+    border-left: 0.0625rem solid black;
+    border-right: 0.0625rem solid black;
+    border-bottom: 0.0625rem solid black;
 }
 
 
@@ -654,13 +656,26 @@ p.visit-title {
 }
 
 .information-manchester, .information-venue {
-    border: 0.0625rem solid black;
-
+   border-right: 0.0625rem solid black;
+   border-bottom: 0.0625rem solid black;
 }
 
 .information-venue i {
     padding-right: 8px;
 
+}
+
+.information-venue-bottom i {
+    padding-right: 8px;
+    padding-left: 8px;
+
+}
+
+.information-venue-bottom {
+    border-left: 0.0625rem solid black;
+    border-right: 0.0625rem solid black;
+    border-bottom: 0.0625rem solid black;
+    padding-left: 0.5rem;
 }
 
 
