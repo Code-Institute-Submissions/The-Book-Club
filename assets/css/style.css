@@ -1336,12 +1336,13 @@ p.date, p.time {
 /*-----Meetings---*/
 
 .location-information {
-    padding-top:150px;
+    padding-top:75px;
 }
 
 .meetings-header {
-    padding-top: 2.5rem;
-    margin:0;
+    padding-top: 1.75rem;
+    margin-bottom:0.8rem;
+    margin-top: 0;
 }
 
 .meetings-header h1 {
@@ -1358,6 +1359,7 @@ p.date, p.time {
 
 .location-information .drp-dwn-btn-design {
     font-size: 1.5rem;
+    margin-bottom: 1.5rem;
 }
     
 
