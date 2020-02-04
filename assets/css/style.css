@@ -1351,6 +1351,10 @@ p.date, p.time {
 .meeting-info-text h5 {
     font-size: 1.75rem;
 }
+
+.meeting-info-text p {
+    font-size: 1.5rem;
+}
     
 
 
