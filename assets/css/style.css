@@ -1408,6 +1408,10 @@ p.date, p.time {
     letter-spacing: 2px;
 }
 
+.location-wrapper {
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
 /*----Signup---*/
 
 .sign-up-header {
@@ -1452,6 +1456,8 @@ p.date, p.time {
 
 
 
+
+
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -1476,10 +1482,21 @@ p.date, p.time {
     padding-bottom: 19px;
 }
 
-.location-wrapper {
-    padding-right: 5rem;
-    padding-left: 5rem;
+/*---Modal Contact Us----*/
+
+.modal-dialog {
+    max-width: 700px;
 }
+
+.modal-body {
+    padding: 1rem 2rem;
+}
+
+.contact-form-wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
