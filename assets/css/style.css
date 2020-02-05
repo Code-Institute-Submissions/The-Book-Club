@@ -1526,6 +1526,28 @@ p.date, p.time {
     font-size: 2rem;
 }
 
+.login-input label {
+    font-size: 3.5rem;
+}
+
+.members-form .form-group label {
+    font-size: 2.75rem;
+}
+
+.login-input p{
+    font-size: 2rem;
+}
+
+.rememberMe p {
+    font-size: 2rem;
+    margin-left: 0.75rem;
+}
+.big-checkbox {
+    width: 22px;
+    height: 22px;
+    margin-top: 15px;
+}
+}
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
