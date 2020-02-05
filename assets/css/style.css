@@ -1465,6 +1465,11 @@ p.date, p.time {
     top: 0;
     left: 0;
     height: auto;
+    
+}
+
+.carousel-item img.carousel-img-1 {
+    top: -100px;
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
