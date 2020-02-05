@@ -1472,6 +1472,15 @@ p.date, p.time {
     top: -100px;
 }
 
+.silver-membership, .gold-membership {
+    padding-bottom: 19px;
+}
+
+.location-wrapper {
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
 
