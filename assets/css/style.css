@@ -1424,7 +1424,7 @@ p.date, p.time {
 }  
 
 .signup-container {
-    padding: 45px;
+    padding: 2rem 45px;
 }
 
 .signup-container label {
