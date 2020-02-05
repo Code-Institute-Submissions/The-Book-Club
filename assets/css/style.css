@@ -1412,8 +1412,32 @@ p.date, p.time {
 
 .sign-up-header {
     padding-top: 75px;
+   
 }  
 
+.sign-up-header h2 {
+    font-size: 3rem;
+}  
+
+.sign-up-header h5 {
+    font-size: 2rem;
+}  
+
+.signup-container {
+    padding: 45px;
+}
+
+.signup-container label {
+    font-size: 2rem;
+}
+
+.signup-container .form-control {
+    font-size: 1.5rem;
+}
+
+.container-membership .form-check-label p {
+    font-size: 1.5rem;
+}
 
 
 
