@@ -1394,8 +1394,18 @@ p.date, p.time {
 
 }
 
+.information-venue-bottom {
+    font-size: 1.25rem;
+}
+
 .meetings-date {
     padding-left: 25px;
+}
+
+.location-header {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    letter-spacing: 2px;
 }
 
 /*----Signup---*/
