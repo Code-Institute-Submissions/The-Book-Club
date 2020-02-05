@@ -1498,6 +1498,16 @@ p.date, p.time {
 }
 
 
+/*---sign-up---*/
+
+.container-membership {
+    width: 80%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
 
