@@ -1506,6 +1506,9 @@ p.date, p.time {
     padding-right: 0;
 }
 
+.sign-up-button-submit {
+    margin-top: 0.5rem;
+}
 
 
 /*Extra large devices (large desktops, 1200px and up)*/
