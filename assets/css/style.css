@@ -1457,6 +1457,14 @@ p.date, p.time {
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
 
+/*Index page - Carousel---*/
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    height: auto;
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
