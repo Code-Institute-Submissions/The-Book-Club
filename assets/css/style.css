@@ -1609,6 +1609,10 @@ p.date, p.time {
     margin-bottom: 2rem;
 }
 
+.consent-wrapper label {
+    font-size: 1.25rem;
+}
+
 
 .sign-up-button-submit {
    padding-left: 1rem;
