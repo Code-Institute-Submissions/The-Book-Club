@@ -1575,10 +1575,12 @@ p.date, p.time {
 .form-part-one label {
     margin-bottom: 1rem;
     margin-top: 1rem;
+    font-size: 1.5rem;
 }
 .form-part-two label {
     margin-bottom: 1rem;
     margin-top: 1rem;
+    font-size: 1.5rem;
 }
 
 .form-part-two .container-membership {
@@ -1590,6 +1592,10 @@ p.date, p.time {
 }
 .container-membership .form-group label, .form-check-input {
     margin-top: 1.4rem;
+}
+
+.container-membership label.form-check-label {
+    font-size: 1.2rem;
 }
 .consent-wrapper {
     text-align: center;
