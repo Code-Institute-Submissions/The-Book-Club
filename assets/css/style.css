@@ -1611,6 +1611,8 @@ p.date, p.time {
 
 .consent-wrapper label {
     font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 
@@ -1619,10 +1621,10 @@ p.date, p.time {
     padding-right: 1rem;
     padding-top: 0.5rem;
     padding-bottom: 0.75rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     background-color: rgba(11,77,225,1);
     border-color: rgba(11,77,225,1);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 }
