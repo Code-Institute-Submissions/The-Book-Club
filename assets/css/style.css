@@ -977,8 +977,20 @@ input[type='checkbox']:checked {
 }
 
 .contact-social-icon {
-    text-align: center;
-    
+    text-align: center;    
+}
+
+.contact-social-icon a i{
+    color: black;
+    transition-property: color;
+    transition-timing-function: ease-in-out;
+    transition-duration: .4s;
+    -moz-transition: color .4s ease-in-out;
+    -webkit-transition: color .4s ease-in-out;
+}
+
+.contact-social-icon a i:hover{
+    color:rgba(11,77,225,1);
 }
 
 .alternative-comm-wrapper {
