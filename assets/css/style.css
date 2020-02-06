@@ -1568,6 +1568,29 @@ p.date, p.time {
     padding-right: 60px;
 }
 
+.container-membership {
+    margin-top: 0;
+}
+
+.form-part-one label {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.form-part-two label {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.form-part-two .container-membership {
+    max-width: 60%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+.container-membership .form-group label, .form-check-input {
+    margin-top: 1.4rem;
+}
 .consent-wrapper {
     text-align: center;
 }
@@ -1575,9 +1598,7 @@ p.date, p.time {
 .form-check-inline .form-check-input{
     margin-top: 3px;
 }
-.consent-btn {
 
-}
 
 .sign-up-button-submit {
    padding-left: 1rem;
