@@ -1605,6 +1605,10 @@ p.date, p.time {
     margin-top: 3px;
 }
 
+.form-part-one select {
+    margin-bottom: 2rem;
+}
+
 
 .sign-up-button-submit {
    padding-left: 1rem;
