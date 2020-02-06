@@ -164,12 +164,24 @@ li p:hover {
 
 }
 
+.social-list ul li a i {
+    color: black;
+    transition-property: color;
+    transition-timing-function: ease-in-out;
+    transition-duration: .4s;
+       -moz-transition: color .4s ease-in-out;
+    -webkit-transition: color .4s ease-in-out;
+
+}
+
 
 .social-list ul li a:hover {
     text-decoration: none;
 }
 
-
+.social-list ul li a i:hover {
+    color: white;
+}
 
 .row {
     margin:0;
@@ -1550,6 +1562,10 @@ p.date, p.time {
 
 /*----signup----*/
 
+.lg-signup-form {
+    background-color: #eceff1;
+}
+
 .sign-up-header h2 {
     font-size: 2rem;
 }
@@ -1626,6 +1642,7 @@ p.date, p.time {
     border-color: rgba(11,77,225,1);
     margin-bottom: 2rem;
 }
+
 
 }
 
