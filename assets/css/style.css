@@ -1549,6 +1549,15 @@ p.date, p.time {
 }
 
 /*----signup----*/
+
+.sign-up-header h2 {
+    font-size: 2rem;
+}
+
+.sign-up-header h5 {
+    font-size: 1.5rem;
+}
+
 .form-part-one {
     padding-left: 60px;
     padding-right: 60px;
@@ -1584,7 +1593,7 @@ p.date, p.time {
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { 
+@media (min-width: 1300px) { 
 
 
 }
