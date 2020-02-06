@@ -1558,6 +1558,29 @@ p.date, p.time {
     padding-left: 60px;
     padding-right: 60px;
 }
+
+.consent-wrapper {
+    text-align: center;
+}
+
+.form-check-inline .form-check-input{
+    margin-top: 3px;
+}
+.consent-btn {
+
+}
+
+.sign-up-button-submit {
+   padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.75rem;
+    font-size: 1rem;
+    background-color: rgba(11,77,225,1);
+    border-color: rgba(11,77,225,1);
+    margin-bottom: 1rem;
+}
+
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
