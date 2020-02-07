@@ -706,7 +706,14 @@ p.visit-title {
 
 }
 
+.information-manchester {
+    text-align: center;
+}
 
+.information-manchester p {
+    margin:0;
+    
+}
 
 .information-venue i {
     padding-right: 8px;
