@@ -320,9 +320,11 @@ li {
     background: rgb(11,77,225);
     background: linear-gradient(180deg, rgba(11,77,225,1) 0%, rgba(57,153,251,1) 14%, rgba(57,208,251,1) 91%);
     height:18.75rem;
-    padding: 1.25rem;
+    padding: 2rem 1.5rem;
     overflow: hidden;
-    color:black;    
+    color:black;
+    font-size: 1rem; 
+    text-align: center;
 }
 
 /*----------------------------------------------------------Why not pop in?-----*/
