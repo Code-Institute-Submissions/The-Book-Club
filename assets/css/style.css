@@ -870,9 +870,11 @@ input[type='checkbox']:checked {
 */
 
 /*----------------------Contact Us-----*/
-.modal-header {
+
+.modal-wrapper .modal-header {
     background-color: #eceff1;
     text-align: center;
+    
 }
 
 .modal-title {
@@ -1492,6 +1494,7 @@ p.date, p.time {
 
 
 
+
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -1526,6 +1529,16 @@ p.date, p.time {
     padding: 1rem 2rem;
 }
 
+
+
+.modal-wrapper .modal-content .modal-header {
+padding-left: 200px;
+}
+
+
+.modal-content .modal-header button {
+    margin-left: 1rem;
+}
 .contact-form-wrapper {
     padding-left: 30px;
     padding-right: 30px;
@@ -1550,6 +1563,7 @@ p.date, p.time {
     margin-bottom: 5rem;
 }
 
+/*
 .login-input input {
     font-size: 2rem;
 }
@@ -1570,18 +1584,19 @@ p.date, p.time {
     font-size: 2rem;
     margin-left: 0.75rem;
 }
+*/
 .big-checkbox {
-    width: 22px;
-    height: 22px;
-    margin-top: 15px;
+    width: 18px;
+    height: 18px;
 }
+
 
 /*----signup----*/
 
 .lg-signup-form {
     background-color: #eceff1;
 }
-
+/*
 .sign-up-header h2 {
     font-size: 2rem;
 }
@@ -1589,6 +1604,8 @@ p.date, p.time {
 .sign-up-header h5 {
     font-size: 1.5rem;
 }
+
+*/
 
 .form-part-one {
     padding-left: 60px;
@@ -1607,12 +1624,12 @@ p.date, p.time {
 .form-part-one label {
     margin-bottom: 1rem;
     margin-top: 1rem;
-    font-size: 1.5rem;
+ /*   font-size: 1.5rem;*/
 }
 .form-part-two label {
     margin-bottom: 1rem;
     margin-top: 1rem;
-    font-size: 1.5rem;
+/*    font-size: 1.5rem;*/
 }
 
 .form-part-two .container-membership {
@@ -1627,7 +1644,7 @@ p.date, p.time {
 }
 
 .container-membership label.form-check-label {
-    font-size: 1.2rem;
+ /*   font-size: 1.2rem;*/
 }
 .consent-wrapper {
     text-align: center;
@@ -1642,7 +1659,7 @@ p.date, p.time {
 }
 
 .consent-wrapper label {
-    font-size: 1.25rem;
+  /*  font-size: 1.25rem; */
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
 }
@@ -1664,6 +1681,7 @@ p.date, p.time {
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1300px) { 
+    
 
 
 }
