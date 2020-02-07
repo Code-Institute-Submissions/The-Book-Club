@@ -1310,6 +1310,10 @@ padding: 0px 0px 30px 30px;
     font-size: 1.5rem;
 }
 
+.next-meeting-wrapper .next-meeting-pic .extra-padding {
+    padding-bottom: 66px;
+}
+
 p.date, p.time {
     margin-bottom: 8px;
 
