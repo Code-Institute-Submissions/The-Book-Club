@@ -585,7 +585,6 @@ p.visit-title {
 #anchor-container-york:target, 
 #anchor-container-ldn:target {
     display: block;
-
 } 
 
 
@@ -661,6 +660,30 @@ p.visit-title {
 }
 
 
+
+.location-picture-cambridge {
+    background-image: url("/assets/images/cambridge.jpg");
+}
+
+.location-picture-leeds {
+    background-image: url();
+}
+
+.location-picture-london {
+    background-image: url();
+}
+
+.location-picture-manchester {
+    background-image: url();
+}
+
+.location-picture-nottingham {
+    background-image: url();
+}
+
+.location-picture-york {
+    background-image: url();
+}
 
 .information-grid {
     padding-left: 0;
