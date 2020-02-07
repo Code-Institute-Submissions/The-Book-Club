@@ -903,19 +903,7 @@ text-align: center;
 
 
 
-/*this is from https://stackoverflow.com/questions/4137255/checkboxes-in-web-pages-how-to-make-them-bigger
-input[type='checkbox'] {
-    -webkit-appearance:none;
-    width:30px;
-    height:30px;
-    background:white;
-    border-radius:5px;
-    border:2px solid #555;
-}
-input[type='checkbox']:checked {
-    background: #abd;
-}
-*/
+ 
 
 /*----------------------Contact Us-----*/
 
@@ -1544,7 +1532,11 @@ p.date, p.time {
     font-size: 2rem;
 }
 
+/*---Modal------*/
 
+.modal-title {
+    padding-left: 7rem;
+}
 
 
 
