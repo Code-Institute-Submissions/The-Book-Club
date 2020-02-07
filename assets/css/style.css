@@ -666,23 +666,30 @@ p.visit-title {
 }
 
 .location-picture-leeds {
-    background-image: url();
+    background-image: url("/assets/images/leeds.jpg");
+    background-repeat: no-repeat;
+    padding-right: 20px;
+  
 }
 
 .location-picture-london {
-    background-image: url();
+    background-image: url("/assets/images/london2.jpg");
+    background-repeat: no-repeat;
+
 }
 
 .location-picture-manchester {
-    background-image: url();
+    background-image: url("/assets/images/manchester3.jpg");
+    background-repeat: no-repeat;
 }
 
 .location-picture-nottingham {
-    background-image: url();
+    background-image: url("/assets/images/nottingham2.jpg");
+    background-repeat: no-repeat;
 }
 
 .location-picture-york {
-    background-image: url();
+    background-image: url("/assets/images/york.jpg");
 }
 
 .information-grid {
