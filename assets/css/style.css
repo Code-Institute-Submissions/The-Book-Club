@@ -1538,6 +1538,18 @@ p.date, p.time {
     padding-left: 7rem;
 }
 
+.contact-modal-p {
+    font-size: 2rem;
+}
+
+.contact-form-wrapper input {
+    font-size: 1.5rem;
+}
+
+ #textArea {
+     font-size: 1.5rem
+ }
+
 
 
 
