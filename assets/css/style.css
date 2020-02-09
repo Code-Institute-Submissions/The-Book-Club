@@ -1641,6 +1641,10 @@ input.form-check-input {
     margin-bottom: 80px;
 }
 
+.location-wrapper {
+    padding: 0 120px;
+}
+
 }
 
 /* iPad-Pro portrait */ 
@@ -1833,6 +1837,7 @@ padding-left: 200px;
     border-color: rgba(11,77,225,1);
     margin-bottom: 2rem;
 }
+
 
 
 }
