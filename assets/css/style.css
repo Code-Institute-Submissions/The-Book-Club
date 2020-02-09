@@ -1676,7 +1676,7 @@ input.form-check-input {
     width:62.5%;
     margin-right: 0;
     margin-left: 87.5px;
-}
+    margin-top: 1rem;
 
 .form-check-inline input.form-check-input {
     margin-top: 26px;
