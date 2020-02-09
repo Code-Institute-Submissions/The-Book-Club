@@ -2118,57 +2118,16 @@ input.form-check-input {
     padding-bottom: 48px;
 }
 
-/*Meetings Page*/
-
-.location-wrapper {
-    padding: 24px;
-    margin-bottom: 1rem;
+.card-body {
+    padding-left: 50px;
 }
 
-#york {
-    margin-bottom: 1rem;
-}
-
-.meeting-info-text h5 {
-    margin-bottom: 2rem;
-}
-
-/*---Modal Contact Us----*/
-
-.modal-dialog {
-    max-width: 700px;
-}
-
-.modal-body {
-    padding: 1rem 2rem;
+.card-body ul {
+    padding-left: 60px;
 }
 
 
-
-
-
-.modal-content .modal-header button {
-    margin-left: 1rem;
-}
-.contact-form-wrapper {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-
-/*---sign-up---*/
-
-.container-membership {
-    width: 80%;
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.sign-up-button-submit {
-    margin-top: 0.5rem;
-}
-
-/*---Login---*/
+/*Login Page*/
 
 .members-heading h2 {
     font-size: 3.5rem;
@@ -2214,7 +2173,51 @@ input.form-check-input {
 } 
 
 
-/*----signup----*/
+/*Meetings Page*/
+
+.location-wrapper {
+    padding: 24px;
+    margin-bottom: 1rem;
+}
+
+#york {
+    margin-bottom: 1rem;
+}
+
+.meeting-info-text h5 {
+    margin-bottom: 2rem;
+}
+
+/*---Modal Contact Us----*/
+
+.modal-dialog {
+    max-width: 700px;
+}
+
+.modal-body {
+    padding: 1rem 2rem;
+}
+
+.modal-content .modal-header button {
+    margin-left: 1rem;
+}
+.contact-form-wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+/*---sign-up---*/
+
+.container-membership {
+    width: 80%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.sign-up-button-submit {
+    margin-top: 0.5rem;
+}
 
 .lg-signup-form {
     background-color: #eceff1;
@@ -2238,11 +2241,13 @@ input.form-check-input {
 .form-part-one label {
     margin-bottom: 1rem;
     margin-top: 1rem;
+    font-size: 1.75rem;
  
 }
 .form-part-two label {
     margin-bottom: 1rem;
     margin-top: 1rem;
+    font-size: 1.75rem;
 
 }
 
@@ -2258,7 +2263,7 @@ input.form-check-input {
 }
 
 .container-membership label.form-check-label {
- /*   font-size: 1.2rem;*/
+    font-size: 1.2rem;
 }
 .consent-wrapper {
     text-align: center;
@@ -2279,16 +2284,7 @@ input.form-check-input {
 }
 
 
-.sign-up-button-submit {
-   padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.75rem;
-    font-size: 1.5rem;
-    background-color: rgba(11,77,225,1);
-    border-color: rgba(11,77,225,1);
-    margin-bottom: 2rem;
-}
+
 
 }
 
