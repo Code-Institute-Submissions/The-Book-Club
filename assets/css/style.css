@@ -1651,6 +1651,14 @@ input.form-check-input {
 .modal-about-text {
     margin: 1rem 0;
 }
+
+.modal-btn-wrapper {
+    margin: 2rem 0 1rem 0;
+
+}
+.modal-btn-wrapper button h5 {
+    font-size: 1.75rem;
+}
 }
 
 /* iPad-Pro portrait */ 
