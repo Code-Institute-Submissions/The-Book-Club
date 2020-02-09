@@ -669,6 +669,7 @@ p.visit-title {
 
 .location-picture-cambridge {
     background-image: url("../images/cambridge.jpg");
+    background-repeat: no-repeat;
 }
 
 .location-picture-leeds {
@@ -1935,7 +1936,7 @@ input.form-check-input {
 
 
 /*LARGE devices------*/
-@media (min-width: 1280px) {
+@media (min-width: 968px) {
 
 /*Index page - Carousel---*/
 
@@ -2103,6 +2104,17 @@ input.form-check-input {
     padding-bottom: 19px;
 }
 
+/*Meetings Page*/
+
+.location-wrapper {
+    padding: 24px;
+    margin-bottom: 1rem;
+}
+
+#york {
+    margin-bottom: 1rem;
+}
+
 /*---Modal Contact Us----*/
 
 .modal-dialog {
@@ -2208,12 +2220,12 @@ input.form-check-input {
 .form-part-one label {
     margin-bottom: 1rem;
     margin-top: 1rem;
- /*   font-size: 1.5rem;*/
+ 
 }
 .form-part-two label {
     margin-bottom: 1rem;
     margin-top: 1rem;
-/*    font-size: 1.5rem;*/
+
 }
 
 .form-part-two .container-membership {
@@ -2243,7 +2255,7 @@ input.form-check-input {
 }
 
 .consent-wrapper label {
-  /*  font-size: 1.25rem; */
+  
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
 }
