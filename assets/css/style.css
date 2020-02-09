@@ -2104,6 +2104,10 @@ input.form-check-input {
     padding-bottom: 19px;
 }
 
+.about-text p{
+    font-size: 1.5rem;
+}
+
 /*Meetings Page*/
 
 .location-wrapper {
