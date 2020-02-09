@@ -1879,6 +1879,46 @@ input.form-check-input {
 }
 
 
+@media (min-height: 1366px) {
+
+/*login page*/
+
+.members-heading h2 {
+    font-size: 4.5rem;
+}
+
+.members-info {
+    padding: 0 150px;
+}
+.members-info h6 {
+    font-size: 2.5rem;
+
+}
+
+.members-form .form-group label {
+    font-size: 2.25rem;
+}
+
+.members-form .form-group input {
+    font-size: 2rem;
+}
+
+.members-form .form-group p {
+    font-size: 1.5rem;
+}
+
+.members-form .form-group label.rememberMe p {
+    font-size: 2rem;
+}
+.login-button-submit {
+    font-size: 2.5rem;
+}
+
+.members-form .additional-questions p {
+    font-size: 2rem;
+}
+}
+
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
