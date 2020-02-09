@@ -1677,6 +1677,11 @@ input.form-check-input {
     margin-right: 0;
     margin-left: 87.5px;
 }
+
+.form-check-inline input.form-check-input {
+    margin-top: 26px;
+    margin-right: 10px;
+}
 }
 
 /* iPad-Pro portrait */ 
