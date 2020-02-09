@@ -1593,6 +1593,10 @@ p.date, p.time {
 .next-meeting-info p.visit-title {
     font-size: 1.75rem;
 }
+
+.next-meeting-info-cambridge {
+    padding: 30px 12px;
+}
 }
 
 
