@@ -1647,6 +1647,10 @@ input.form-check-input {
 .modal-wrapper .modal-content .modal-header {
     padding-left: 120px;
 }
+
+.modal-about-text {
+    margin: 1rem 0;
+}
 }
 
 /* iPad-Pro portrait */ 
