@@ -1586,6 +1586,10 @@ p.date, p.time {
     margin-right: 0.5rem;
 }
 
+.about-text p {
+    font-size: 1.4rem;
+}
+
 }
 
 
