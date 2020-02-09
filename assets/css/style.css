@@ -1569,16 +1569,6 @@ p.date, p.time {
 
 @media (min-width: 1024px) and (max-height: 800px) {
 
-
-
-
-
-}
-
-/* iPad-Pro portrait */ 
-
-@media (min-width: 1024px) and (max-height: 1370px) {
-
 .carousel-caption-edit-picture1, 
 .carousel-caption-edit-picture2, 
 .carousel-caption-edit-picture3 {
@@ -1624,6 +1614,16 @@ p.date, p.time {
 .members-form .form-group label {
     font-size: 1.5rem;
 }
+
+
+
+
+}
+
+/* iPad-Pro portrait */ 
+
+@media (min-width: 1024px) and (max-height: 1370px) {
+
 
 
 
