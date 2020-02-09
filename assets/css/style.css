@@ -668,34 +668,34 @@ p.visit-title {
 
 
 .location-picture-cambridge {
-    background-image: url("/assets/images/cambridge.jpg");
+    background-image: url("../images/cambridge.jpg");
 }
 
 .location-picture-leeds {
-    background-image: url("/assets/images/leeds.jpg");
+    background-image: url("../images/leeds.jpg");
     background-repeat: no-repeat;
     padding-right: 20px;
   
 }
 
 .location-picture-london {
-    background-image: url("/assets/images/london2.jpg");
+    background-image: url("../images/london2.jpg");
     background-repeat: no-repeat;
 
 }
 
 .location-picture-manchester {
-    background-image: url("/assets/images/manchester3.jpg");
+    background-image: url("../images/manchester3.jpg");
     background-repeat: no-repeat;
 }
 
 .location-picture-nottingham {
-    background-image: url("/assets/images/nottingham2.jpg");
+    background-image: url("../images/nottingham2.jpg");
     background-repeat: no-repeat;
 }
 
 .location-picture-york {
-    background-image: url("/assets/images/york.jpg");
+    background-image: url("../images/york.jpg");
 }
 
 .information-grid {
