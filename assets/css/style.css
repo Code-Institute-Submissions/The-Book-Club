@@ -1664,6 +1664,11 @@ input.form-check-input {
     margin: 1rem 0;
     font-size: 1.75rem;
 }
+
+.contact-modal-p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
 }
 
 /* iPad-Pro portrait */ 
