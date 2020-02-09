@@ -1601,6 +1601,13 @@ p.date, p.time {
 .next-meeting-wrapper .next-meeting-pic .extra-padding {
     padding-bottom: 30px;
 }
+
+/*Login Page* iPad Pro*/
+
+.members-info {
+    padding: 0 200px 10px 200px;
+}
+
 }
 
 
