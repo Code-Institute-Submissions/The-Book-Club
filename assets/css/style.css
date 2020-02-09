@@ -1587,7 +1587,7 @@ p.date, p.time {
 
 
 
-/* Medium devices - landscaoe (tablets, 768px and up)   (iPad landscape)*/
+/* Medium devices - landscape (tablets, 768px and up)   (iPad landscape)*/
 
 @media (min-width: 1024px) and (max-height: 800px) {
 
@@ -1612,6 +1612,141 @@ p.date, p.time {
 
 .next-meeting-wrapper .next-meeting-pic .extra-padding {
     padding-bottom: 30px;
+}
+
+/*Login Page* iPad landscape*/
+.members-heading h2 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+.members-info {
+    padding: 0 200px 10px 200px;
+
+}
+
+.members-info h6 {
+    font-size: 1.5rem;
+
+}
+
+.members-form {
+    padding: 0 60px;
+}
+
+.members-form .form-group label {
+    font-size: 1.5rem;
+}
+
+.rememberMe p {
+    font-size: 1rem;
+}
+
+input.form-check-input {
+    margin-top: 0.35rem;
+}
+
+.login-button-submit {
+    font-size: 1.5rem;
+}
+
+.additional-questions p {
+    font-size: 1.5rem;
+}
+
+.members-form .forgotten-password {
+    margin-bottom: 2rem;
+}
+
+/*Meetings*/
+
+#york{
+    margin-bottom: 80px;
+}
+
+.location-wrapper {
+    padding: 0 120px;
+}
+
+/*Modal*/
+
+.modal-wrapper .modal-content .modal-header {
+    padding-left: 120px;
+}
+
+.modal-about-text {
+    margin: 1rem 0;
+}
+
+.modal-btn-wrapper {
+    margin: 2rem 0 1rem 0;
+
+}
+.modal-btn-wrapper button h5 {
+    font-size: 1.75rem;
+}
+
+.social-contact h3 {
+    margin: 1rem 0;
+    font-size: 1.75rem;
+}
+
+.contact-modal-p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/*sign-up*/
+
+.signup-container .container-membership {
+    width:62.5%;
+    margin-right: 0;
+    margin-left: 87.5px;
+    margin-top: 1rem;
+}
+
+.form-check-inline input.form-check-input {
+    margin-top: 26px;
+    margin-right: 10px;
+}
+
+.sign-up-page .sign-up-header h2{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    
+}
+}
+
+/* iPad-Pro portrait */ 
+
+
+@media (min-width: 1024px) and (max-height: 1370px) {
+
+.carousel-caption-edit-picture1, 
+.carousel-caption-edit-picture2, 
+.carousel-caption-edit-picture3 {
+    margin-top: 1.25rem;
+    margin-right: 1rem;
+}
+
+.about-text p {
+    font-size: 1.4rem;
+}
+
+.next-meeting-info p.visit-title {
+    font-size: 1.75rem;
+}
+
+.next-meeting-info-cambridge {
+    padding: 30px 12px;
+}
+
+.next-meeting-wrapper .next-meeting-pic .extra-padding {
+    padding-bottom: 30px;
+}
+
+.visit-text {
+    padding-left: 90px;
+    padding-right:90px;
 }
 
 /*Login Page* iPad Pro*/
@@ -1703,6 +1838,8 @@ input.form-check-input {
     margin-left: 87.5px;
     margin-top: 1rem;
 
+}
+
 .form-check-inline input.form-check-input {
     margin-top: 26px;
     margin-right: 10px;
@@ -1713,13 +1850,6 @@ input.form-check-input {
     margin-bottom: 1rem;
     
 }
-}
-
-/* iPad-Pro portrait */ 
-
-@media (min-width: 1024px) and (max-height: 1370px) {
-
-
 
 
 
@@ -1760,10 +1890,7 @@ input.form-check-input {
 }
 
 
-/*
-.modal-wrapper .modal-content .modal-header {
-padding-left: 200px;
-}*/
+
 
 
 .modal-content .modal-header button {
