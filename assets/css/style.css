@@ -1615,6 +1615,13 @@ p.date, p.time {
     font-size: 1.5rem;
 }
 
+.rememberMe p {
+    font-size: 1rem;
+}
+
+input.form-check-input {
+    margin-top: 0.35rem;
+}
 
 
 
