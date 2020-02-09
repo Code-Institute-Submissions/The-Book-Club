@@ -1001,6 +1001,8 @@ text-align: center;
 .social-contact {
     text-align: center;
     padding: 0.3125rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .contact-modal-p-wrapper {
