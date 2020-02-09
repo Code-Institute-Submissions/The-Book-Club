@@ -2108,6 +2108,11 @@ input.form-check-input {
     font-size: 1.5rem;
 }
 
+.visit-text {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
 /*Meetings Page*/
 
 .location-wrapper {
