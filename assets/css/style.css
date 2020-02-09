@@ -1933,7 +1933,6 @@ input.form-check-input {
 }
 }
 
-
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
 
@@ -1993,35 +1992,47 @@ input.form-check-input {
 
 /*---Login---*/
 
-.forgotten-password {
-    margin-bottom: 5rem;
-}
-
-/*
-.login-input input {
-    font-size: 2rem;
-}
-
-.login-input label {
+.members-heading h2 {
     font-size: 3.5rem;
 }
 
+.members-info {
+    padding: 0 150px;
+    margin-bottom: 2.5rem;
+}
+.members-info h6 {
+    font-size: 2rem;
+
+}
+
+.login-input {
+    margin-bottom: 1rem;
+}
+
 .members-form .form-group label {
-    font-size: 2.75rem;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
 }
 
-.login-input p{
-    font-size: 2rem;
+.members-form .form-group input {
+    font-size: 1.25rem;
 }
 
-.rememberMe p {
-    font-size: 2rem;
-    margin-left: 0.75rem;
+.members-form .form-group p {
+    font-size: 1.5rem;
 }
-*/
-.big-checkbox {
-    width: 18px;
-    height: 18px;
+
+.members-form input.form-check-input {
+    margin-top: 0.7rem;
+   
+}
+
+.members-form .form-group label.rememberMe p {
+    font-size: 1.5rem;
+}
+.login-button-submit {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -2030,16 +2041,7 @@ input.form-check-input {
 .lg-signup-form {
     background-color: #eceff1;
 }
-/*
-.sign-up-header h2 {
-    font-size: 2rem;
-}
 
-.sign-up-header h5 {
-    font-size: 1.5rem;
-}
-
-*/
 
 .form-part-one {
     padding-left: 60px;
@@ -2110,9 +2112,9 @@ input.form-check-input {
     margin-bottom: 2rem;
 }
 
-
-
 }
+
+
 
 
 
