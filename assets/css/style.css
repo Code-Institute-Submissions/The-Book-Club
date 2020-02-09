@@ -1623,6 +1623,9 @@ input.form-check-input {
     margin-top: 0.35rem;
 }
 
+.login-button-submit {
+    font-size: 1.5rem;
+}
 
 
 }
