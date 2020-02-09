@@ -1682,6 +1682,12 @@ input.form-check-input {
     margin-top: 26px;
     margin-right: 10px;
 }
+
+.sign-up-page .sign-up-header h2{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    
+}
 }
 
 /* iPad-Pro portrait */ 
