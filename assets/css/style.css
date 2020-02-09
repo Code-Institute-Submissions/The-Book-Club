@@ -2244,6 +2244,20 @@ input.form-check-input {
     font-size: 1.75rem;
  
 }
+
+.form-part-one input {
+    font-size: 1.5rem;
+}
+
+.form-part-two input {
+    font-size: 1.5rem;
+}
+
+#inlineRadio {
+    margin-top: 2rem;
+    margin-left: -20px;
+}
+
 .form-part-two label {
     margin-bottom: 1rem;
     margin-top: 1rem;
@@ -2252,7 +2266,7 @@ input.form-check-input {
 }
 
 .form-part-two .container-membership {
-    max-width: 60%;
+    max-width: 70%;
     padding-left: 0;
     padding-right: 0;
     margin-left: 0.5rem;
@@ -2263,7 +2277,7 @@ input.form-check-input {
 }
 
 .container-membership label.form-check-label {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 .consent-wrapper {
     text-align: center;
