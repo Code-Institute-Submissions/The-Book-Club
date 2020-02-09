@@ -1557,7 +1557,27 @@ p.date, p.time {
      font-size: 1.5rem
  }
 
+.modal-btn-wrapper {
+    margin: 2rem 0 1rem 0;
 
+}
+.modal-btn-wrapper button h5 {
+    font-size: 1.75rem;
+}
+
+.social-contact h3 {
+    margin: 1rem 0 1rem 0;
+    font-size: 1.75rem;
+}
+
+.social-contact {
+    margin: 0;
+}
+
+.contact-modal-p {
+    font-size: 1.5rem;
+  
+}
 
 
 
@@ -1646,6 +1666,9 @@ input.form-check-input {
 .location-wrapper {
     padding: 0 120px;
 }
+
+/*Modal*/
+
 .modal-wrapper .modal-content .modal-header {
     padding-left: 120px;
 }
