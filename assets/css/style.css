@@ -2225,7 +2225,7 @@ input.form-check-input {
 
 
 .form-part-one {
-    padding-left: 60px;
+    padding-left: 80px;
     padding-right: 60px;
 }
 
@@ -2292,10 +2292,15 @@ input.form-check-input {
 }
 
 .consent-wrapper label {
-  
+    font-size: 1.5rem;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
 }
+
+.consent-wrapper .consent-btn input {
+    margin-top: 3.5px;
+    width: 18px;
+    height: 18px;
 
 
 
