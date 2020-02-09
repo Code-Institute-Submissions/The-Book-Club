@@ -1603,10 +1603,22 @@ p.date, p.time {
 }
 
 /*Login Page* iPad Pro*/
-
+.members-heading h2 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
 .members-info {
     padding: 0 200px 10px 200px;
+
 }
+
+.members-info h6 {
+    font-size: 1.5rem;
+
+}
+
+
+
 
 }
 
