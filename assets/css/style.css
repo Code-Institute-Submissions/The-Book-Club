@@ -1621,6 +1621,10 @@ p.date, p.time {
     padding: 0 60px;
 }
 
+.members-form .form-group label {
+    font-size: 1.5rem;
+}
+
 
 
 
