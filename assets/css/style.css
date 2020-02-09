@@ -323,7 +323,7 @@ li {
     padding: 2rem 1.5rem;
     overflow: hidden;
     color:black;
-    font-size: 1rem; 
+    font-size: 0.95rem;
     text-align: center;
 }
 
@@ -652,9 +652,13 @@ p.visit-title {
 .location-header {
     text-align: center;
     border: 0.0625rem solid black;
- 
+    
 }
 
+.location-wrapper .location-header p {
+ margin:0;
+ font-weight: bold;
+}
 .location-picture {
     border-left: 0.0625rem solid black;
     border-right: 0.0625rem solid black;
@@ -1109,7 +1113,8 @@ text-align: center;
     height:18.75rem;
     padding: 1.25rem;
     overflow: hidden;
-    color:black;    
+    color:black; 
+    font-size: 1rem;    
 }
 
 /*---------Visit-------*/
