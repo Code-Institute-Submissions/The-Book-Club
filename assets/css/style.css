@@ -1849,6 +1849,10 @@ input.form-check-input {
   
 }
 
+.alternative-comm-wrapper h3 {
+    margin-bottom: 2rem;
+}
+
 /*sign-up*/
 
 .signup-container .container-membership {
