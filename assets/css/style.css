@@ -1878,25 +1878,33 @@ input.form-check-input {
 
 }
 
-
+/*iPad Pro Portrait only */
 @media (min-height: 1366px) {
 
 /*login page*/
-
+.members-heading {
+    margin-bottom: 1.5rem;
+}
 .members-heading h2 {
     font-size: 4.5rem;
 }
 
 .members-info {
     padding: 0 150px;
+    margin-bottom: 2.5rem;
 }
 .members-info h6 {
     font-size: 2.5rem;
 
 }
 
+.login-input {
+    margin-bottom: 2.5rem;
+}
+
 .members-form .form-group label {
     font-size: 2.25rem;
+    margin-bottom: 2rem;
 }
 
 .members-form .form-group input {
@@ -1907,15 +1915,21 @@ input.form-check-input {
     font-size: 1.5rem;
 }
 
+.members-form input.form-check-input {
+    margin-top: 1rem;
+   
+}
+
 .members-form .form-group label.rememberMe p {
     font-size: 2rem;
 }
 .login-button-submit {
     font-size: 2.5rem;
+    margin-bottom: 2rem;
 }
 
 .members-form .additional-questions p {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 }
 
