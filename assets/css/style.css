@@ -1659,6 +1659,11 @@ input.form-check-input {
 .modal-btn-wrapper button h5 {
     font-size: 1.75rem;
 }
+
+.social-contact h3 {
+    margin: 1rem 0;
+    font-size: 1.75rem;
+}
 }
 
 /* iPad-Pro portrait */ 
