@@ -1590,6 +1590,9 @@ p.date, p.time {
     font-size: 1.4rem;
 }
 
+.next-meeting-info p.visit-title {
+    font-size: 1.75rem;
+}
 }
 
 
