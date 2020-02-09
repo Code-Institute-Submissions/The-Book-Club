@@ -2115,6 +2115,10 @@ input.form-check-input {
     margin-bottom: 1rem;
 }
 
+.meeting-info-text h5 {
+    margin-bottom: 2rem;
+}
+
 /*---Modal Contact Us----*/
 
 .modal-dialog {
