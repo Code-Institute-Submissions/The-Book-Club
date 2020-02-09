@@ -1602,6 +1602,11 @@ p.date, p.time {
     font-size: 1.4rem;
 }
 
+.visit-text {
+    padding-left: 90px;
+    padding-right:90px;
+}
+
 .next-meeting-info p.visit-title {
     font-size: 1.75rem;
 }
@@ -1692,7 +1697,12 @@ input.form-check-input {
 
 .contact-modal-p {
     font-size: 1.5rem;
-    margin-bottom: 1rem;
+
+}
+
+
+.alternative-comm-wrapper h3{
+    margin-bottom: 2rem;
 }
 
 /*sign-up*/
@@ -1805,13 +1815,22 @@ input.form-check-input {
 /*Modal*/
 
 .modal-wrapper .modal-content .modal-header {
-    padding-left: 120px;
+    padding-left: 80px;
+    
+}
+
+.modal-title {
+    font-size: 3.5rem;
 }
 
 .modal-about-text {
     margin: 1rem 0;
+    
 }
 
+.modal-about-text h3{
+    font-size: 2.5rem;
+}
 .modal-btn-wrapper {
     margin: 2rem 0 1rem 0;
 
@@ -1827,7 +1846,7 @@ input.form-check-input {
 
 .contact-modal-p {
     font-size: 1.5rem;
-    margin-bottom: 1rem;
+  
 }
 
 /*sign-up*/
