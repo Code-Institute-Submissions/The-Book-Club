@@ -2113,6 +2113,11 @@ input.form-check-input {
     padding-right: 120px;
 }
 
+.next-meeting-info-cambridge {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
 /*Meetings Page*/
 
 .location-wrapper {
