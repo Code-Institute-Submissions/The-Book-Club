@@ -1933,8 +1933,156 @@ input.form-check-input {
 }
 }
 
-/*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
+
+/*LARGE devices------*/
+@media (min-width: 1280px) {
+
+/*Index page - Carousel---*/
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    height: auto;
+    
+}
+
+.carousel-item img.carousel-img-1 {
+    top: -100px;
+}
+
+.silver-membership, .gold-membership {
+    padding-bottom: 19px;
+}
+
+/*---Modal Contact Us----*/
+
+.modal-dialog {
+    max-width: 700px;
+}
+
+.modal-body {
+    padding: 1rem 2rem;
+}
+
+
+
+
+
+.modal-content .modal-header button {
+    margin-left: 1rem;
+}
+.contact-form-wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+/*---sign-up---*/
+
+.container-membership {
+    width: 80%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.sign-up-button-submit {
+    margin-top: 0.5rem;
+}
+
+/*---Login---*/
+
+.members-heading h2 {
+    font-size: 3.5rem;
+}
+
+.members-info {
+    padding: 0 150px;
+    margin-bottom: 2.5rem;
+}
+
+
+/*----signup----*/
+
+.lg-signup-form {
+    background-color: #eceff1;
+}
+
+
+.form-part-one {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.form-part-two {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.container-membership {
+    margin-top: 0;
+}
+
+.form-part-one label {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+ /*   font-size: 1.5rem;*/
+}
+.form-part-two label {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+/*    font-size: 1.5rem;*/
+}
+
+.form-part-two .container-membership {
+    max-width: 60%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+.container-membership .form-group label, .form-check-input {
+    margin-top: 1.4rem;
+}
+
+.container-membership label.form-check-label {
+ /*   font-size: 1.2rem;*/
+}
+.consent-wrapper {
+    text-align: center;
+}
+
+.form-check-inline .form-check-input{
+    margin-top: 3px;
+}
+
+.form-part-one select {
+    margin-bottom: 2rem;
+}
+
+.consent-wrapper label {
+  /*  font-size: 1.25rem; */
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+
+.sign-up-button-submit {
+   padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.75rem;
+    font-size: 1.5rem;
+    background-color: rgba(11,77,225,1);
+    border-color: rgba(11,77,225,1);
+    margin-bottom: 2rem;
+}
+
+}
+
+/*MDPi - laptop screens*/
+@media (min-width: 1280px) {
 
 /*Index page - Carousel---*/
 
@@ -2033,7 +2181,7 @@ input.form-check-input {
 .login-button-submit {
     font-size: 1.75rem;
     margin-bottom: 1rem;
-}
+} 
 
 
 /*----signup----*/
