@@ -726,6 +726,11 @@ p.visit-title {
     color: black;
 }
 
+.information-venue-bottom a span{
+    text-decoration: underline;
+    color: blue;
+}
+
 .information-venue-bottom {
     border-left: 0.0625rem solid black;
     border-right: 0.0625rem solid black;
