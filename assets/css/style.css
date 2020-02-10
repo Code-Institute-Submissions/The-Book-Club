@@ -2331,6 +2331,10 @@ input.form-check-input {
 .next-meeting-wrapper-md-col2 .next-meeting-pic .extra-padding {
     padding-bottom:66px;
 }
+
+.about-text-container1 .about-text {
+    padding-top: 40px;
+}
 .members-heading h2 {
     color: blue;
 } 
