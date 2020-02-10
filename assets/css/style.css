@@ -2356,4 +2356,9 @@ input.form-check-input {
      padding-bottom: 30px; 
 }
 
+.form-part-one, .form-part-two {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
 }
