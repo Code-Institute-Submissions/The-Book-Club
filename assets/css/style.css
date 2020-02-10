@@ -2344,8 +2344,12 @@ input.form-check-input {
 
 
 /*HiDPI laptops (desktops, 992px and up)*/
-@media (min-width: 1400px) and (max-height:900px) {
+@media (min-width: 1400px)  {
 
+.visit-text {
+    padding-left: 180px;
+    padding-right: 180px;
+}
 
 
 }
