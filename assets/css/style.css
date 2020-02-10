@@ -221,19 +221,9 @@ li {
     
 }
 
-/*.carousel-img-1 {     -------------------Move to media query---
-    padding-bottom: 23.125rem;
-    
-}*/
-
-
-
-
-
-
 .carousel-caption-edit-picture1 {
     position: absolute;
-    top: 1.25rem; /*Put this padding in the media query - padding: top 1.25rem right 0px;*/
+    top: 1.25rem; 
     right: 0.3125rem;
     z-index: 10;
     padding: 1.25rem 1.25rem 1.25rem; 
@@ -780,7 +770,7 @@ text-align: center;
 }
     
 .container-membership {
-    color: #49503.5625rem;
+    
     background-color: #fff;
     background-clip: padding-box;
     border: 0.0625rem solid #ced4da;
@@ -994,9 +984,7 @@ text-align: center;
 
 .social-contact-wrapper {
     border-bottom: 0.125rem solid #dee2e6;
-   
-   
-    
+
 }
 
 .social-contact {
@@ -2028,12 +2016,12 @@ input.form-check-input {
 .form-part-one label {
     margin-bottom: 1rem;
     margin-top: 1rem;
- /*   font-size: 1.5rem;*/
+ 
 }
 .form-part-two label {
     margin-bottom: 1rem;
     margin-top: 1rem;
-/*    font-size: 1.5rem;*/
+
 }
 
 .form-part-two .container-membership {
@@ -2047,9 +2035,7 @@ input.form-check-input {
     margin-top: 1.4rem;
 }
 
-.container-membership label.form-check-label {
- /*   font-size: 1.2rem;*/
-}
+
 .consent-wrapper {
     text-align: center;
 }
