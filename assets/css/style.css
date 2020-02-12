@@ -2305,6 +2305,11 @@ input.form-check-input {
 /*iPad Pro lanscape */
 @media (min-width: 1366px) {
 
+.carousel-item img.carousel-img-1 {
+    top: -350px;
+}
+
+
 .carousel-item img {
     position: absolute;
     object-fit: cover;
