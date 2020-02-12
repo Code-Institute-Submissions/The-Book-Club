@@ -2336,7 +2336,9 @@ input.form-check-input {
 
 /*HiDPI laptops (desktops, 992px and up)*/
 @media (min-width: 1400px)  {
-
+.carousel-item img.carousel-img-1 {
+    top: -350px;
+}
 .visit-text {
     padding-left: 180px;
     padding-right: 180px;
