@@ -717,10 +717,17 @@ p.visit-title {
     
 }
 
+
 .information-venue i {
     padding-right: 8px;
     
 }
+
+.information-venue-bottom .postcode {
+    margin-bottom: 0;
+    padding-left: 38px;
+}
+
 
 .information-venue-bottom i {
     padding-right: 8px;
@@ -1440,6 +1447,12 @@ p.date, p.time {
 
 .location-information {
     padding-top:75px;
+}
+
+.location-picture-cambridge {
+    background-image: url(../images/cambridge.jpg);
+    background-repeat: no-repeat;
+    
 }
 
 .meetings-header {
