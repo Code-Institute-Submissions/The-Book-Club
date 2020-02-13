@@ -1513,6 +1513,10 @@ p.date, p.time {
     padding-right: 5rem;
     padding-left: 5rem;
 }
+
+.information-venue-bottom .postcode {
+    padding-left: 0;
+}
 /*----Signup---*/
 
 .sign-up-header {
