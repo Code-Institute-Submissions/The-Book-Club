@@ -133,11 +133,12 @@ li p:hover {
 .footer-wrapper {
     background: rgb(11,77,225);
     background: linear-gradient(90deg, rgba(11,77,225,1) 0%, rgba(57,153,251,1) 37%, rgba(57,208,251,1) 91%);
+    padding-top: 20px;
 }
 .social-header {
      
      text-align: center;
-     padding-top: 0.3125rem;
+     padding-top: 0;
      letter-spacing: 0.125rem;
      font-weight: bold;
 }
@@ -155,7 +156,7 @@ li p:hover {
 }
 
 .social-list li {
-    padding: 1.0625rem 0;
+    padding: 20px 0;
     text-align: center;
 }
 
