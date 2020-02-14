@@ -409,6 +409,9 @@ p.visit-title {
     display:block;
 }
 
+.section-pricing {
+    padding-bottom: 20px;
+}
 
 .card-bronze {
     
@@ -485,7 +488,7 @@ p.visit-title {
 .bronze-membership {
     background-color:#fff;
     margin-top: 0 ;
-    margin-bottom: 1.25rem;
+    margin-bottom: 0;
     display: inline-block;
     width: 100%;
 }
@@ -588,6 +591,8 @@ p.visit-title {
 
 .location-information {
     background-color: #eceff1;
+    padding-top: 3.5625rem;
+    padding-bottom: 20px;
 }
 
 .location-wrapper-container {
@@ -604,6 +609,12 @@ p.visit-title {
     padding-right: 15px;
 }
 
+.location-information .location-wrapper-last {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
 
 .meetings-header {
     text-align: center;
@@ -636,9 +647,7 @@ p.visit-title {
 .location-wrapper {
     margin-bottom: 2rem;
 }
-.location-information{
-    padding-top: 3.5625rem;
-}
+
 
 .location-header {
     text-align: center;
@@ -849,6 +858,7 @@ text-align: center;
 .members {
         padding-top: 3.5625rem;
         background-color: #eceff1;
+        padding-bottom: 20px;
     }
 
 .members-heading {
@@ -909,7 +919,11 @@ text-align: center;
 }
 
 .forgotten-password {
-    margin-bottom: 1.5rem;
+    margin-bottom: 0;
+}
+
+.forgotten-password p{
+    margin-bottom: 0;
 }
 
 .rememberMe p{
@@ -1233,7 +1247,7 @@ text-align: center;
 }
 
 .social-list li {
-    padding: 1.0625rem 0;
+    padding: 20px 0;
 }
 
 .social-header{
@@ -1353,7 +1367,7 @@ p.date, p.time {
 
 .gold-membership {
     margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 0;
     padding-bottom: 37.333px;
     
     
@@ -1361,7 +1375,7 @@ p.date, p.time {
 
 .silver-membership {
     margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 0;
     padding-bottom: 37.333px;
     
     
@@ -1369,7 +1383,7 @@ p.date, p.time {
 
 .bronze-membership {
     margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 0;
     
 }
 
@@ -1512,7 +1526,7 @@ p.date, p.time {
 
 .location-information .drp-dwn-btn-design {
     font-size: 1.5rem;
-    margin-bottom: 1.5rem;
+    
 }
     
 .location-wrapper {
@@ -1714,7 +1728,7 @@ input.form-check-input {
 }
 
 .members-form .forgotten-password {
-    margin-bottom: 2rem;
+    margin-bottom: 0;
 }
 
 /*Meetings*/
@@ -1854,7 +1868,7 @@ input.form-check-input {
 }
 
 .members-form .forgotten-password {
-    margin-bottom: 2rem;
+    margin-bottom: 0;
 }
 
 /*Meetings*/
