@@ -133,7 +133,7 @@ li p:hover {
 .footer-wrapper {
     background: rgb(11,77,225);
     background: linear-gradient(90deg, rgba(11,77,225,1) 0%, rgba(57,153,251,1) 37%, rgba(57,208,251,1) 91%);
-    padding-top: 20px;
+    padding-top: 32px;
 }
 .social-header {
      
@@ -156,7 +156,7 @@ li p:hover {
 }
 
 .social-list li {
-    padding: 20px 0;
+    padding: 25px 0 32px 0;
     text-align: center;
 }
 
@@ -410,7 +410,11 @@ p.visit-title {
 }
 
 .section-pricing {
-    padding-bottom: 20px;
+    padding-bottom: 32px;
+}
+
+.membership-row {
+    padding: 0 20px;
 }
 
 .card-bronze {
@@ -592,7 +596,7 @@ p.visit-title {
 .location-information {
     background-color: #eceff1;
     padding-top: 3.5625rem;
-    padding-bottom: 20px;
+    padding-bottom: 32px;
 }
 
 .location-wrapper-container {
@@ -767,6 +771,7 @@ p.visit-title {
 /*----------------------Sign-Up-----*/
 .sign-up-page {
     background-color: #eceff1;
+    padding-bottom: 32px;
 }
 
 .sign-up-header {
@@ -805,7 +810,7 @@ text-align: center;
     border: 0.0625rem solid #ced4da;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    margin-bottom: 1rem;
+    margin-bottom: 40px;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -841,7 +846,7 @@ text-align: center;
     font-size: 1.2rem;
     background-color: rgba(11,77,225,1);
     border-color: rgba(11,77,225,1);
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
 
 .sign-up-button-submit:hover {
@@ -858,7 +863,7 @@ text-align: center;
 .members {
         padding-top: 3.5625rem;
         background-color: #eceff1;
-        padding-bottom: 20px;
+        padding-bottom: 32px;
     }
 
 .members-heading {
@@ -1247,7 +1252,7 @@ text-align: center;
 }
 
 .social-list li {
-    padding: 20px 0;
+    padding: 30px 0 40px 0;
 }
 
 .social-header{
@@ -1560,9 +1565,11 @@ p.date, p.time {
     letter-spacing: 2px;
 }
 
-.location-wrapper {
-    padding-right: 5rem;
-    padding-left: 5rem;
+.location-information .location-wrapper-last {
+    padding-left: 48px; 
+    padding-right: 48px; 
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .information-venue-bottom .postcode {
@@ -1584,7 +1591,7 @@ p.date, p.time {
 }  
 
 .signup-container {
-    padding: 2rem 45px;
+    padding: 40px 45px 0 45px;
 }
 
 .signup-container label {
@@ -1793,6 +1800,17 @@ input.form-check-input {
     margin-bottom: 1rem;
     
 }
+
+.location-information .location-wrapper-last {
+    padding-left: 48px; 
+    padding-right: 48px; 
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#york {
+    margin-bottom: 0;
+}
 }
 
 /* iPad-Pro portrait */ 
@@ -1943,6 +1961,16 @@ input.form-check-input {
     
 }
 
+.location-information .location-wrapper-last {
+    padding-left: 120px; 
+    padding-right: 120px; 
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#york {
+    margin-bottom: 0;
+}
 
 
 }
@@ -2091,6 +2119,7 @@ input.form-check-input {
 
 .container-membership {
     margin-top: 0;
+    margin-bottom: 32px;
 }
 
 .form-part-one label {
@@ -2143,7 +2172,7 @@ input.form-check-input {
     font-size: 1.5rem;
     background-color: rgba(11,77,225,1);
     border-color: rgba(11,77,225,1);
-    margin-bottom: 2rem;
+    margin-bottom: 0;
 }
 
 }
@@ -2245,21 +2274,21 @@ input.form-check-input {
 /*Meetings Page*/
 
 .location-wrapper {
-    padding: 24px;
-    margin-bottom: 1rem;
+    padding: 48px 24px 0 24px;
+    margin-bottom: 0;
 }
 
 .location-information .location-wrapper-last {
-    padding: 24px;
-    margin-bottom: 1rem;
+    padding: 48px 24px 0 24px;
+    margin-bottom: 0;
 }
 
 #york {
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
 
 .meeting-info-text h5 {
-    margin-bottom: 2rem;
+    margin-bottom: 0;
 }
 
 /*---Modal Contact Us----*/
@@ -2283,7 +2312,7 @@ input.form-check-input {
 
 /*---sign-up---*/
 .sign-up-large-screen {
-    padding-bottom: 20px;
+    padding-bottom: 32px;
     background-color: #eceff1;
 }
 .container-membership {
@@ -2442,5 +2471,15 @@ input.form-check-input {
     padding-left: 80px;
     padding-right: 80px;
 }
+
+#york {
+    margin-bottom: 0;
+}
+
+.location-information .location-wrapper-last {
+    margin-bottom: 0;
+}
+
+
 
 }
