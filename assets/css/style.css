@@ -2,6 +2,7 @@ body {
     margin: 0;
     border: 0;
     padding: 0;
+    
 }
 
 
@@ -415,6 +416,16 @@ p.visit-title {
 
 .membership-row {
     padding: 0 20px;
+}
+
+.pricing-header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pricing-header h2 {
+    margin-bottom: 0px;
+    font-size: 2rem;
 }
 
 .card-bronze {
@@ -1348,7 +1359,10 @@ p.date, p.time {
 
 
 /*---Index---Pricing---*/
-
+.pricing-header h2 {
+    margin-bottom: 0px;
+    font-size: 3rem;
+}
 .card-wrapper {
     padding-left: 10px;
 }
