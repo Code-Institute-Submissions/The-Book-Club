@@ -676,7 +676,7 @@ p.visit-title {
 }
 .location-picture {
     border-left: 0.0625rem solid black;
-    border-right: 0.0625rem solid black;
+ 
     border-bottom: 0.0625rem solid black;
 }
 
@@ -1888,7 +1888,7 @@ input.form-check-input {
 }
 
 input.form-check-input {
-    margin-top: 0.35rem;
+    margin-top: 1.75rem;
 }
 
 .login-button-submit {
