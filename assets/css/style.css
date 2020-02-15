@@ -1828,7 +1828,7 @@ input.form-check-input {
     padding-right:90px;
 }
 
-/*Login Page* iPad Pro*/
+/*Login Page*/
 .members-heading h2 {
     font-size: 2.5rem;
     letter-spacing: 2px;
@@ -2249,6 +2249,11 @@ input.form-check-input {
     margin-bottom: 1rem;
 }
 
+.location-information .location-wrapper-last {
+    padding: 24px;
+    margin-bottom: 1rem;
+}
+
 #york {
     margin-bottom: 1rem;
 }
@@ -2277,7 +2282,10 @@ input.form-check-input {
 
 
 /*---sign-up---*/
-
+.sign-up-large-screen {
+    padding-bottom: 20px;
+    background-color: #eceff1;
+}
 .container-membership {
     width: 80%;
     padding-left: 0;
@@ -2286,6 +2294,7 @@ input.form-check-input {
 
 .sign-up-button-submit {
     margin-top: 0.5rem;
+    margin-bottom: 0;
 }
 
 .lg-signup-form {
