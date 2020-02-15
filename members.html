@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,13 +9,14 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>The Book Club</title>
 </head>
+
 <body>
-<!-----------------Header-------------------------------------------->
-  <header class="header">                           
-    <nav class="navbar navbar-expand-md navbar-light fixed-top"> 
-            <a class="navbar-brand" href="index.html"><img src="assets/images/logo-drawn2.png" alt="Logo of The Book Club"/></a>
+    <!-----------------Header-------------------------------------------->
+    <header class="header">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top">
+            <a class="navbar-brand" href="index.html"><img src="assets/images/logo-drawn2.png" alt="Logo of The Book Club" /></a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span> 
+                <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -30,155 +32,177 @@
                     </li>
                     <li class="nav-item ml-auto d-md-none">
                         <a class="nav-link" href="index.html#anchor-container">Pricing</a>
-                    </li>   
+                    </li>
                     <li class="nav-item ml-auto d-none d-sm-none d-md-inline">
                         <a class="nav-link" href="index.html#anchor2">Pricing</a>
-                    </li>    
+                    </li>
                     <li class="nav-item ml-auto li-contact-us" data-toggle="modal" data-target="#contactUs">
-                           <p class="nav-link">Contact Us</p>                                    
-                    </li>                
+                        <p class="nav-link">Contact Us</p>
+                    </li>
                     <li class="nav-item ml-auto btn btn-signup">
                         <a class="nav-link nav-link-signup" href="signup.html">Sign-Up!</a>
-                    </li>  
+                    </li>
                 </ul>
             </div>
         </nav>
- </header>
-<!-----------------Login Form-------------------------------------------->
- <section class="members">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 members-heading">
-                <h2>Welcome Back!</h2>
+    </header>
+    <!-----------------Login Form-------------------------------------------->
+    <section class="members">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 members-heading">
+                    <h2>Welcome Back!</h2>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12 members-info">
-                <h6>Log in to access the members' area.<br>From there you will be able to manage your account. </h6>
+            <div class="row">
+                <div class="col-12 members-info">
+                    <h6>Log in to access the members' area.<br>From there you will be able to manage your account. </h6>
+                </div>
             </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-8 offset-2 members-form">
-                <form>
-                    <div class="form-group login-input">
-                        <label for="inputEmailM">Email address</label>
-                        <input type="email" class="form-control" id="inputEmailM" aria-describedby="emailHelp" placeholder="Email">
-                        <small id="emailHelp" class="form-text text-muted d-block d-sm-block d-md-none">We'll never share your email with anyone else.</small>
-                        <p class="form-text text-muted d-none d-sm-none d-md-block">We'll never share your email with anyone else.</p>
-                    </div>
-                    <div class="form-group login-input">
-                        <label for="inputPasswordM">Password</label>
-                        <input type="password" class="form-control" id="inputPasswordM" placeholder="Password">
-                    </div>
-                    
-                    <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input form-check-input-login big-checkbox" id="exampleCheck1">
-                        <label class="form-check-label rememberMe" for="exampleCheck1"><p>Remember Me</p></label>
-                    </div>
-                    <div class="login-button">
-                    <button type="submit" class="btn btn-primary login-button-submit">Login!</button>
-                    </div>
-                    <div class="form-group additional-questions">
-                      <p>Not a member yet?<a href="signup.html"><br><strong>Sign up here!</strong></a></p>
-                    </div>
-                    <div class="form-group additional-questions forgotten-password">
-                       <a href="#"><p>Forgotten password?</p></a>
-                    </div>                    
-                </form>
+
+            <div class="row">
+                <div class="col-8 offset-2 members-form">
+                    <form>
+                        <div class="form-group login-input">
+                            <label for="inputEmailM">Email address</label>
+                            <input type="email" class="form-control" id="inputEmailM" aria-describedby="emailHelp" placeholder="Email">
+                            <small id="emailHelp" class="form-text text-muted d-block d-sm-block d-md-none">We'll never share your email with anyone else.</small>
+                            <p class="form-text text-muted d-none d-sm-none d-md-block">We'll never share your email with anyone else.</p>
+                        </div>
+                        <div class="form-group login-input">
+                            <label for="inputPasswordM">Password</label>
+                            <input type="password" class="form-control" id="inputPasswordM" placeholder="Password">
+                        </div>
+
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input form-check-input-login big-checkbox" id="exampleCheck1">
+                            <label class="form-check-label rememberMe" for="exampleCheck1">
+                                <p>Remember Me</p>
+                            </label>
+                        </div>
+                        <div class="login-button">
+                            <button type="submit" class="btn btn-primary login-button-submit">Login!</button>
+                        </div>
+                        <div class="form-group additional-questions">
+                            <p>Not a member yet?
+                                <a href="signup.html">
+                                    <br><strong>Sign up here!</strong></a>
+                            </p>
+                        </div>
+                        <div class="form-group additional-questions forgotten-password">
+                            <a href="#">
+                                <p>Forgotten password?</p>
+                            </a>
+                        </div>
+                    </form>
+                </div>
             </div>
+
         </div>
-        
-    </div> 
- </section>
+    </section>
 
-
- 
-
-<!-- Contact Us Modal -->
+    <!-- Contact Us Modal -->
     <section class="modal-wrapper">
         <div class="modal fade" id="contactUs" tabindex="-1" role="dialog" aria-labelledby="contactUsTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title" id="contactUsTitle">Get in touch!</h2>
-                    <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-12 modal-about-text"><h3>We are always happy to hear from you!</h3></div>
-                        
+                    <div class="modal-header">
+                        <h2 class="modal-title" id="contactUsTitle">Get in touch!</h2>
+                        <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
                     </div>
-                    <div class="row container contact-form-wrapper">
-                        <div class="col-12">
-                            <form>
-                                <div class="form-group">
-                                    <label for="inputEmail"><p class="contact-modal-p">Email address</p></label>
-                                    <input type="email" class="form-control" id="inputEmail" aria-describedby="emailContactUs" placeholder="Enter email">
-                                    <small id="emailContactUs" class="form-text text-muted">We will use your email to reply to your message. We'll never share your email with anyone else.</small>
-                                </div>
-                                <div class="form-group">
-                                    <label for="textArea"><p class="contact-modal-p">Message</p></label>
-                                    <textarea class="form-control" id="textArea" rows="3" placeholder="Please leave your message here."></textarea>
-                                </div>     
-                                <div class="modal-btn-wrapper">                        
-                                    <button type="submit" class="btn btn-primary btn-modal"><h5>Send</h5></button>
-                                </div>
-                            </form>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-12 modal-about-text">
+                                <h3>We are always happy to hear from you!</h3></div>
+
                         </div>
-                    </div>
-                    <div class="row social-contact-wrapper">
-                        <div class="col-12 social-contact">
-                            <h3>Prefer social media?</h3>
-                            <div class="col-12 contact-modal-p-wrapper"><p class="contact-modal-p">Contact us through our Facebook or Twitter!</p></div>
-                        </div>
-                        <div class="row container contact-icon-wrapper">   
-                            <div class="col contact-social-icon fa-3x">
-                                <a target="_blank" href="#">
-                                    <i class="fab fa-facebook"></i>
-                                </a>
-                            </div>
-                            <div class="col contact-social-icon fa-3x">
-                                <a target="_blank" href="#">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
+                        <div class="row container contact-form-wrapper">
+                            <div class="col-12">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="inputEmail">
+                                            <p class="contact-modal-p">Email address</p>
+                                        </label>
+                                        <input type="email" class="form-control" id="inputEmail" aria-describedby="emailContactUs" placeholder="Enter email">
+                                        <small id="emailContactUs" class="form-text text-muted">We will use your email to reply to your message. We'll never share your email with anyone else.</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="textArea">
+                                            <p class="contact-modal-p">Message</p>
+                                        </label>
+                                        <textarea class="form-control" id="textArea" rows="3" placeholder="Please leave your message here."></textarea>
+                                    </div>
+                                    <div class="modal-btn-wrapper">
+                                        <button type="submit" class="btn btn-primary btn-modal">
+                                            <h5>Send</h5></button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
-                    </div>
-                    <div class="row alternative-comm-wrapper contact-modal-p">
-                        <div class="col-12">
-                            <h3>Alternatively, you can contact us via:</h3>
+                        <div class="row social-contact-wrapper">
+                            <div class="col-12 social-contact">
+                                <h3>Prefer social media?</h3>
+                                <div class="col-12 contact-modal-p-wrapper">
+                                    <p class="contact-modal-p">Contact us through our Facebook or Twitter!</p>
+                                </div>
+                            </div>
+                            <div class="row container contact-icon-wrapper">
+                                <div class="col contact-social-icon fa-3x">
+                                    <a target="_blank" href="#">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </div>
+                                <div class="col contact-social-icon fa-3x">
+                                    <a target="_blank" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-12 contact-list"><i class="fas fa-phone-alt"></i><p class="d-none d-sm-inline"> Telephone: </p><p>01298 283191</p></div>
-                        <div class="col-12 contact-list"><i class="fas fa-address-card"></i><p class="contact-modal-p d-none d-sm-inline">  Address:</p><p>The Book Club, <br>Green Lane,<br>Manchester,<br>M1 9BC</p></div>
-                        <div class="col-12 contact-list"><i class="fas fa-envelope"></i><p class="d-none d-sm-inline">  Email Address:  </p><p>thebookclub@gmail.com</p></div>
+                        <div class="row alternative-comm-wrapper contact-modal-p">
+                            <div class="col-12">
+                                <h3>Alternatively, you can contact us via:</h3>
+                            </div>
+                            <div class="col-12 contact-list"><i class="fas fa-phone-alt"></i>
+                                <p class="d-none d-sm-inline"> Telephone: </p>
+                                <p>01298 283191</p>
+                            </div>
+                            <div class="col-12 contact-list"><i class="fas fa-address-card"></i>
+                                <p class="contact-modal-p d-none d-sm-inline"> Address:</p>
+                                <p>The Book Club,
+                                    <br>Green Lane,
+                                    <br>Manchester,
+                                    <br>M1 9BC</p>
+                            </div>
+                            <div class="col-12 contact-list"><i class="fas fa-envelope"></i>
+                                <p class="d-none d-sm-inline"> Email Address: </p>
+                                <p>thebookclub@gmail.com</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary btn-contact-close" data-dismiss="modal">Close</button>
-                </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary btn-contact-close" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-
-<!-----------------Footer-------------------------------------------->
-   <footer class="footer">
-    <div class="container-fluid footer-wrapper">
-        <div class="row">
-            <div class="col-12 social-header">
-                <h5>Social Media</h5>
-            </div>
-            <div class="col-12 social-list">
-                <ul>
-                        <li> 
+    <!-----------------Footer-------------------------------------------->
+    <footer class="footer">
+        <div class="container-fluid footer-wrapper">
+            <div class="row">
+                <div class="col-12 social-header">
+                    <h5>Social Media</h5>
+                </div>
+                <div class="col-12 social-list">
+                    <ul>
+                        <li>
                             <a target="_blank" href="#">
                                 <i class="fab fa-facebook fa-2x"></i>
-                            </a> 
+                            </a>
                             <a target="_blank" href="#">
                                 <i class="fab fa-instagram fa-2x"></i>
                             </a>
@@ -189,14 +213,15 @@
                                 <i class="fab fa-youtube fa-2x"></i>
                             </a>
                         </li>
-                </ul>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-   </footer>
-   <script src="https://kit.fontawesome.com/3129319209.js" crossorigin="anonymous"></script>
-   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
- </body>
+    </footer>
+    <script src="https://kit.fontawesome.com/3129319209.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
 </html>

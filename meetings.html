@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
+
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>The Book Club</title>
 </head>
+
 <body>
-<!-----------------Header-------------------------------------------->
-  <header class="header">                         
-    <nav class="navbar navbar-expand-md navbar-light fixed-top"> 
-            <a class="navbar-brand" href="index.html"><img src="assets/images/logo-drawn2.png" alt="Logo of The Book Club"/></a>
+    <!-----------------Header-------------------------------------------->
+    <header class="header">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top">
+            <a class="navbar-brand" href="index.html"><img src="assets/images/logo-drawn2.png" alt="Logo of The Book Club" /></a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span> 
+                <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -31,370 +33,514 @@
                     </li>
                     <li class="nav-item ml-auto d-md-none">
                         <a class="nav-link" href="index.html#anchor-container">Pricing</a>
-                    </li>   
+                    </li>
                     <li class="nav-item ml-auto d-none d-sm-none d-md-inline">
                         <a class="nav-link" href="index.html#anchor2">Pricing</a>
-                    </li>    
+                    </li>
                     <li class="nav-item ml-auto li-contact-us" data-toggle="modal" data-target="#contactUs">
-                           <p class="nav-link">Contact Us</p>                                    
-                    </li>                
+                        <p class="nav-link">Contact Us</p>
+                    </li>
                     <li class="nav-item ml-auto btn btn-signup">
                         <a class="nav-link nav-link-signup" href="signup.html">Sign-Up!</a>
-                    </li>  
+                    </li>
                 </ul>
             </div>
         </nav>
- </header>
- <!-----------------Information grids for the Meetings-------------------------------------------->
- <section class="location-information">
-    <div class="row">
-        <div class="col-12 meetings-header"><h1>Where we meet!</h1></div>
-    </div>
-    <div class="row">
-        <div class="col-12 meeting-info-text"><h5>Have a look at the locations we are already in.<span class="d-none d-sm-none d-md-block"> There will more as the year goes on!</span></h5>
+    </header>
+    <!-----------------Information grids for the Meetings-------------------------------------------->
+    <section class="location-information">
+        <div class="row">
+            <div class="col-12 meetings-header">
+                <h1>Where we meet!</h1></div>
         </div>
-    </div>
-     <div class="row">
-        <div class="col-12 meeting-info-text d-xl-none"><p>Or click below to jump to a location</p></div>
-        <div class="col-12">
-            <div class="dropdown drpdwn-btn  show d-xl-none">
-                <a class="btn btn-secondary drp-dwn-btn-design dropdown-toggle" href="#" role="button" id="dropdownLocationLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <div class="row">
+            <div class="col-12 meeting-info-text">
+                <h5>Have a look at the locations we are already in.<span class="d-none d-sm-none d-md-block"> There will more as the year goes on!</span></h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 meeting-info-text d-xl-none">
+                <p>Or click below to jump to a location</p>
+            </div>
+            <div class="col-12">
+                <div class="dropdown drpdwn-btn  show d-xl-none">
+                    <a class="btn btn-secondary drp-dwn-btn-design dropdown-toggle" href="#" role="button" id="dropdownLocationLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Locations
                 </a>
-                <div class="dropdown-menu" aria-labelledby="dropdownLocationLink">
-                    <a href="#anchor-container-cam" class="dropdown-item" >Cambridge</a>
-                    <a href="#anchor-container-leeds" class="dropdown-item" >Leeds</a>
-                    <a href="#anchor-container-ldn" class="dropdown-item" >London</a>                    
-                    <a href="#anchor-container-manc" class="dropdown-item" >Manchester</a>
-                    <a href="#anchor-container-notts" class="dropdown-item" >Nottingham</a>
-                    <a href="#anchor-container-york" class="dropdown-item" >York</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownLocationLink">
+                        <a href="#anchor-container-cam" class="dropdown-item">Cambridge</a>
+                        <a href="#anchor-container-leeds" class="dropdown-item">Leeds</a>
+                        <a href="#anchor-container-ldn" class="dropdown-item">London</a>
+                        <a href="#anchor-container-manc" class="dropdown-item">Manchester</a>
+                        <a href="#anchor-container-notts" class="dropdown-item">Nottingham</a>
+                        <a href="#anchor-container-york" class="dropdown-item">York</a>
+                    </div>
                 </div>
             </div>
-        </div>     
-    </div>
+        </div>
 
-    <div id="anchor-container-cam">
-        <div>content 1 text</div>
-    </div>
-    
-    <div class="row">
-       <div id="cambridge" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 ">
-                
+        <div id="anchor-container-cam">
+            <div>content 1 text</div>
+        </div>
+
+        <div class="row">
+            <div id="cambridge" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 ">
+
                 <div class="location-wrapper">
                     <div class="location-wrapper-container container">
                         <div class="row">
-                            <div class="col-12 location-header"><p>Cambridge</p></div>  
+                            <div class="col-12 location-header">
+                                <p>Cambridge</p>
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-12 col-sm-12 col-md-6 location-picture location-picture-cambridge">
                             </div>
                             <div class="col-12 col-sm-12 col-md-6 information-grid">
                                 <div class="row">
-                                    <div class="col-12 information-manchester"><p>Milton Road Library</p></div>
+                                    <div class="col-12 information-manchester">
+                                        <p>Milton Road Library</p>
+                                    </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-12 information-venue"><i class="fas fa-calendar-day"></i> <p class="d-md-inline d-none d-sm-none padding">Mid-book meeting: </p><p class="d-inline d-sm-inline d-md-block meetings-date">Wednesday 12<sup>th</sup> February - 19:00 </p></div>
+                                    <div class="col-12 information-venue"><i class="fas fa-calendar-day"></i>
+                                        <p class="d-md-inline d-none d-sm-none padding">Mid-book meeting: </p>
+                                        <p class="d-inline d-sm-inline d-md-block meetings-date">Wednesday 12<sup>th</sup> February - 19:00 </p>
+                                    </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-12 information-venue"><i class="fas fa-calendar-day"></i> <p class="d-md-inline d-none d-sm-none padding"> End-of-book meeting: </p><p class="d-inline d-sm-inline d-md-block meetings-date">Wednesday 26<sup>th</sup> February - 19:00 </p></div>
+                                    <div class="col-12 information-venue"><i class="fas fa-calendar-day"></i>
+                                        <p class="d-md-inline d-none d-sm-none padding"> End-of-book meeting: </p>
+                                        <p class="d-inline d-sm-inline d-md-block meetings-date">Wednesday 26<sup>th</sup> February - 19:00 </p>
+                                    </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-12 information-venue"><i class="fas fa-phone-alt"></i> <p class="d-md-inline d-none d-sm-none padding ">Telephone number: </p><p class="d-inline d-sm-inline d-md-block meetings-date">0345 045 5225</p></div>
+                                    <div class="col-12 information-venue"><i class="fas fa-phone-alt"></i>
+                                        <p class="d-md-inline d-none d-sm-none padding ">Telephone number: </p>
+                                        <p class="d-inline d-sm-inline d-md-block meetings-date">0345 045 5225</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-12 information-grid">
                                 <div class="row">
-                                        <div class="col-12 information-venue-bottom"><i class="fas fa-address-card"></i><p class="d-md-inline d-none d-sm-none padding"> Address: </p><p class="d-inline"> Ascham Rd, Cambridge</p><br class="d-md-none"><p class="postcode d-md-none">CB4 2BD</p><p class="postcode d-none d-sm-none d-md-inline"> CB4 2BD</p></div>
+                                    <div class="col-12 information-venue-bottom"><i class="fas fa-address-card"></i>
+                                        <p class="d-md-inline d-none d-sm-none padding"> Address: </p>
+                                        <p class="d-inline"> Ascham Rd, Cambridge</p>
+                                        <br class="d-md-none">
+                                        <p class="postcode d-md-none">CB4 2BD</p>
+                                        <p class="postcode d-none d-sm-none d-md-inline"> CB4 2BD</p>
                                     </div>
-                                    <div class="row">
-                                <div class="col-12 information-venue-bottom"><i class="fas fa-map-marked-alt"></i><p class="d-inline"><a href="https://www.google.com/maps/place/Milton+Road+Library/@52.2082213,0.0733466,13z/data=!4m8!1m2!2m1!1slibrary+cambridge!3m4!1s0x0:0x206fa88d083c744c!8m2!3d52.2181446!4d0.1290035" target="_blank"> Link to address on <span class="googleLink">Google Maps</span></a></p></div>
-                            </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 information-venue-bottom"><i class="fas fa-map-marked-alt"></i>
+                                        <p class="d-inline"><a href="https://www.google.com/maps/place/Milton+Road+Library/@52.2082213,0.0733466,13z/data=!4m8!1m2!2m1!1slibrary+cambridge!3m4!1s0x0:0x206fa88d083c744c!8m2!3d52.2181446!4d0.1290035" target="_blank"> Link to address on <span class="googleLink">Google Maps</span></a></p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>  
+                    </div>
                 </div>
-       </div>
-        <div id="anchor-container-leeds">
-            <div>content 1 text</div>
-        </div> 
-       <div id="leeds" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 show not-cambridge not-london not-manchester not-nottingham not-york">
-                
+            </div>
+            <div id="anchor-container-leeds">
+                <div>content 1 text</div>
+            </div>
+            <div id="leeds" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 show not-cambridge not-london not-manchester not-nottingham not-york">
+
                 <div class="location-wrapper">
                     <div class="location-wrapper-container container">
                         <div class="row">
-                            <div class="col-12 location-header"><p>Leeds</p></div>  
+                            <div class="col-12 location-header">
+                                <p>Leeds</p>
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-12 col-sm-12 col-md-6 location-picture location-picture-leeds">
-                                
+
                             </div>
                             <div class="col-12 col-sm-12 col-md-6 information-grid">
                                 <div class="row">
-                                    <div class="col-12 information-manchester"><p>Armley Library</p></div>
+                                    <div class="col-12 information-manchester">
+                                        <p>Armley Library</p>
+                                    </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-12 information-venue"><i class="fas fa-calendar-day"></i> <p class="d-md-inline d-none d-sm-none padding">Mid-book meeting: </p><p class="d-inline d-sm-inline d-md-block meetings-date">Tuesday 11<sup>th</sup> February - 19:00 </p></div>
+                                    <div class="col-12 information-venue"><i class="fas fa-calendar-day"></i>
+                                        <p class="d-md-inline d-none d-sm-none padding">Mid-book meeting: </p>
+                                        <p class="d-inline d-sm-inline d-md-block meetings-date">Tuesday 11<sup>th</sup> February - 19:00 </p>
+                                    </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-12 information-venue"><i class="fas fa-calendar-day"></i> <p class="d-md-inline d-none d-sm-none padding"> End-of-book meeting: </p><p class="d-inline d-sm-inline d-md-block meetings-date">Tuesday 25<sup>th</sup> February - 19:00 </p></div>
+                                    <div class="col-12 information-venue"><i class="fas fa-calendar-day"></i>
+                                        <p class="d-md-inline d-none d-sm-none padding"> End-of-book meeting: </p>
+                                        <p class="d-inline d-sm-inline d-md-block meetings-date">Tuesday 25<sup>th</sup> February - 19:00 </p>
+                                    </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-12 information-venue"><i class="fas fa-phone-alt"></i> <p class="d-md-inline d-none d-sm-none padding ">Telephone number: </p><p class="d-inline d-sm-inline d-md-block meetings-date">0113 378 5670</p></div>
+                                    <div class="col-12 information-venue"><i class="fas fa-phone-alt"></i>
+                                        <p class="d-md-inline d-none d-sm-none padding ">Telephone number: </p>
+                                        <p class="d-inline d-sm-inline d-md-block meetings-date">0113 378 5670</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-12 information-grid">
                                 <div class="row">
-                                        <div class="col-12 information-venue-bottom"><i class="fas fa-address-card"></i><p class="d-md-inline d-none d-sm-none padding"> Address: </p><p class="d-inline"> 2 Stocks Hill, Armley, Leeds </p><br class="d-md-none"><p class="postcode d-md-none">LS12 1UQ</p><p class="postcode d-none d-sm-none d-md-inline">LS12 1UQ</p></div>
+                                    <div class="col-12 information-venue-bottom"><i class="fas fa-address-card"></i>
+                                        <p class="d-md-inline d-none d-sm-none padding"> Address: </p>
+                                        <p class="d-inline"> 2 Stocks Hill, Armley, Leeds </p>
+                                        <br class="d-md-none">
+                                        <p class="postcode d-md-none">LS12 1UQ</p>
+                                        <p class="postcode d-none d-sm-none d-md-inline">LS12 1UQ</p>
                                     </div>
-                                    <div class="row">
-                                    <div class="col-12 information-venue-bottom"><i class="fas fa-map-marked-alt"></i><p class="d-inline"><a href="https://www.google.com/maps/place/Milton+Road+Library/@52.2082213,0.0733466,13z/data=!4m8!1m2!2m1!1slibrary+cambridge!3m4!1s0x0:0x206fa88d083c744c!8m2!3d52.2181446!4d0.1290035" target="_blank"> Link to address on <span class="googleLink">Google Maps</span></a></p></div>
-                            </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 information-venue-bottom"><i class="fas fa-map-marked-alt"></i>
+                                        <p class="d-inline"><a href="https://www.google.com/maps/place/Milton+Road+Library/@52.2082213,0.0733466,13z/data=!4m8!1m2!2m1!1slibrary+cambridge!3m4!1s0x0:0x206fa88d083c744c!8m2!3d52.2181446!4d0.1290035" target="_blank"> Link to address on <span class="googleLink">Google Maps</span></a></p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>  
+                    </div>
                 </div>
-       </div> 
-        <div id="anchor-container-ldn">
-            <div>content 1 text</div>
-        </div>
-       <div id="london" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 show not-cambridge not-leeds not-manchester not-nottingham not-york">
-                
+            </div>
+            <div id="anchor-container-ldn">
+                <div>content 1 text</div>
+            </div>
+            <div id="london" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 show not-cambridge not-leeds not-manchester not-nottingham not-york">
+
                 <div class="location-wrapper">
                     <div class="location-wrapper-container container">
                         <div class="row">
-                            <div class="col-12 location-header"><p>London</p></div>  
+                            <div class="col-12 location-header">
+                                <p>London</p>
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-12 col-sm-12 col-md-6 location-picture location-picture-london">
-                                
+
                             </div>
                             <div class="col-12 col-sm-12 col-md-6 information-grid">
                                 <div class="row">
-                                    <div class="col-12 information-manchester"><p>Swiss Cottage Library</p></div>
+                                    <div class="col-12 information-manchester">
+                                        <p>Swiss Cottage Library</p>
+                                    </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-12 information-venue"><i class="fas fa-calendar-day"></i> <p class="d-md-inline d-none d-sm-none padding">Mid-book meeting: </p><p class="d-inline d-sm-inline d-md-block meetings-date">Thursday <sup>13th</sup> February - 19:00 </p></div>
+                                    <div class="col-12 information-venue"><i class="fas fa-calendar-day"></i>
+                                        <p class="d-md-inline d-none d-sm-none padding">Mid-book meeting: </p>
+                                        <p class="d-inline d-sm-inline d-md-block meetings-date">Thursday <sup>13th</sup> February - 19:00 </p>
+                                    </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-12 information-venue"><i class="fas fa-calendar-day"></i> <p class="d-md-inline d-none d-sm-none padding"> End-of-book meeting: </p><p class="d-inline d-sm-inline d-md-block meetings-date">Tuesday 27<sup>th</sup> February - 19:00 </p></div>
+                                    <div class="col-12 information-venue"><i class="fas fa-calendar-day"></i>
+                                        <p class="d-md-inline d-none d-sm-none padding"> End-of-book meeting: </p>
+                                        <p class="d-inline d-sm-inline d-md-block meetings-date">Tuesday 27<sup>th</sup> February - 19:00 </p>
+                                    </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-12 information-venue"><i class="fas fa-phone-alt"></i> <p class="d-md-inline d-none d-sm-none padding ">Telephone number: </p><p class="d-inline d-sm-inline d-md-block meetings-date">020 7974 4444</p></div>
+                                    <div class="col-12 information-venue"><i class="fas fa-phone-alt"></i>
+                                        <p class="d-md-inline d-none d-sm-none padding ">Telephone number: </p>
+                                        <p class="d-inline d-sm-inline d-md-block meetings-date">020 7974 4444</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-12 information-grid">
                                 <div class="row">
-                                        <div class="col-12 information-venue-bottom"><i class="fas fa-address-card"></i><p class="d-md-inline d-none d-sm-none padding"> Address: </p><p class="d-inline"> 88 Avenue Road, London </p><br class="d-md-none"><p class="postcode d-md-none">NW3 3HA</p><p class="postcode d-none d-sm-none d-md-inline">NW3 3HA</p></div>
+                                    <div class="col-12 information-venue-bottom"><i class="fas fa-address-card"></i>
+                                        <p class="d-md-inline d-none d-sm-none padding"> Address: </p>
+                                        <p class="d-inline"> 88 Avenue Road, London </p>
+                                        <br class="d-md-none">
+                                        <p class="postcode d-md-none">NW3 3HA</p>
+                                        <p class="postcode d-none d-sm-none d-md-inline">NW3 3HA</p>
                                     </div>
-                                    <div class="row">
-                                <div class="col-12 information-venue-bottom"><i class="fas fa-map-marked-alt"></i><p class="d-inline"><a href="https://www.google.com/maps/place/Milton+Road+Library/@52.2082213,0.0733466,13z/data=!4m8!1m2!2m1!1slibrary+cambridge!3m4!1s0x0:0x206fa88d083c744c!8m2!3d52.2181446!4d0.1290035" target="_blank"> Link to address on <span class="googleLink">Google Maps</span></a></p></div>
-                            </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 information-venue-bottom"><i class="fas fa-map-marked-alt"></i>
+                                        <p class="d-inline"><a href="https://www.google.com/maps/place/Milton+Road+Library/@52.2082213,0.0733466,13z/data=!4m8!1m2!2m1!1slibrary+cambridge!3m4!1s0x0:0x206fa88d083c744c!8m2!3d52.2181446!4d0.1290035" target="_blank"> Link to address on <span class="googleLink">Google Maps</span></a></p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>  
+                    </div>
                 </div>
-       </div> 
-        <div id="anchor-container-manc">
-            <div>content 1 text</div>
-        </div>
-       <div id="manchester" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 show not-cambridge not-london not-leeds not-nottingham not-york">
-                
+            </div>
+            <div id="anchor-container-manc">
+                <div>content 1 text</div>
+            </div>
+            <div id="manchester" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 show not-cambridge not-london not-leeds not-nottingham not-york">
+
                 <div class="location-wrapper">
                     <div class="location-wrapper-container container">
                         <div class="row">
-                            <div class="col-12 location-header"><p>Manchester</p></div>  
+                            <div class="col-12 location-header">
+                                <p>Manchester</p>
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-12 col-sm-12 col-md-6  location-picture location-picture-manchester">
-                               
+
                             </div>
                             <div class="col-12 col-sm-12 col-md-6 information-grid">
                                 <div class="row">
-                                    <div class="col-12 information-manchester"><p>Hulme High St. Library</p></div>
+                                    <div class="col-12 information-manchester">
+                                        <p>Hulme High St. Library</p>
+                                    </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-12 information-venue"><i class="fas fa-calendar-day"></i> <p class="d-md-inline d-none d-sm-none padding">Mid-book meeting: </p><p class="d-inline d-sm-inline d-md-block meetings-date">Tuesday 11<sup>th</sup> February - 19:00 </p></div>
+                                    <div class="col-12 information-venue"><i class="fas fa-calendar-day"></i>
+                                        <p class="d-md-inline d-none d-sm-none padding">Mid-book meeting: </p>
+                                        <p class="d-inline d-sm-inline d-md-block meetings-date">Tuesday 11<sup>th</sup> February - 19:00 </p>
+                                    </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-12 information-venue"><i class="fas fa-calendar-day"></i> <p class="d-md-inline d-none d-sm-none padding"> End-of-book meeting: </p><p class="d-inline d-sm-inline d-md-block meetings-date">Tuesday 25<sup>th</sup> February - 19:00 </p></div>
+                                    <div class="col-12 information-venue"><i class="fas fa-calendar-day"></i>
+                                        <p class="d-md-inline d-none d-sm-none padding"> End-of-book meeting: </p>
+                                        <p class="d-inline d-sm-inline d-md-block meetings-date">Tuesday 25<sup>th</sup> February - 19:00 </p>
+                                    </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-12 information-venue"><i class="fas fa-phone-alt"></i> <p class="d-md-inline d-none d-sm-none padding ">Telephone number: </p><p class="d-inline d-sm-inline d-md-block meetings-date">0161 227 3739</p></div>
+                                    <div class="col-12 information-venue"><i class="fas fa-phone-alt"></i>
+                                        <p class="d-md-inline d-none d-sm-none padding ">Telephone number: </p>
+                                        <p class="d-inline d-sm-inline d-md-block meetings-date">0161 227 3739</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-12 information-grid">
                                 <div class="row">
-                                        <div class="col-12 information-venue-bottom"><i class="fas fa-address-card"></i><p class="d-md-inline d-none d-sm-none padding"> Address: </p><p class="d-inline"> Hulme High St, Hulme, Manchester </p><br class="d-md-none"><p class="postcode d-md-none">M15 5NN</p><p class="postcode d-none d-sm-none d-md-inline">M15 5NN</p></div>
+                                    <div class="col-12 information-venue-bottom"><i class="fas fa-address-card"></i>
+                                        <p class="d-md-inline d-none d-sm-none padding"> Address: </p>
+                                        <p class="d-inline"> Hulme High St, Hulme, Manchester </p>
+                                        <br class="d-md-none">
+                                        <p class="postcode d-md-none">M15 5NN</p>
+                                        <p class="postcode d-none d-sm-none d-md-inline">M15 5NN</p>
                                     </div>
-                                    <div class="row">
-                                <div class="col-12 information-venue-bottom"><i class="fas fa-map-marked-alt"></i><p class="d-inline"><a href="https://www.google.com/maps/place/Milton+Road+Library/@52.2082213,0.0733466,13z/data=!4m8!1m2!2m1!1slibrary+cambridge!3m4!1s0x0:0x206fa88d083c744c!8m2!3d52.2181446!4d0.1290035" target="_blank"> Link to address on <span class="googleLink">Google Maps</span></a></p></div>
-                            </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 information-venue-bottom"><i class="fas fa-map-marked-alt"></i>
+                                        <p class="d-inline"><a href="https://www.google.com/maps/place/Milton+Road+Library/@52.2082213,0.0733466,13z/data=!4m8!1m2!2m1!1slibrary+cambridge!3m4!1s0x0:0x206fa88d083c744c!8m2!3d52.2181446!4d0.1290035" target="_blank"> Link to address on <span class="googleLink">Google Maps</span></a></p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>  
+                    </div>
                 </div>
-       </div>
-        <div id="anchor-container-notts">
-            <div>content 1 text</div>
-        </div> 
-       <div id="nottingham" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 show not-cambridge not-london not-leeds not-manchester not-york">
-                
+            </div>
+            <div id="anchor-container-notts">
+                <div>content 1 text</div>
+            </div>
+            <div id="nottingham" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 show not-cambridge not-london not-leeds not-manchester not-york">
+
                 <div class="location-wrapper">
                     <div class="location-wrapper-container container">
                         <div class="row">
-                            <div class="col-12 location-header"><p>Nottingham</p></div>  
+                            <div class="col-12 location-header">
+                                <p>Nottingham</p>
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-12 col-sm-12 col-md-6 location-picture location-picture-nottingham">
-                         
+
                             </div>
                             <div class="col-12 col-sm-12 col-md-6 information-grid">
                                 <div class="row">
-                                    <div class="col-12 information-manchester"><p>Bromley House Library</p></div>
+                                    <div class="col-12 information-manchester">
+                                        <p>Bromley House Library</p>
+                                    </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-12 information-venue"><i class="fas fa-calendar-day"></i> <p class="d-md-inline d-none d-sm-none padding">Mid-book meeting: </p><p class="d-inline d-sm-inline d-md-block meetings-date">Monday 10<sup>th</sup> February - 19:00 </p></div>
+                                    <div class="col-12 information-venue"><i class="fas fa-calendar-day"></i>
+                                        <p class="d-md-inline d-none d-sm-none padding">Mid-book meeting: </p>
+                                        <p class="d-inline d-sm-inline d-md-block meetings-date">Monday 10<sup>th</sup> February - 19:00 </p>
+                                    </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-12 information-venue"><i class="fas fa-calendar-day"></i> <p class="d-md-inline d-none d-sm-none padding"> End-of-book meeting: </p><p class="d-inline d-sm-inline d-md-block meetings-date">Monday 24<sup>th</sup> February - 19:00 </p></div>
+                                    <div class="col-12 information-venue"><i class="fas fa-calendar-day"></i>
+                                        <p class="d-md-inline d-none d-sm-none padding"> End-of-book meeting: </p>
+                                        <p class="d-inline d-sm-inline d-md-block meetings-date">Monday 24<sup>th</sup> February - 19:00 </p>
+                                    </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-12 information-venue"><i class="fas fa-phone-alt"></i> <p class="d-md-inline d-none d-sm-none padding ">Telephone number: </p><p class="d-inline d-sm-inline d-md-block meetings-date">0115 947 3134</p></div>
+                                    <div class="col-12 information-venue"><i class="fas fa-phone-alt"></i>
+                                        <p class="d-md-inline d-none d-sm-none padding ">Telephone number: </p>
+                                        <p class="d-inline d-sm-inline d-md-block meetings-date">0115 947 3134</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-12 information-grid">
                                 <div class="row">
-                                        <div class="col-12 information-venue-bottom"><i class="fas fa-address-card"></i><p class="d-md-inline d-none d-sm-none padding"> Address: </p><p class="d-inline"> Angel Row, Nottingham </p><br class="d-md-none"><p class="postcode d-md-none">NG1 6HL</p><p class="postcode d-none d-sm-none d-md-inline">NG1 6HL</p></div>
+                                    <div class="col-12 information-venue-bottom"><i class="fas fa-address-card"></i>
+                                        <p class="d-md-inline d-none d-sm-none padding"> Address: </p>
+                                        <p class="d-inline"> Angel Row, Nottingham </p>
+                                        <br class="d-md-none">
+                                        <p class="postcode d-md-none">NG1 6HL</p>
+                                        <p class="postcode d-none d-sm-none d-md-inline">NG1 6HL</p>
                                     </div>
-                                    <div class="row">
-                                <div class="col-12 information-venue-bottom"><i class="fas fa-map-marked-alt"></i><p class="d-inline"><a href="https://www.google.com/maps/place/Milton+Road+Library/@52.2082213,0.0733466,13z/data=!4m8!1m2!2m1!1slibrary+cambridge!3m4!1s0x0:0x206fa88d083c744c!8m2!3d52.2181446!4d0.1290035" target="_blank"> Link to address on <span class="googleLink">Google Maps</span></a></p></div>
-                            </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 information-venue-bottom"><i class="fas fa-map-marked-alt"></i>
+                                        <p class="d-inline"><a href="https://www.google.com/maps/place/Milton+Road+Library/@52.2082213,0.0733466,13z/data=!4m8!1m2!2m1!1slibrary+cambridge!3m4!1s0x0:0x206fa88d083c744c!8m2!3d52.2181446!4d0.1290035" target="_blank"> Link to address on <span class="googleLink">Google Maps</span></a></p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>  
+                    </div>
                 </div>
-       </div> 
-        <div id="anchor-container-york">
-            <div>content 1 text</div>
-        </div>
-       <div id="york" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 show not-cambridge not-london not-leeds not-manchester not-nottingham">
-                
+            </div>
+            <div id="anchor-container-york">
+                <div>content 1 text</div>
+            </div>
+            <div id="york" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 show not-cambridge not-london not-leeds not-manchester not-nottingham">
+
                 <div class="location-wrapper location-wrapper-last">
                     <div class="location-wrapper-container container">
                         <div class="row">
-                            <div class="col-12 location-header"><p>York</p></div>  
+                            <div class="col-12 location-header">
+                                <p>York</p>
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-12 col-sm-12 col-md-6 location-picture location-picture-york">
-                             </div>
+                            </div>
                             <div class="col-12 col-sm-12 col-md-6 information-grid">
                                 <div class="row">
-                                    <div class="col-12 information-manchester"><p>York Central Library</p></div>
+                                    <div class="col-12 information-manchester">
+                                        <p>York Central Library</p>
+                                    </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-12 information-venue"><i class="fas fa-calendar-day"></i> <p class="d-md-inline d-none d-sm-none padding">Mid-book meeting: </p><p class="d-inline d-sm-inline d-md-block meetings-date">Tuesday 11<sup>th</sup> February - 19:00 </p></div>
+                                    <div class="col-12 information-venue"><i class="fas fa-calendar-day"></i>
+                                        <p class="d-md-inline d-none d-sm-none padding">Mid-book meeting: </p>
+                                        <p class="d-inline d-sm-inline d-md-block meetings-date">Tuesday 11<sup>th</sup> February - 19:00 </p>
+                                    </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-12 information-venue"><i class="fas fa-calendar-day"></i> <p class="d-md-inline d-none d-sm-none padding"> End-of-book meeting: </p><p class="d-inline d-sm-inline d-md-block meetings-date">Tuesday 25<sup>th</sup> February - 19:00 </p></div>
+                                    <div class="col-12 information-venue"><i class="fas fa-calendar-day"></i>
+                                        <p class="d-md-inline d-none d-sm-none padding"> End-of-book meeting: </p>
+                                        <p class="d-inline d-sm-inline d-md-block meetings-date">Tuesday 25<sup>th</sup> February - 19:00 </p>
+                                    </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-12 information-venue"><i class="fas fa-phone-alt"></i> <p class="d-md-inline d-none d-sm-none padding ">Telephone number: </p><p class="d-inline d-sm-inline d-md-block meetings-date">01904 552828</p></div>
+                                    <div class="col-12 information-venue"><i class="fas fa-phone-alt"></i>
+                                        <p class="d-md-inline d-none d-sm-none padding ">Telephone number: </p>
+                                        <p class="d-inline d-sm-inline d-md-block meetings-date">01904 552828</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-12 information-grid">
                                 <div class="row">
-                                        <div class="col-12 information-venue-bottom"><i class="fas fa-address-card"></i><p class="d-md-inline d-none d-sm-none padding"> Address: </p><p class="d-inline"> Library Square, Museum Street,</p><br class="d-md-none"><p class="postcode d-md-none">York YO1 7DS</p><p class="postcode d-none d-sm-none d-md-inline"> York YO1 7DS</p></div>
+                                    <div class="col-12 information-venue-bottom"><i class="fas fa-address-card"></i>
+                                        <p class="d-md-inline d-none d-sm-none padding"> Address: </p>
+                                        <p class="d-inline"> Library Square, Museum Street,</p>
+                                        <br class="d-md-none">
+                                        <p class="postcode d-md-none">York YO1 7DS</p>
+                                        <p class="postcode d-none d-sm-none d-md-inline"> York YO1 7DS</p>
                                     </div>
-                                    <div class="row">
-                                <div class="col-12 information-venue-bottom"><i class="fas fa-map-marked-alt"></i><p class="d-inline"><a href="https://www.google.com/maps/place/Milton+Road+Library/@52.2082213,0.0733466,13z/data=!4m8!1m2!2m1!1slibrary+cambridge!3m4!1s0x0:0x206fa88d083c744c!8m2!3d52.2181446!4d0.1290035" target="_blank"> Link to address on <span class="googleLink">Google Maps</span></a></p></div>
-                            </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 information-venue-bottom"><i class="fas fa-map-marked-alt"></i>
+                                        <p class="d-inline"><a href="https://www.google.com/maps/place/Milton+Road+Library/@52.2082213,0.0733466,13z/data=!4m8!1m2!2m1!1slibrary+cambridge!3m4!1s0x0:0x206fa88d083c744c!8m2!3d52.2181446!4d0.1290035" target="_blank"> Link to address on <span class="googleLink">Google Maps</span></a></p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>  
+                    </div>
                 </div>
-       </div> 
-       
-       
-           
-    </div>
-    
- </section> 
+            </div>
 
-<!-- Contact Us Modal -->
+        </div>
+
+    </section>
+
+    <!-- Contact Us Modal -->
     <section class="modal-wrapper">
         <div class="modal fade" id="contactUs" tabindex="-1" role="dialog" aria-labelledby="contactUsTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title" id="contactUsTitle">Get in touch!</h2>
-                    <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-12 modal-about-text"><h3>We are always happy to hear from you!</h3></div>
-                        
+                    <div class="modal-header">
+                        <h2 class="modal-title" id="contactUsTitle">Get in touch!</h2>
+                        <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
                     </div>
-                    <div class="row container contact-form-wrapper">
-                        <div class="col-12">
-                            <form>
-                                <div class="form-group">
-                                    <label for="inputEmail"><p class="contact-modal-p">Email address</p></label>
-                                    <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
-                                    <small id="emailHelp" class="form-text text-muted">We will use your email to reply to your message. We'll never share your email with anyone else.</small>
-                                </div>
-                                <div class="form-group">
-                                    <label for="textArea"><p class="contact-modal-p">Message</p></label>
-                                    <textarea class="form-control" id="textArea" rows="3" placeholder="Please leave your message here."></textarea>
-                                </div>     
-                                <div class="modal-btn-wrapper">                        
-                                    <button type="submit" class="btn btn-primary btn-modal"><h5>Send</h5></button>
-                                </div>
-                            </form>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-12 modal-about-text">
+                                <h3>We are always happy to hear from you!</h3></div>
+
                         </div>
-                    </div>
-                    <div class="row social-contact-wrapper">
-                        <div class="col-12 social-contact">
-                            <h3>Prefer social media?</h3>
-                            <div class="col-12 contact-modal-p-wrapper"><p class="contact-modal-p">Contact us through our Facebook or Twitter!</p></div>
-                        </div>
-                        <div class="row container contact-icon-wrapper">   
-                            <div class="col contact-social-icon fa-3x">
-                                <a target="_blank" href="#">
-                                    <i class="fab fa-facebook"></i>
-                                </a>
-                            </div>
-                            <div class="col contact-social-icon fa-3x">
-                                <a target="_blank" href="#">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
+                        <div class="row container contact-form-wrapper">
+                            <div class="col-12">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="inputEmail">
+                                            <p class="contact-modal-p">Email address</p>
+                                        </label>
+                                        <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                                        <small id="emailHelp" class="form-text text-muted">We will use your email to reply to your message. We'll never share your email with anyone else.</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="textArea">
+                                            <p class="contact-modal-p">Message</p>
+                                        </label>
+                                        <textarea class="form-control" id="textArea" rows="3" placeholder="Please leave your message here."></textarea>
+                                    </div>
+                                    <div class="modal-btn-wrapper">
+                                        <button type="submit" class="btn btn-primary btn-modal">
+                                            <h5>Send</h5></button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
-                    </div>
-                    <div class="row alternative-comm-wrapper contact-modal-p">
-                        <div class="col-12">
-                            <h3>Alternatively, you can contact us via:</h3>
+                        <div class="row social-contact-wrapper">
+                            <div class="col-12 social-contact">
+                                <h3>Prefer social media?</h3>
+                                <div class="col-12 contact-modal-p-wrapper">
+                                    <p class="contact-modal-p">Contact us through our Facebook or Twitter!</p>
+                                </div>
+                            </div>
+                            <div class="row container contact-icon-wrapper">
+                                <div class="col contact-social-icon fa-3x">
+                                    <a target="_blank" href="#">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </div>
+                                <div class="col contact-social-icon fa-3x">
+                                    <a target="_blank" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-12 contact-list"><i class="fas fa-phone-alt"></i><p class="d-none d-sm-inline"> Telephone: </p><p>01298 283191</p></div>
-                        <div class="col-12 contact-list"><i class="fas fa-address-card"></i><p class="contact-modal-p d-none d-sm-inline">  Address:</p><p>The Book Club, <br>Green Lane,<br>Manchester,<br>M1 9BC</p></div>
-                        <div class="col-12 contact-list"><i class="fas fa-envelope"></i><p class="d-none d-sm-inline">  Email Address:  </p><p>thebookclub@gmail.com</p></div>
+                        <div class="row alternative-comm-wrapper contact-modal-p">
+                            <div class="col-12">
+                                <h3>Alternatively, you can contact us via:</h3>
+                            </div>
+                            <div class="col-12 contact-list"><i class="fas fa-phone-alt"></i>
+                                <p class="d-none d-sm-inline"> Telephone: </p>
+                                <p>01298 283191</p>
+                            </div>
+                            <div class="col-12 contact-list"><i class="fas fa-address-card"></i>
+                                <p class="contact-modal-p d-none d-sm-inline"> Address:</p>
+                                <p>The Book Club,
+                                    <br>Green Lane,
+                                    <br>Manchester,
+                                    <br>M1 9BC</p>
+                            </div>
+                            <div class="col-12 contact-list"><i class="fas fa-envelope"></i>
+                                <p class="d-none d-sm-inline"> Email Address: </p>
+                                <p>thebookclub@gmail.com</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary btn-contact-close" data-dismiss="modal">Close</button>
-                </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary btn-contact-close" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-
- 
-
-<!-----------------Footer-------------------------------------------->
- <footer class="footer">
+    <!-----------------Footer-------------------------------------------->
+    <footer class="footer">
         <div class="container-fluid footer-wrapper">
             <div class="row">
                 <div class="col-12 social-header">
@@ -402,30 +548,30 @@
                 </div>
                 <div class="col-12 social-list">
                     <ul>
-                            <li> 
-                                <a target="_blank" href="#">
-                                    <i class="fab fa-facebook fa-2x"></i>
-                                </a> 
-                                <a target="_blank" href="#">
-                                    <i class="fab fa-instagram fa-2x"></i>
-                                </a>
-                                <a target="_blank" href="#">
-                                    <i class="fab fa-twitter fa-2x"></i>
-                                </a>
-                                <a target="_blank" href="#">
-                                    <i class="fab fa-youtube fa-2x"></i>
-                                </a>
-                            </li>
+                        <li>
+                            <a target="_blank" href="#">
+                                <i class="fab fa-facebook fa-2x"></i>
+                            </a>
+                            <a target="_blank" href="#">
+                                <i class="fab fa-instagram fa-2x"></i>
+                            </a>
+                            <a target="_blank" href="#">
+                                <i class="fab fa-twitter fa-2x"></i>
+                            </a>
+                            <a target="_blank" href="#">
+                                <i class="fab fa-youtube fa-2x"></i>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
- </footer>
- <script src="https://kit.fontawesome.com/3129319209.js" crossorigin="anonymous"></script>
- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </footer>
+    <script src="https://kit.fontawesome.com/3129319209.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
+</body>
 
- </body>
 </html>
