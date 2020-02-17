@@ -31,5 +31,15 @@ The user should be able to gain the following information:
    + Information on how to find each place
    + Information on how to sign up.
 
-###
+
+User Stories
+1.	As a user type, I want to click on the “meetings page”, so that I can see where the different meetings are held. 
+
+___
+
+### Testing
+
+Screen | Desired outcome | Result 
+--- | --- | ---
+1 | 2 | 3
 
