@@ -1,7 +1,2 @@
-# Code Institute
-
-Welcome cgpalmer,
-
-We have preinstalled all of the tools you need to get started.
-
-Happy coding!
+# The Book Club -
+(https://cgpalmer.github.io/The-Book-Club/ "The Book Club")

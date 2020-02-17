@@ -1,2498 +1,1852 @@
 body {
-    margin: 0;
-    border: 0;
-    padding: 0;
+     margin: 0;
+     border: 0;
+     padding: 0;
 }
-
-
 /*-----------------------Header----*/
-
-.logo {
-    height: 6.25rem;
-    width: 6.25rem;
-    background-image: url("../images/logo2.jpg");
-    background-repeat: no-repeat;
+ .logo {
+     height: 6.25rem;
+     width: 6.25rem;
+     background-image: url("../images/logo2.jpg");
+     background-repeat: no-repeat;
 }
-
-.navbar {
-    text-align: right;
-    position: fixed;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    padding: 0 1rem;
-    background: rgb(11,77,225);
-    background: linear-gradient(90deg, rgba(11,77,225,1) 0%, rgba(57,153,251,1) 37%, rgba(57,208,251,1) 91%);
+ .navbar {
+     text-align: right;
+     position: fixed;
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex-wrap: wrap;
+     flex-wrap: wrap;
+     -ms-flex-align: center;
+     align-items: center;
+     -ms-flex-pack: justify;
+     justify-content: space-between;
+     padding: 0 1rem;
+     background: rgb(11,77,225);
+     background: linear-gradient(90deg, rgba(11,77,225,1) 0%, rgba(57,153,251,1) 37%, rgba(57,208,251,1) 91%);
 }
-
-.navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+ .navbar-nav .nav-link {
+     padding-right: 0.5rem;
+     padding-left: 0.5rem;
 }
-
-.navbar-brand {
-    display: inline-block;
-    padding-top: .15rem;
-    padding-bottom: 0.15rem;
-    margin-right: 1rem;
-    font-size: 1.25rem;
-    line-height: inherit;
-    white-space: nowrap;
+ .navbar-brand {
+     display: inline-block;
+     padding-top: .15rem;
+     padding-bottom: 0.15rem;
+     margin-right: 1rem;
+     font-size: 1.25rem;
+     line-height: inherit;
+     white-space: nowrap;
 }
-  
-
-
-
-
-.nav-link {
-    display: block;
-    
-    
+ .nav-link {
+     display: block;
 }
-
-.nav-link-signup {
-    color:#fff !important;
-    padding-top: 0.375em;
-   
+ .nav-link-signup {
+     color:#fff !important;
+     padding-top: 0.375em;
 }
-
-
-
-nav div ul li a {
-    width: auto;
-    color: #fff;
-    padding-bottom: 0.6rem;
-    padding-left: 0.6rem;
-    padding-right: 0.6rem;
+ nav div ul li a {
+     width: auto;
+     color: #fff;
+     padding-bottom: 0.6rem;
+     padding-left: 0.6rem;
+     padding-right: 0.6rem;
 }
-
-ul li p {
-    width: auto;
-    
+ ul li p {
+     width: auto;
 }
-
-.container-fluid {
-    padding: 0;
-   
+ .container-fluid {
+     padding: 0;
 }
-
-li p {
-    display: block;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+ li p {
+     display: block;
+     margin-block-start: 0;
+     margin-block-end: 0;
+     margin-inline-start: 0px;
+     margin-inline-end: 0px;
 }
-
-li p:hover {
-    cursor: pointer;
+ li p:hover {
+     cursor: pointer;
 }
-
-.li-contact-us {
-    margin-bottom: 0.7rem;
+ .li-contact-us {
+     margin-bottom: 0.7rem;
 }
-
-.btn {
-    display: inline-block;
-    font-weight: 400; 
-    color: #fff; 
-    text-align: center; 
-    vertical-align: middle; 
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    padding: 0;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: .25rem;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    margin-bottom: 0.15rem;
+ .btn {
+     display: inline-block;
+     font-weight: 400;
+     color: #fff;
+     text-align: center;
+     vertical-align: middle;
+     cursor: pointer;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+     padding: 0;
+     font-size: 1rem;
+     line-height: 1.5;
+     border-radius: .25rem;
+     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+     margin-bottom: 0.15rem;
 }
-
-.btn-signup {
-    background-color: rgba(11,77,225,1);
-    border: 0.0625rem solid rgba(11,77,225,1);
-    margin-bottom: 1rem;
+ .btn-signup {
+     background-color: rgba(11,77,225,1);
+     border: 0.0625rem solid rgba(11,77,225,1);
+     margin-bottom: 1rem;
 }
-
-.btn-signup:hover {
-    background-color: rgb(0, 65, 204);
-    border-color: rgb(0, 65, 204);
-    
+ .btn-signup:hover {
+     background-color: rgb(0, 65, 204);
+     border-color: rgb(0, 65, 204);
 }
-
-    
 /*----------------------Footer-----*/
-.footer-wrapper {
-    background: rgb(11,77,225);
-    background: linear-gradient(90deg, rgba(11,77,225,1) 0%, rgba(57,153,251,1) 37%, rgba(57,208,251,1) 91%);
-    padding-top: 32px;
+ .footer-wrapper {
+     background: rgb(11,77,225);
+     background: linear-gradient(90deg, rgba(11,77,225,1) 0%, rgba(57,153,251,1) 37%, rgba(57,208,251,1) 91%);
+     padding-top: 32px;
 }
-.social-header {
-     
+ .social-header {
      text-align: center;
      padding-top: 0;
      letter-spacing: 0.125rem;
      font-weight: bold;
 }
-
-.social-header h5{
-   
-     text-align: center; 
-     margin: 0; 
-     font-size: 1.5rem; 
+ .social-header h5{
+     text-align: center;
+     margin: 0;
+     font-size: 1.5rem;
 }
-
-.social-list ul {
-    margin: 0;
-    padding: 0;
+ .social-list ul {
+     margin: 0;
+     padding: 0;
 }
-
-.social-list li {
-    padding: 25px 0 32px 0;
-    text-align: center;
+ .social-list li {
+     padding: 25px 0 32px 0;
+     text-align: center;
 }
-
-.social-list ul li a {
-    padding: 0 1rem;
-
+ .social-list ul li a {
+     padding: 0 1rem;
 }
-
-.social-list ul li a i {
-    color: black;
-    transition-property: color;
-    transition-timing-function: ease-in-out;
-    transition-duration: .4s;
-       -moz-transition: color .4s ease-in-out;
-    -webkit-transition: color .4s ease-in-out;
-
+ .social-list ul li a i {
+     color: black;
+     transition-property: color;
+     transition-timing-function: ease-in-out;
+     transition-duration: .4s;
+     -moz-transition: color .4s ease-in-out;
+     -webkit-transition: color .4s ease-in-out;
 }
-
-
-.social-list ul li a:hover {
-    text-decoration: none;
+ .social-list ul li a:hover {
+     text-decoration: none;
 }
-
-.social-list ul li a i:hover {
-    color: white;
+ .social-list ul li a i:hover {
+     color: white;
 }
-
-.row {
-    margin:0;
+ .row {
+     margin:0;
 }
-
-.fab {
-    color:black;
+ .fab {
+     color:black;
 }
-
-
-
-li {
-    list-style-type: none;
-    text-decoration: none;
+ li {
+     list-style-type: none;
+     text-decoration: none;
 }
 /*----------------------Index-----*/
-
-
-
-
 /*-----------------------Index Section carousel----*/
-
-.carousel-section {
-    padding-top: 3.5625rem;
+ .carousel-section {
+     padding-top: 3.5625rem;
 }
-
-.carousel-item {
-   height: 31.25rem;
+ .carousel-item {
+     height: 31.25rem;
 }
-
-.carousel-item img {
-    position: absolute;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    height: 37.5rem;
-    
+ .carousel-item img {
+     position: absolute;
+     object-fit: cover;
+     top: 0;
+     left: 0;
+     height: 37.5rem;
 }
-
-.carousel-caption-edit-picture1 {
-    position: absolute;
-    top: 1.25rem; 
-    right: 0.3125rem;
-    z-index: 10;
-    padding: 1.25rem 1.25rem 1.25rem; 
-    color: black;
-    text-align: center;
-    background-color: rgba(75, 74, 74, 0.8);
+ .carousel-caption-edit-picture1 {
+     position: absolute;
+     top: 1.25rem;
+     right: 0.3125rem;
+     z-index: 10;
+     padding: 1.25rem 1.25rem 1.25rem;
+     color: black;
+     text-align: center;
+     background-color: rgba(75, 74, 74, 0.8);
 }
-
-.carousel-caption-edit-picture2 {
-   position: absolute;
-    top: 1.25rem;
-    right: 0.3125rem;
-    z-index: 10;
-    padding: 1.25rem 1.25rem 1.25rem;
-    color: black;
-    text-align: center;
-    background-color: rgba(75, 74, 74, 0.8);
-    
+ .carousel-caption-edit-picture2 {
+     position: absolute;
+     top: 1.25rem;
+     right: 0.3125rem;
+     z-index: 10;
+     padding: 1.25rem 1.25rem 1.25rem;
+     color: black;
+     text-align: center;
+     background-color: rgba(75, 74, 74, 0.8);
 }
-
-.carousel-caption-edit-picture3 {
-    position: absolute;
-    top: 1.25rem;
-    right: 0.3125rem;
-    z-index: 10;
-    padding: 1.25rem 1.25rem 1.25rem;
-    color: black;
-    text-align: center;
-    background-color: rgba(75, 74, 74, 0.8);
+ .carousel-caption-edit-picture3 {
+     position: absolute;
+     top: 1.25rem;
+     right: 0.3125rem;
+     z-index: 10;
+     padding: 1.25rem 1.25rem 1.25rem;
+     color: black;
+     text-align: center;
+     background-color: rgba(75, 74, 74, 0.8);
 }
-
-.carousel-caption-color h5, .carousel-caption-color p {
-    padding-bottom: 0;
-    color: #fff;
-    margin: 0;
+ .carousel-caption-color h5, .carousel-caption-color p {
+     padding-bottom: 0;
+     color: #fff;
+     margin: 0;
 }
-
 /*---Index About----*/
-
-.about {
-    margin-bottom: 0;
-    background-color:#fff;
-
-
+ .about {
+     margin-bottom: 0;
+     background-color:#fff;
 }
-
-.about-image-container1 {
-    padding-top:1.875rem;
-    padding-bottom: 1.875rem;
-    padding-right: 1.875rem;
-    padding-left: 1.875rem;
+ .about-image-container1 {
+     padding-top:1.875rem;
+     padding-bottom: 1.875rem;
+     padding-right: 1.875rem;
+     padding-left: 1.875rem;
 }
-
-.about-image-container2 {
-    padding-top:0;
-    padding-bottom: 1.875rem;
-    padding-right: 1.875rem;
-    padding-left: 1.875rem;
+ .about-image-container2 {
+     padding-top:0;
+     padding-bottom: 1.875rem;
+     padding-right: 1.875rem;
+     padding-left: 1.875rem;
 }
-
-.about-image {
-    overflow: hidden;
-    object-fit: cover;
-    width: 100%;
-    height: 18.75rem;
+ .about-image {
+     overflow: hidden;
+     object-fit: cover;
+     width: 100%;
+     height: 18.75rem;
 }
-
-.about-text-container1 {
-    padding-top:0;
-    padding-bottom: 1.875rem;
-    padding-right: 1.875rem;
-    padding-left: 1.875rem;
- 
+ .about-text-container1 {
+     padding-top:0;
+     padding-bottom: 1.875rem;
+     padding-right: 1.875rem;
+     padding-left: 1.875rem;
 }
-
-.about-text-container2 {
-    padding-top:0;
-    padding-bottom: 1.875rem;
-    padding-right: 1.875rem;
-    padding-left: 1.875rem;
- 
+ .about-text-container2 {
+     padding-top:0;
+     padding-bottom: 1.875rem;
+     padding-right: 1.875rem;
+     padding-left: 1.875rem;
 }
-.about-text {
-    background: rgb(11,77,225);
-    background: linear-gradient(180deg, rgba(11,77,225,1) 0%, rgba(57,153,251,1) 14%, rgba(57,208,251,1) 91%);
-    height:18.75rem;
-    padding: 2rem 1.5rem;
-    overflow: hidden;
-    color:black;
-    font-size: 0.95rem;
-    text-align: center;
+ .about-text {
+     background: rgb(11,77,225);
+     background: linear-gradient(180deg, rgba(11,77,225,1) 0%, rgba(57,153,251,1) 14%, rgba(57,208,251,1) 91%);
+     height:18.75rem;
+     padding: 2rem 1.5rem;
+     overflow: hidden;
+     color:black;
+     font-size: 0.95rem;
+     text-align: center;
 }
-
 /*----------------------------------------------------------Why not pop in?-----*/
-
-.visit {
-    background-color: #eceff1;
-    color: black;
+ .visit {
+     background-color: #eceff1;
+     color: black;
 }
-
-.visit-header {
-    text-align: center;
-    font-weight: 700;
-    padding: 0.625rem 1.875rem 0px 1.875rem;
+ .visit-header {
+     text-align: center;
+     font-weight: 700;
+     padding: 0.625rem 1.875rem 0px 1.875rem;
 }
-
-.visit-text {
-    text-align: center;
-    padding: 1rem 1.875rem 0px 1.875rem;
+ .visit-text {
+     text-align: center;
+     padding: 1rem 1.875rem 0px 1.875rem;
 }
-
-.visit-header p {
-    text-align: center;
-    font-weight: 400;
-    font-size: 1.2rem;
-    margin: 0;
-
+ .visit-header p {
+     text-align: center;
+     font-weight: 400;
+     font-size: 1.2rem;
+     margin: 0;
 }
-
-.next-meeting-wrapper {
-    padding-left: 1.875rem;
-    padding-right: 1.875rem;
-    margin-top: 1.875rem;
+ .next-meeting-wrapper {
+     padding-left: 1.875rem;
+     padding-right: 1.875rem;
+     margin-top: 1.875rem;
 }
-
-.next-meeting-wrapper-last {
-    margin-bottom: 1.875rem;
+ .next-meeting-wrapper-last {
+     margin-bottom: 1.875rem;
 }
-
-.next-meeting-pic {
-    background-image: url("../images/pop-in-image.jpg");
-    background-size: cover;
-   
+ .next-meeting-pic {
+     background-image: url("../images/pop-in-image.jpg");
+     background-size: cover;
 }
-
-.next-meeting-info {
-    color: #fff;
-    text-align: center;
-    background-color: rgba(75, 74, 74, 0.8);
-    font-weight: 600;
-    padding: 1.875rem 1.25rem;
-    
+ .next-meeting-info {
+     color: #fff;
+     text-align: center;
+     background-color: rgba(75, 74, 74, 0.8);
+     font-weight: 600;
+     padding: 1.875rem 1.25rem;
 }
-
-.visit-title {
-    text-decoration: underline;
-    padding-bottom: 0.625rem;
+ .visit-title {
+     text-decoration: underline;
+     padding-bottom: 0.625rem;
 }
-
-.next-meeting-info p {
-    margin: 0;
-    font-size: 1.2rem;
+ .next-meeting-info p {
+     margin: 0;
+     font-size: 1.2rem;
 }
-
-p.visit-title {
-    text-decoration: underline;
-    padding-bottom: 0.625rem;
-    font-size: 1.75rem;
+ p.visit-title {
+     text-decoration: underline;
+     padding-bottom: 0.625rem;
+     font-size: 1.75rem;
 }
-
 /*---Pricing-----*/
-
-#anchor-container {
-    height: 60px;
-    display: none;
+ #anchor-container {
+     height: 60px;
+     display: none;
 }
-
-#pricing-target1a {
-    background:#eceff1;
-    color: #eceff1;
-    height:30px;
+ #pricing-target1a {
+     background:#eceff1;
+     color: #eceff1;
+     height:30px;
 }
-#pricing-target1b{
-    background:#fff;
-    color: #fff;
-    height:30px;
-
+ #pricing-target1b{
+     background:#fff;
+     color: #fff;
+     height:30px;
 }
-
-
-#anchor-container:target {    /*https://codepen.io/amiteshchauhan/pen/oxaBPG*/
-    display:block;
+ #anchor-container:target {
+    /*https://codepen.io/amiteshchauhan/pen/oxaBPG*/
+     display:block;
 }
-
-.section-pricing {
-    padding-bottom: 32px;
+ .section-pricing {
+     padding-bottom: 32px;
 }
-
-.membership-row {
-    padding: 0 20px;
+ .membership-row {
+     padding: 0 20px;
 }
-
-.pricing-header {
-    text-align: center;
-    margin-top: 20px;
+ .pricing-header {
+     text-align: center;
+     margin-top: 20px;
 }
-
-.pricing-header h2 {
-    margin-bottom: 0px;
-    font-size: 2rem;
+ .pricing-header h2 {
+     margin-bottom: 0px;
+     font-size: 2rem;
 }
-
-.card-bronze {
-    
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 0.0625rem solid #cd7f32;
-    border-top-left-radius: 0.25rem;
-    border-top-left-radius: 0.25rem;
-
+ .card-bronze {
+     position: relative;
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     min-width: 0;
+     word-wrap: break-word;
+     background-color: #fff;
+     background-clip: border-box;
+     border: 0.0625rem solid #cd7f32;
+     border-top-left-radius: 0.25rem;
+     border-top-left-radius: 0.25rem;
 }
-
-.card-silver {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 0.0625rem solid silver;
-    border-top-left-radius: 0.25rem;
-    border-top-left-radius: 0.25rem;
+ .card-silver {
+     position: relative;
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     min-width: 0;
+     word-wrap: break-word;
+     background-color: #fff;
+     background-clip: border-box;
+     border: 0.0625rem solid silver;
+     border-top-left-radius: 0.25rem;
+     border-top-left-radius: 0.25rem;
 }
-
-.card-gold {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 0.0625rem solid gold;
-    border-top-left-radius: 0.25rem;
-    border-top-left-radius: 0.25rem;
+ .card-gold {
+     position: relative;
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     min-width: 0;
+     word-wrap: break-word;
+     background-color: #fff;
+     background-clip: border-box;
+     border: 0.0625rem solid gold;
+     border-top-left-radius: 0.25rem;
+     border-top-left-radius: 0.25rem;
 }
-
-
-.card-wrapper {
-    text-align: center;
-    
-    
+ .card-wrapper {
+     text-align: center;
 }
-
-.card-body {
-    text-align: left;
-    padding: 1.25rem 1.25rem;
-    
+ .card-body {
+     text-align: left;
+     padding: 1.25rem 1.25rem;
 }
-
-.card-body ul {
-    margin-bottom: 0;
+ .card-body ul {
+     margin-bottom: 0;
 }
-
-.card-text {
-    list-style-type: disc;
-    
-    
+ .card-text {
+     list-style-type: disc;
 }
-
-
-
-.bronze-membership {
-    background-color:#fff;
-    margin-top: 0 ;
-    margin-bottom: 0;
-    display: inline-block;
-    width: 100%;
+ .bronze-membership {
+     background-color:#fff;
+     margin-top: 0 ;
+     margin-bottom: 0;
+     display: inline-block;
+     width: 100%;
 }
-
-.silver-membership {
-    background-color: #fff;
-    margin-top: 0;
-    margin-bottom: 1.25rem;
-    display: inline-block;
-    width: 100%;
+ .silver-membership {
+     background-color: #fff;
+     margin-top: 0;
+     margin-bottom: 1.25rem;
+     display: inline-block;
+     width: 100%;
 }
-
-.gold-membership {
-    background-color:#fff;
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
-    display: inline-block;
-    width: 100%;
+ .gold-membership {
+     background-color:#fff;
+     margin-top: 1.25rem;
+     margin-bottom: 1.25rem;
+     display: inline-block;
+     width: 100%;
 }
-
-
-
-.membership-card-header-gold {
-    background-color: gold;
-    background-clip: border-box;
-    border-top-left-radius: 0.25rem;
-    border-top-left-radius: 0.25rem;
-    height: 3.125rem;
+ .membership-card-header-gold {
+     background-color: gold;
+     background-clip: border-box;
+     border-top-left-radius: 0.25rem;
+     border-top-left-radius: 0.25rem;
+     height: 3.125rem;
 }
-
-.membership-card-header-silver {
-    background-color:silver;
-    background-clip: border-box;
-    border-top-left-radius: 0.25rem;
-    border-top-left-radius: 0.25rem;
-    height: 3.125rem;
+ .membership-card-header-silver {
+     background-color:silver;
+     background-clip: border-box;
+     border-top-left-radius: 0.25rem;
+     border-top-left-radius: 0.25rem;
+     height: 3.125rem;
 }
-
-.membership-card-header-bronze {
-    background-color: #cd7f32;
-    background-clip: border-box;
-    border-top-left-radius: 0.25rem;
-    border-top-left-radius: 0.25rem;
-    height: 3.125rem;
-    margin: 0;
+ .membership-card-header-bronze {
+     background-color: #cd7f32;
+     background-clip: border-box;
+     border-top-left-radius: 0.25rem;
+     border-top-left-radius: 0.25rem;
+     height: 3.125rem;
+     margin: 0;
 }
-
-.membership-card-header-bronze h3, .membership-card-header-silver h3, .membership-card-header-gold h3 {
-    padding-top: 0.3125rem;
-    padding-bottom: 0.3125rem;
-    margin: 0;
+ .membership-card-header-bronze h3, .membership-card-header-silver h3, .membership-card-header-gold h3 {
+     padding-top: 0.3125rem;
+     padding-bottom: 0.3125rem;
+     margin: 0;
 }
-  
-
-.card p {
-    margin-bottom: 0;
+ .card p {
+     margin-bottom: 0;
 }
-
-.card-footnote {
-    padding-left: 2.5rem;
+ .card-footnote {
+     padding-left: 2.5rem;
 }
-
-
-
-
 /*----------------------Meetings-----*/
-.location-info-container {
-    overflow:hidden;
-  
+ .location-info-container {
+     overflow:hidden;
 }
-
-
-
-#anchor-container-cam, 
-#anchor-container-leeds,
-#anchor-container-notts, 
-#anchor-container-manc, 
-#anchor-container-york, 
-#anchor-container-ldn{
-   height: 80px;
-   background:#eceff1 ;
-   color: #eceff1;
-   display: none;
+ #anchor-container-cam, #anchor-container-leeds, #anchor-container-notts, #anchor-container-manc, #anchor-container-york, #anchor-container-ldn{
+     height: 80px;
+     background:#eceff1 ;
+     color: #eceff1;
+     display: none;
 }
-
-#anchor-container-cam:target,
-#anchor-container-leeds:target, 
-#anchor-container-notts:target, 
-#anchor-container-manc:target, 
-#anchor-container-york:target, 
-#anchor-container-ldn:target {
-    display: block;
-} 
-
-
-
-.menu-for-locations {
-    background: yellow;
+ #anchor-container-cam:target, #anchor-container-leeds:target, #anchor-container-notts:target, #anchor-container-manc:target, #anchor-container-york:target, #anchor-container-ldn:target {
+     display: block;
 }
-
-.location-information {
-    background-color: #eceff1;
-    padding-top: 3.5625rem;
-    padding-bottom: 32px;
+ .menu-for-locations {
+     background: yellow;
 }
-
-.location-wrapper-container {
-    background-color: #fff;
-    width: 100%;
-    padding-right: 0;
-    padding-left: 0;
-    margin-right: auto;
-    margin-left: auto;
+ .location-information {
+     background-color: #eceff1;
+     padding-top: 3.5625rem;
+     padding-bottom: 32px;
 }
-
-.location-wrapper {
-    padding-left: 15px;
-    padding-right: 15px;
+ .location-wrapper-container {
+     background-color: #fff;
+     width: 100%;
+     padding-right: 0;
+     padding-left: 0;
+     margin-right: auto;
+     margin-left: auto;
 }
-
-.location-information .location-wrapper-last {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 0;
-    margin-bottom: 0;
+ .location-wrapper {
+     padding-left: 15px;
+     padding-right: 15px;
 }
-
-.meetings-header {
-    text-align: center;
-    margin-top: 0.75rem;
+ .location-information .location-wrapper-last {
+     padding-left: 15px;
+     padding-right: 15px;
+     padding-bottom: 0;
+     margin-bottom: 0;
 }
-
-.meeting-info-text {
-    text-align: center;
-    margin-top: 0.5rem;
+ .meetings-header {
+     text-align: center;
+     margin-top: 0.75rem;
 }
-
-.drpdwn-btn {
-    text-align: center;
+ .meeting-info-text {
+     text-align: center;
+     margin-top: 0.5rem;
 }
-
-.show>.btn-secondary.dropdown-toggle {
-    color: #fff;
-    background-color: rgba(11,77,225,1);
-    border-color: rgba(11,77,225,1);
+ .drpdwn-btn {
+     text-align: center;
 }
-
-.location-information .drp-dwn-btn-design {
-    padding: 0.25rem;
-    background-color: rgba(11,77,225,1);
-    border-color: rgba(11,77,225,1);
-    margin-bottom: 1rem;
+ .show>.btn-secondary.dropdown-toggle {
+     color: #fff;
+     background-color: rgba(11,77,225,1);
+     border-color: rgba(11,77,225,1);
 }
-
-
-.location-wrapper {
-    margin-bottom: 2rem;
+ .location-information .drp-dwn-btn-design {
+     padding: 0.25rem;
+     background-color: rgba(11,77,225,1);
+     border-color: rgba(11,77,225,1);
+     margin-bottom: 1rem;
 }
-
-
-.location-header {
-    text-align: center;
-    border: 0.0625rem solid black;
-    
+ .location-wrapper {
+     margin-bottom: 2rem;
 }
-
-.location-wrapper .location-header p {
- margin:0;
- font-weight: bold;
+ .location-header {
+     text-align: center;
+     border: 0.0625rem solid black;
 }
-.location-picture {
-    border-left: 0.0625rem solid black;
- 
-    border-bottom: 0.0625rem solid black;
+ .location-wrapper .location-header p {
+     margin:0;
+     font-weight: bold;
 }
-
-
-
-
-.location-picture-cambridge {
-    background-image: url("../images/cambridge.jpg");
-    background-repeat: no-repeat;
-    height: 250px;
+ .location-picture {
+     border-left: 0.0625rem solid black;
+     border-bottom: 0.0625rem solid black;
 }
-
-.location-picture-leeds {
-    background-image: url("../images/leeds.jpg");
-    background-repeat: no-repeat;
-    padding-right: 20px;
-    height: 250px;
-  
+ .location-picture-cambridge {
+     background-image: url("../images/cambridge.jpg");
+     background-repeat: no-repeat;
+     height: 250px;
 }
-
-.location-picture-london {
-    background-image: url("../images/london2.jpg");
-    background-repeat: no-repeat;
-    height: 250px;
+ .location-picture-leeds {
+     background-image: url("../images/leeds.jpg");
+     background-repeat: no-repeat;
+     padding-right: 20px;
+     height: 250px;
 }
-
-.location-picture-manchester {
-    background-image: url("../images/manchester3.jpg");
-    background-repeat: no-repeat;
-    height: 250px;
+ .location-picture-london {
+     background-image: url("../images/london2.jpg");
+     background-repeat: no-repeat;
+     height: 250px;
 }
-
-.location-picture-nottingham {
-    background-image: url("../images/nottingham2.jpg");
-    background-repeat: no-repeat;
-    height: 250px;
+ .location-picture-manchester {
+     background-image: url("../images/manchester3.jpg");
+     background-repeat: no-repeat;
+     height: 250px;
 }
-
-.location-picture-york {
-    background-image: url("../images/york.jpg");
-    background-repeat: no-repeat;
-    height: 250px;
+ .location-picture-nottingham {
+     background-image: url("../images/nottingham2.jpg");
+     background-repeat: no-repeat;
+     height: 250px;
 }
-
-.information-grid {
-    padding-left: 0;
-    padding-right: 0;
+ .location-picture-york {
+     background-image: url("../images/york.jpg");
+     background-repeat: no-repeat;
+     height: 250px;
 }
-
-.information-manchester, .information-venue {
-   border-right: 0.0625rem solid black;
-   border-bottom: 0.0625rem solid black;
-   border-left: 1px solid black;
-
+ .information-grid {
+     padding-left: 0;
+     padding-right: 0;
 }
-
-.information-manchester {
-    text-align: center;
+ .information-manchester, .information-venue {
+     border-right: 0.0625rem solid black;
+     border-bottom: 0.0625rem solid black;
+     border-left: 1px solid black;
 }
-
-.information-manchester p {
-    margin:0;
-    
+ .information-manchester {
+     text-align: center;
 }
-
-
-.information-venue i {
-    padding-right: 8px;
-    
+ .information-manchester p {
+     margin:0;
 }
-
-.information-venue-bottom .postcode {
-    margin-bottom: 0;
-    padding-left: 38px;
+ .information-venue i {
+     padding-right: 8px;
 }
-
-
-.information-venue-bottom i {
-    padding-right: 8px;
-    padding-left: 8px;
-
+ .information-venue-bottom .postcode {
+     margin-bottom: 0;
+     padding-left: 38px;
 }
-
-.information-venue-bottom a {
-    text-decoration: none;
-    color: black;
+ .information-venue-bottom i {
+     padding-right: 8px;
+     padding-left: 8px;
 }
-
-.information-venue-bottom a span{
-    text-decoration: underline;
-    color: blue;
+ .information-venue-bottom a {
+     text-decoration: none;
+     color: black;
 }
-
-.information-venue-bottom {
-    border-left: 0.0625rem solid black;
-    border-right: 0.0625rem solid black;
-    border-bottom: 0.0625rem solid black;
-    padding-left: 0.5rem;
+ .information-venue-bottom a span{
+     text-decoration: underline;
+     color: blue;
 }
-
-
-
+ .information-venue-bottom {
+     border-left: 0.0625rem solid black;
+     border-right: 0.0625rem solid black;
+     border-bottom: 0.0625rem solid black;
+     padding-left: 0.5rem;
+}
 /*----------------------Sign-Up-----*/
-.sign-up-page {
-    background-color: #eceff1;
-    padding-bottom: 32px;
+ .sign-up-page {
+     background-color: #eceff1;
+     padding-bottom: 32px;
 }
-
-.sign-up-header {
-    padding-top: 3.5625rem;
-    text-align: center;
-    padding-bottom: 1rem;
+ .sign-up-header {
+     padding-top: 3.5625rem;
+     text-align: center;
+     padding-bottom: 1rem;
 }
-
-.sign-up-header h2 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+ .sign-up-header h2 {
+     padding-top: 1rem;
+     padding-bottom: 1rem;
 }
-
-.signup-containter {
-text-align: center;
-
+ .signup-containter {
+     text-align: center;
 }
-
-.member-col-10 {
-    padding-left: 0px;
+ .member-col-10 {
+     padding-left: 0px;
 }
-
-.container-signup{
-    
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 0.0625rem solid #ced4da;
-    border-radius: .25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;  
+ .container-signup{
+     background-color: #fff;
+     background-clip: padding-box;
+     border: 0.0625rem solid #ced4da;
+     border-radius: .25rem;
+     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-    
-.container-membership {
-    
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 0.0625rem solid #ced4da;
-    border-radius: .25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    margin-bottom: 40px;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-
+ .container-membership {
+     background-color: #fff;
+     background-clip: padding-box;
+     border: 0.0625rem solid #ced4da;
+     border-radius: .25rem;
+     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+     margin-bottom: 40px;
+     width: 90%;
+     margin-left: auto;
+     margin-right: auto;
 }
-
-.container-membership .form-group label, .form-check-input  {
-    margin-top: 1rem;
-    
+ .container-membership .form-group label, .form-check-input {
+     margin-top: 1rem;
 }
-
-
-.form-check-inline .form-check-input {
-    position: static;
-    margin-top: 1rem;
-    margin-right: .3125rem;
-    margin-left: 0;
+ .form-check-inline .form-check-input {
+     position: static;
+     margin-top: 1rem;
+     margin-right: .3125rem;
+     margin-left: 0;
 }
-.container-membership .form-group label {
-    margin-bottom: 0;
-
+ .container-membership .form-group label {
+     margin-bottom: 0;
 }
-
-.signup {
-    text-align: center;
+ .signup {
+     text-align: center;
 }
-
-.sign-up-button-submit {
-   padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.75rem;
-    font-size: 1.2rem;
-    background-color: rgba(11,77,225,1);
-    border-color: rgba(11,77,225,1);
-    margin-bottom: 0;
+ .sign-up-button-submit {
+     padding-left: 1rem;
+     padding-right: 1rem;
+     padding-top: 0.5rem;
+     padding-bottom: 0.75rem;
+     font-size: 1.2rem;
+     background-color: rgba(11,77,225,1);
+     border-color: rgba(11,77,225,1);
+     margin-bottom: 0;
 }
-
-.sign-up-button-submit:hover {
-        background-color: rgb(0, 65, 204);
-        border-color: rgb(0, 65, 204);
+ .sign-up-button-submit:hover {
+     background-color: rgb(0, 65, 204);
+     border-color: rgb(0, 65, 204);
 }
-
-
-
 /*----------------------Members/Login Page-----*/
-
-
-
-.members {
-        padding-top: 3.5625rem;
-        background-color: #eceff1;
-        padding-bottom: 32px;
-    }
-
-.members-heading {
-    text-align: center;
-    padding-top: 1.5rem;
-    padding-bottom: 0.75rem;
+ .members {
+     padding-top: 3.5625rem;
+     background-color: #eceff1;
+     padding-bottom: 32px;
 }
-
-.members-info {
-    text-align: center;
-    padding-bottom: 0.625rem;
-
+ .members-heading {
+     text-align: center;
+     padding-top: 1.5rem;
+     padding-bottom: 0.75rem;
 }
-
-.additional-questions {
-    text-align: center;
-    margin-top: 0.5rem;
-    font-size: 1.2rem;
+ .members-info {
+     text-align: center;
+     padding-bottom: 0.625rem;
 }
-
-.additional-questions a {
-    text-decoration: none;
+ .additional-questions {
+     text-align: center;
+     margin-top: 0.5rem;
+     font-size: 1.2rem;
 }
-
-.login-button {
-    text-align: center;
-    margin-bottom: 0.75rem;
-    margin-top: 0.75rem;
-
+ .additional-questions a {
+     text-decoration: none;
 }
-
-.login-button-submit {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.75rem;
-    font-size: 1.2rem;
-    background-color: rgba(11,77,225,1);
-    border-color: rgba(11,77,225,1);
+ .login-button {
+     text-align: center;
+     margin-bottom: 0.75rem;
+     margin-top: 0.75rem;
 }
-
-.login-button-submit:hover {
-    background-color: rgb(0, 65, 204);
-    border-color: rgb(0, 65, 204);
+ .login-button-submit {
+     padding-left: 1rem;
+     padding-right: 1rem;
+     padding-top: 0.5rem;
+     padding-bottom: 0.75rem;
+     font-size: 1.2rem;
+     background-color: rgba(11,77,225,1);
+     border-color: rgba(11,77,225,1);
 }
-
-.form-check-label p {
-    font-size: 1rem;
-    margin: 0;
+ .login-button-submit:hover {
+     background-color: rgb(0, 65, 204);
+     border-color: rgb(0, 65, 204);
 }
-
-.form-check {
-    margin-bottom: 0;
+ .form-check-label p {
+     font-size: 1rem;
+     margin: 0;
 }
-
-.form-check-input-login {
-    margin-top: 0.5rem;
+ .form-check {
+     margin-bottom: 0;
 }
-
-.forgotten-password {
-    margin-bottom: 0;
+ .form-check-input-login {
+     margin-top: 0.5rem;
 }
-
-.forgotten-password p{
-    margin-bottom: 0;
+ .forgotten-password {
+     margin-bottom: 0;
 }
-
-.rememberMe p{
-    margin-left: 0;
+ .forgotten-password p{
+     margin-bottom: 0;
 }
-
-
-
- 
-
+ .rememberMe p{
+     margin-left: 0;
+}
 /*----------------------Contact Us-----*/
-
-.modal-wrapper .modal-header {
-    background-color: #eceff1;
-    text-align: center;
-    
+ .modal-wrapper .modal-header {
+     background-color: #eceff1;
+     text-align: center;
 }
-
-.modal-title {
-    padding-left: 2rem;
+ .modal-title {
+     padding-left: 2rem;
 }
-
-.modal-body {
-    background-color: #eceff1;
+ .modal-body {
+     background-color: #eceff1;
 }
-
-
-.modal-footer {
-    background-color: #eceff1;
+ .modal-footer {
+     background-color: #eceff1;
 }
-
-.alternative-header {
-    margin-bottom: 1rem;
+ .alternative-header {
+     margin-bottom: 1rem;
 }
-
-.contact-list{
+ .contact-list{
      padding-left: 5%;
      text-align: center;
      margin-bottom: 1rem;
 }
-
-
-
-
-.modal-title {
-    font-size: 2.5rem;
+ .modal-title {
+     font-size: 2.5rem;
 }
-
-.modal-header .close {
-    padding: 1rem 1rem;
-    margin: -1rem -1rem -1rem auto;
+ .modal-header .close {
+     padding: 1rem 1rem;
+     margin: -1rem -1rem -1rem auto;
 }
-
-.modal-about-text {
-    text-align: center;
-    padding: 0.3125rem;
+ .modal-about-text {
+     text-align: center;
+     padding: 0.3125rem;
 }
-
-.contact-form-wrapper {
-    border-bottom: 0.125rem solid #dee2e6;
+ .contact-form-wrapper {
+     border-bottom: 0.125rem solid #dee2e6;
 }
-
-.form-group label {
-    font-size: 1.5rem;
-    margin-bottom: 0.75rem;
+ .form-group label {
+     font-size: 1.5rem;
+     margin-bottom: 0.75rem;
 }
-
-.form-control {
-    margin-bottom: 0.5rem;
+ .form-control {
+     margin-bottom: 0.5rem;
 }
-
-.modal-btn-wrapper {
-    text-align: center;
-    
+ .modal-btn-wrapper {
+     text-align: center;
 }
-
-.btn-modal {
-    padding: 0.375rem 0.75rem;
-    background-color: rgba(11,77,225,1);
-    border-color: rgba(11,77,225,1);
-    margin-bottom: 1rem;
+ .btn-modal {
+     padding: 0.375rem 0.75rem;
+     background-color: rgba(11,77,225,1);
+     border-color: rgba(11,77,225,1);
+     margin-bottom: 1rem;
 }
-
-.btn-modal:hover {
-    background-color: rgb(0, 65, 204);
-    border-color: rgb(0, 65, 204);
+ .btn-modal:hover {
+     background-color: rgb(0, 65, 204);
+     border-color: rgb(0, 65, 204);
 }
-
-.btn-modal h5 {
-    margin-bottom: 0.125rem;
+ .btn-modal h5 {
+     margin-bottom: 0.125rem;
 }
-
-.social-contact-wrapper {
-    border-bottom: 0.125rem solid #dee2e6;
-
+ .social-contact-wrapper {
+     border-bottom: 0.125rem solid #dee2e6;
 }
-
-.social-contact {
-    text-align: center;
-    padding: 0.3125rem;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
+ .social-contact {
+     text-align: center;
+     padding: 0.3125rem;
+     margin-top: 1rem;
+     margin-bottom: 0.5rem;
 }
-
-.contact-modal-p-wrapper {
-    padding:0;
+ .contact-modal-p-wrapper {
+     padding:0;
 }
-
-
-.contact-modal-p {
-    font-size: 1.4rem;
-    margin-bottom: 0;
+ .contact-modal-p {
+     font-size: 1.4rem;
+     margin-bottom: 0;
 }
-
-.contact-icon-wrapper {
-  
-    padding-bottom: 1rem;
+ .contact-icon-wrapper {
+     padding-bottom: 1rem;
 }
-
-.contact-social-icon {
-    text-align: center;    
+ .contact-social-icon {
+     text-align: center;
 }
-
-.contact-social-icon a i{
-    color: black;
-    transition-property: color;
-    transition-timing-function: ease-in-out;
-    transition-duration: .4s;
-    -moz-transition: color .4s ease-in-out;
-    -webkit-transition: color .4s ease-in-out;
+ .contact-social-icon a i{
+     color: black;
+     transition-property: color;
+     transition-timing-function: ease-in-out;
+     transition-duration: .4s;
+     -moz-transition: color .4s ease-in-out;
+     -webkit-transition: color .4s ease-in-out;
 }
-
-.contact-social-icon a i:hover{
-    color:rgba(11,77,225,1);
+ .contact-social-icon a i:hover{
+     color:rgba(11,77,225,1);
 }
-
-.alternative-comm-wrapper {
-    margin-top: 2rem;
-    text-align: center;
+ .alternative-comm-wrapper {
+     margin-top: 2rem;
+     text-align: center;
 }
-
-.btn-contact-close {
-    padding: 0.375rem 0.375rem;
-    background-color: rgba(170, 170, 170, 0.4);
-    color: black;
-    border-color: rgba(170, 170, 170, 0.4);
+ .btn-contact-close {
+     padding: 0.375rem 0.375rem;
+     background-color: rgba(170, 170, 170, 0.4);
+     color: black;
+     border-color: rgba(170, 170, 170, 0.4);
 }
-
-
 /*-----------------------------------Media Queries--------*/
-
-
 /*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { 
-
-/*-----------Footer--------*/
-.social-list ul {
-    margin: 0;
-    padding: 0;
-    text-align: center;
+ @media (min-width: 576px) {
+    /*-----------Footer--------*/
+     .social-list ul {
+         margin: 0;
+         padding: 0;
+         text-align: center;
+    }
+     .about {
+         margin-bottom: 0;
+         background-color:#fff;
+    }
+     .about-image-container1 {
+         padding-top:1.875rem;
+         padding-bottom: 1.875rem;
+         padding-right: 1.875rem;
+         padding-left: 1.875rem;
+         text-align: center;
+    }
+     .about-image-container2 {
+         padding-top:0;
+         padding-bottom: 1.875rem;
+         padding-right: 70px;
+         padding-left: 70px;
+         text-align: center;
+    }
+     .about-image {
+         overflow: hidden;
+         object-fit: cover;
+         width: 100%;
+         height: 18.75rem;
+    }
+     .about-text-container1 {
+         padding-top:0;
+         padding-bottom: 1.875rem;
+         padding-right: 4.375rem;
+         padding-left: 4.375rem;
+    }
+     .about-text-container2 {
+         padding-top:0;
+         padding-bottom: 1.875rem;
+         padding-right: 4.375rem;
+         padding-left: 4.375rem;
+    }
+     .about-text {
+         background: rgb(11,77,225);
+         background: linear-gradient(180deg, rgba(11,77,225,1) 0%, rgba(57,153,251,1) 14%, rgba(57,208,251,1) 91%);
+         height:18.75rem;
+         padding: 1.25rem;
+         overflow: hidden;
+         color:black;
+         font-size: 1rem;
+    }
+    /*---------Visit-------*/
+     .visit-header {
+         padding-top: 2rem;
+    }
+     .visit-header p {
+         padding-top: 1rem;
+    }
+     .visit-text {
+         padding: 1rem 30px 0 30px;
+         font-size: 1.2rem;
+    }
+     .next-meeting-wrapper {
+         margin-top: 1rem;
+    }
+     .next-meeting-info p {
+         font-size: 1.5rem;
+    }
+    /*-----Visit Section----*/
+     .card-wrapper {
+         padding-left: 90px;
+         padding-right: 90px;
+    }
+     .card-body {
+         padding-left: 40px;
+         padding-right: 40px;
+    }
+     .card-body h3 {
+         padding-left: 60px;
+         font-size: 30px;
+    }
+     .card-body ul, .card-footnote {
+         padding-left: 120px;
+    }
 }
-.about {
-    margin-bottom: 0;
-    background-color:#fff;
-
-
-}
-
-.about-image-container1 {
-    padding-top:1.875rem;
-    padding-bottom: 1.875rem;
-    padding-right: 1.875rem;
-    padding-left: 1.875rem;
-    text-align: center;
-}
-
-.about-image-container2 {
-    padding-top:0;
-    padding-bottom: 1.875rem;
-    padding-right: 70px;
-    padding-left: 70px;
-    text-align: center;
-    
-}
-
-.about-image {
-    overflow: hidden;
-    object-fit: cover;
-    width: 100%;
-    height: 18.75rem;
-}
-
-
-.about-text-container1 {
-    padding-top:0;
-    padding-bottom: 1.875rem;
-    padding-right: 4.375rem;
-    padding-left: 4.375rem;
- 
-}
-
-.about-text-container2 {
-    padding-top:0;
-    padding-bottom: 1.875rem;
-    padding-right: 4.375rem;
-    padding-left: 4.375rem;
- 
-}
-.about-text {
-    background: rgb(11,77,225);
-    background: linear-gradient(180deg, rgba(11,77,225,1) 0%, rgba(57,153,251,1) 14%, rgba(57,208,251,1) 91%);
-    height:18.75rem;
-    padding: 1.25rem;
-    overflow: hidden;
-    color:black; 
-    font-size: 1rem;    
-}
-
-/*---------Visit-------*/
-.visit-header {
-    padding-top: 2rem;
-}
-.visit-header p {
-    padding-top: 1rem;
-   
-}
-
-.visit-text {
-    padding: 1rem 30px 0 30px;
-    font-size: 1.2rem;
-}
-
-.next-meeting-wrapper {
-    margin-top: 1rem;
-}
-
-.next-meeting-info p {
-    font-size: 1.5rem;
-}
-
-/*-----Visit Section----*/
-.card-wrapper {
-    padding-left: 90px;
-    padding-right: 90px;
-}
-
-.card-body {
-    padding-left: 40px;
-    padding-right: 40px;
-    
-}
-
-.card-body h3 {
-    padding-left: 60px;
-    font-size: 30px;
-}
-
-.card-body ul, .card-footnote {
-    padding-left: 120px;
-}
-
-
-
-}
-
 /* Medium devices - portait (tablets, 768px and up)*/
 /*Navbar*/
-@media (min-width: 768px) {
-    .navbar {
-    text-align: right;
-    position: fixed;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 0;
-    background: rgb(11,77,225);
-    background: linear-gradient(90deg, rgba(11,77,225,1) 0%, rgba(57,153,251,1) 37%, rgba(57,208,251,1) 91%);
+ @media (min-width: 768px) {
+     .navbar {
+         text-align: right;
+         position: fixed;
+         display: -ms-flexbox;
+         display: flex;
+         -ms-flex-wrap: wrap;
+         flex-wrap: wrap;
+         -ms-flex-align: center;
+         align-items: center;
+         -ms-flex-pack: justify;
+         justify-content: space-between;
+         padding-left: 1rem;
+         padding-right: 1rem;
+         padding-top: 0;
+         background: rgb(11,77,225);
+         background: linear-gradient(90deg, rgba(11,77,225,1) 0%, rgba(57,153,251,1) 37%, rgba(57,208,251,1) 91%);
+    }
+     .navbar-nav {
+         display: -ms-flexbox;
+         display: flex;
+         -ms-flex-direction: column;
+         flex-direction: column;
+         padding-left: 0;
+         padding-top: 0.75rem;
+         margin-bottom: 0;
+         list-style: none;
+         font-size: 1.2rem;
+    }
+     .btn-signup {
+         font-size: 1.2rem;
+    }
+    /*Footer*/
+     .social-header h5{
+         font-size: 2rem;
+    }
+     .social-list {
+         text-align: center;
+         height: auto;
+         padding: 0 0;
+    }
+     .social-list ul li a {
+         padding: 0 2rem;
+    }
+     .social-list li {
+         padding: 30px 0 40px 0;
+    }
+     .social-header{
+         font-size: 2rem;
+         letter-spacing: 0.25rem;
+    }
+    /*Index page */
+    /*carousel*/
+     .carousel-caption-edit-picture1 h5, .carousel-caption-edit-picture2 h5, .carousel-caption-edit-picture3 h5{
+         font-size: 2rem;
+    }
+     .carousel-caption-edit-picture1, .carousel-caption-edit-picture2, .carousel-caption-edit-picture3 {
+         margin-top: 1.25rem;
+    }
+    /*about*/
+     .about-image-container1 {
+         padding: 30px 0px 0px 30px;
+    }
+     .about-image-container2 {
+         padding: 0px 30px 30px 30px;
+    }
+     .about-text-container1 {
+         padding: 30px 30px 30px 30px;
+    }
+     .about-text-container2 {
+         padding: 0px 0px 30px 30px;
+    }
+     .about-text p{
+         font-size: 1.2rem;
+    }
+    /*---Index-Why not pop in?*/
+     .visit-header h2 {
+         font-size: 3rem;
+    }
+     .visit-text p {
+         font-size: 1.75rem;
+    }
+     .next-meeting-wrapper {
+         padding-left: 0;
+         padding-right: 0;
+    }
+     .next-meeting-wrapper-md-col1{
+         padding-left: 30px;
+         padding-right: 0;
+    }
+     .next-meeting-wrapper-md-col2{
+         padding-left: 15px;
+         padding-right: 15px;
+    }
+     .next-meeting-wrapper-md-col3{
+         padding-left: 0;
+         padding-right: 30px;
+    }
+     .next-meeting-info p{
+         font-size: 1.5rem;
+    }
+     .next-meeting-wrapper .next-meeting-pic .extra-padding {
+         padding-bottom: 66px;
+    }
+     p.date, p.time {
+         margin-bottom: 8px;
+    }
+     .md-break {
+         display:block;
+    }
+    /*---Index---Pricing---*/
+     .pricing-header h2 {
+         margin-bottom: 0px;
+         font-size: 3rem;
+    }
+     .card-wrapper {
+         padding-left: 10px;
+    }
+     .card-wrapper-md1 {
+         padding-right: 10px;
+    }
+     .card-wrapper-md2 {
+         padding-right: 10px;
+         padding-left: 10px;
+    }
+     .card-wrapper-md3 {
+         padding-left: 10px;
+         padding-right: 10px;
+    }
+     .gold-membership {
+         margin-top: 1.25rem;
+         margin-bottom: 0;
+         padding-bottom: 37.333px;
+    }
+     .silver-membership {
+         margin-top: 1.25rem;
+         margin-bottom: 0;
+         padding-bottom: 37.333px;
+    }
+     .bronze-membership {
+         margin-top: 1.25rem;
+         margin-bottom: 0;
+    }
+     .card-body {
+         padding: 20px 10px;
+    }
+     .card-body h3 {
+         padding-left: 10px;
+    }
+     .card-body ul {
+         padding-left: 40px;
+    }
+     .card-body ul li {
+         padding-left:0;
+    }
+     .card-text {
+         padding-left: 10px;
+    }
+    /*-----Members---*/
+     .members-heading {
+         margin-top: 2rem;
+         font-size: 3rem;
+    }
+     .members-heading h2 {
+         font-size: 3.5rem;
+    }
+     .members-info {
+         margin-bottom: 1rem;
+    }
+     .members-info h6 {
+         font-size: 2rem;
+         font-weight: 400;
+    }
+     .members-form .form-group label {
+         font-size: 2rem;
+    }
+     .rememberMe p {
+         font-size: 1.5rem;
+    }
+     .big-checkbox {
+         width:18px;
+         height: 18px;
+    }
+     .form-check-input-login {
+         margin-top: 0.68rem;
+    }
+     .form-group p.text-muted {
+         margin-left: 2px;
+    }
+     .additional-questions p {
+         font-size: 2rem;
+    }
+     .login-button-submit {
+         font-size: 2rem;
+    }
+    /*-----Meetings---*/
+     .location-information {
+         padding-top:75px;
+    }
+     .location-picture-cambridge {
+         background-image: url(../images/cambridge.jpg);
+         background-repeat: no-repeat;
+         width: 100%;
+         height: auto;
+    }
+     .location-picture-leeds {
+         background-image: url(../images/leeds.jpg);
+         background-repeat: no-repeat;
+         width: 100%;
+         height: auto;
+    }
+     .location-picture-london {
+         background-image: url(../images/london2.jpg);
+         background-repeat: no-repeat;
+         width: 100%;
+         height: auto;
+    }
+     .location-picture-manchester {
+         background-image: url(../images/manchester3.jpg);
+         background-repeat: no-repeat;
+         width: 100%;
+         height: auto;
+    }
+     .location-picture-nottingham {
+         background-image: url(../images/nottingham2.jpg);
+         background-repeat: no-repeat;
+         width: 100%;
+         height: auto;
+    }
+     .location-picture-york {
+         background-image: url(../images/york.jpg);
+         background-repeat: no-repeat;
+         width: 100%;
+         height: auto;
+    }
+     .meetings-header {
+         padding-top: 1.75rem;
+         margin-bottom:0.8rem;
+         margin-top: 0;
+    }
+     .meetings-header h1 {
+         font-size: 3.5rem;
+    }
+     .meeting-info-text h5 {
+         font-size: 1.75rem;
+    }
+     .meeting-info-text p {
+         font-size: 1.5rem;
+    }
+     .location-information .drp-dwn-btn-design {
+         font-size: 1.5rem;
+    }
+     .location-wrapper {
+         padding-left: 48px;
+         padding-right: 48px;
+    }
+     .information-manchester p{
+         font-size: 1.25rem;
+         margin-bottom: 0;
+    }
+     .information-venue p{
+         font-size: 1.25rem;
+         margin-bottom: 0;
+    }
+     .information-venue-bottom {
+         font-size: 1.25rem;
+    }
+     .meetings-date {
+         padding-left: 25px;
+    }
+     .location-header {
+         font-size: 1.5rem;
+         text-decoration: underline;
+         letter-spacing: 2px;
+    }
+     .location-information .location-wrapper-last {
+         padding-left: 48px;
+         padding-right: 48px;
+         padding-bottom: 0;
+         margin-bottom: 0;
+    }
+     .information-venue-bottom .postcode {
+         padding-left: 0;
+    }
+    /*----Signup---*/
+     .sign-up-header {
+         padding-top: 75px;
+    }
+     .sign-up-header h2 {
+         font-size: 3rem;
+    }
+     .sign-up-header h5 {
+         font-size: 2rem;
+    }
+     .signup-container {
+         padding: 40px 45px 0 45px;
+    }
+     .signup-container label {
+         font-size: 2rem;
+    }
+     .signup-container .form-control {
+         font-size: 1.5rem;
+    }
+     .container-membership {
+         margin-top: 1.5rem;
+         margin-bottom: 2.5rem;
+    }
+     .container-membership .form-check-label p {
+         font-size: 1.5rem;
+    }
+     .sign-up-button-submit{
+         font-size: 2rem;
+    }
+    /*---Modal------*/
+     .modal-title {
+         padding-left: 7rem;
+    }
+     .contact-modal-p {
+         font-size: 2rem;
+    }
+     .contact-form-wrapper input {
+         font-size: 1.5rem;
+    }
+     #textArea {
+         font-size: 1.5rem 
+    }
+     .modal-btn-wrapper {
+         margin: 2rem 0 1rem 0;
+    }
+     .modal-btn-wrapper button h5 {
+         font-size: 1.75rem;
+    }
+     .social-contact h3 {
+         margin: 1rem 0 1rem 0;
+         font-size: 1.75rem;
+    }
+     .social-contact {
+         margin: 0;
+    }
+     .contact-modal-p {
+         font-size: 1.5rem;
+    }
+}
+/* Medium devices - landscape (iPad landscape)*/
+ @media (min-width: 1024px) and (max-height: 800px) {
+     .carousel-caption-edit-picture1, .carousel-caption-edit-picture2, .carousel-caption-edit-picture3 {
+         margin-top: 1.25rem;
+         margin-right: 0.5rem;
+    }
+     .about-text p {
+         font-size: 1.4rem;
+    }
+     .visit-text {
+         padding-left: 90px;
+         padding-right:90px;
+    }
+     .next-meeting-info p.visit-title {
+         font-size: 1.75rem;
+    }
+     .next-meeting-info-cambridge {
+         padding: 30px 12px;
+    }
+     .next-meeting-wrapper .next-meeting-pic .extra-padding {
+         padding-bottom: 30px;
+    }
+    /*Login Page* iPad landscape*/
+     .members-heading h2 {
+         font-size: 2.5rem;
+         letter-spacing: 2px;
+    }
+     .members-info {
+         padding: 0 200px 10px 200px;
+    }
+     .members-info h6 {
+         font-size: 1.5rem;
+    }
+     .members-form {
+         padding: 0 60px;
+    }
+     .members-form .form-group label {
+         font-size: 1.5rem;
+    }
+     .rememberMe p {
+         font-size: 1rem;
+    }
+     input.form-check-input {
+         margin-top: 0.35rem;
+    }
+     .login-button-submit {
+         font-size: 1.5rem;
+    }
+     .additional-questions p {
+         font-size: 1.5rem;
+    }
+     .members-form .forgotten-password {
+         margin-bottom: 0;
+    }
+    /*Meetings*/
+     #york{
+         margin-bottom: 80px;
+    }
+     .location-wrapper {
+         padding: 0 120px;
+    }
+    /*Modal*/
+     .modal-wrapper .modal-content .modal-header {
+         padding-left: 120px;
+    }
+     .modal-about-text {
+         margin: 1rem 0;
+    }
+     .modal-btn-wrapper {
+         margin: 2rem 0 1rem 0;
+    }
+     .modal-btn-wrapper button h5 {
+         font-size: 1.75rem;
+    }
+     .social-contact h3 {
+         margin: 1rem 0;
+         font-size: 1.75rem;
+    }
+     .contact-modal-p {
+         font-size: 1.5rem;
+    }
+     .alternative-comm-wrapper h3{
+         margin-bottom: 2rem;
+    }
+    /*sign-up*/
+     .signup-container .container-membership {
+         width:62.5%;
+         margin-right: 0;
+         margin-left: 87.5px;
+         margin-top: 1rem;
+    }
+     .form-check-inline input.form-check-input {
+         margin-top: 26px;
+         margin-right: 10px;
+    }
+     .sign-up-page .sign-up-header h2{
+         margin-top: 2rem;
+         margin-bottom: 1rem;
+    }
+     .location-information .location-wrapper-last {
+         padding-left: 48px;
+         padding-right: 48px;
+         padding-bottom: 0;
+         margin-bottom: 0;
+    }
+     #york {
+         margin-bottom: 0;
+    }
+}
+/* iPad-Pro portrait */
+ @media (min-width: 1024px) and (max-height: 1370px) {
+     .carousel-caption-edit-picture1, .carousel-caption-edit-picture2, .carousel-caption-edit-picture3 {
+         margin-top: 1.25rem;
+         margin-right: 1rem;
+    }
+     .about-text p {
+         font-size: 1.4rem;
+    }
+     .next-meeting-info p.visit-title {
+         font-size: 1.75rem;
+    }
+     .next-meeting-info-cambridge {
+         padding: 30px 12px;
+    }
+     .next-meeting-wrapper .next-meeting-pic .extra-padding {
+         padding-bottom: 30px;
+    }
+     .visit-text {
+         padding-left: 90px;
+         padding-right:90px;
+    }
+    /*Login Page*/
+     .members-heading h2 {
+         font-size: 2.5rem;
+         letter-spacing: 2px;
+    }
+     .members-info {
+         padding: 0 200px 10px 200px;
+    }
+     .members-info h6 {
+         font-size: 1.5rem;
+    }
+     .members-form {
+         padding: 0 60px;
+    }
+     .members-form .form-group label {
+         font-size: 1.5rem;
+    }
+     .rememberMe p {
+         font-size: 1rem;
+    }
+     input.form-check-input {
+         margin-top: 1.75rem;
+    }
+     .login-button-submit {
+         font-size: 1.5rem;
+    }
+     .additional-questions p {
+         font-size: 1.5rem;
+    }
+     .members-form .forgotten-password {
+         margin-bottom: 0;
+    }
+    /*Meetings*/
+     #york{
+         margin-bottom: 80px;
+    }
+     .location-wrapper {
+         padding: 0 120px;
+    }
+    /*Modal*/
+     .modal-wrapper .modal-content .modal-header {
+         padding-left: 80px;
+    }
+     .modal-title {
+         font-size: 3.5rem;
+    }
+     .modal-about-text {
+         margin: 1rem 0;
+    }
+     .modal-about-text h3{
+         font-size: 2.5rem;
+    }
+     .modal-btn-wrapper {
+         margin: 2rem 0 1rem 0;
+    }
+     .modal-btn-wrapper button h5 {
+         font-size: 1.75rem;
+    }
+     .social-contact h3 {
+         margin: 1rem 0;
+         font-size: 1.75rem;
+    }
+     .contact-modal-p {
+         font-size: 1.5rem;
+    }
+     .alternative-comm-wrapper h3 {
+         margin-bottom: 2rem;
+    }
+    /*sign-up*/
+     .signup-container .container-membership {
+         width:62.5%;
+         margin-right: 0;
+         margin-left: 87.5px;
+         margin-top: 1rem;
+    }
+     .form-check-inline input.form-check-input {
+         margin-top: 26px;
+         margin-right: 10px;
+    }
+     .sign-up-page .sign-up-header h2{
+         margin-top: 2rem;
+         margin-bottom: 1rem;
+    }
+     .location-information .location-wrapper-last {
+         padding-left: 120px;
+         padding-right: 120px;
+         padding-bottom: 0;
+         margin-bottom: 0;
+    }
+     #york {
+         margin-bottom: 0;
+    }
 }
-
-.navbar-nav {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    padding-left: 0;
-    padding-top: 0.75rem;
-    margin-bottom: 0;
-    list-style: none;
-    font-size: 1.2rem;
-   
-}
-
-.btn-signup {
-    font-size: 1.2rem;
-}
-
-
-/*Footer*/
-
-.social-header h5{
-    font-size: 2rem;
-}
-
-.social-list {
-    text-align: center;
-    height: auto;
-    padding: 0 0;
-}
-
-
-
-.social-list ul li a {
-    padding: 0 2rem;
-}
-
-.social-list li {
-    padding: 30px 0 40px 0;
-}
-
-.social-header{
-    font-size: 2rem;
-    letter-spacing: 0.25rem;
-}
-
-
-
-/*Index page */
-
-/*carousel*/
-.carousel-caption-edit-picture1 h5, .carousel-caption-edit-picture2 h5, .carousel-caption-edit-picture3 h5{
-    font-size: 2rem;
-
-}
-
-.carousel-caption-edit-picture1, .carousel-caption-edit-picture2, .carousel-caption-edit-picture3 {
-    margin-top: 1.25rem;
-}
-
-
-/*about*/
-.about-image-container1  {
-padding: 30px 0px 0px 30px;
-
-}
-
-.about-image-container2 {
-padding: 0px 30px 30px 30px;
-}
-
-.about-text-container1
-{
-padding: 30px 30px 30px 30px;
-
-}
-.about-text-container2 {
-padding: 0px 0px 30px 30px;
-}
-
-.about-text p{
-    font-size: 1.2rem;
-}
-
-/*---Index-Why not pop in?*/
-
-.visit-header h2 {
-    font-size: 3rem;
-}
-
-.visit-text p {
-    font-size: 1.75rem;
-}
-.next-meeting-wrapper {
-    padding-left: 0;
-    padding-right: 0;
-
-}
-
-.next-meeting-wrapper-md-col1{
-    padding-left: 30px;
-    padding-right: 0;
-}
-
-
-.next-meeting-wrapper-md-col2{
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.next-meeting-wrapper-md-col3{
-    padding-left: 0;
-    padding-right: 30px;
-}
-
-.next-meeting-info p{
-    font-size: 1.5rem;
-}
-
-.next-meeting-wrapper .next-meeting-pic .extra-padding {
-    padding-bottom: 66px;
-}
-
-p.date, p.time {
-    margin-bottom: 8px;
-
-}
-
-.md-break {
-    display:block;
-}
-
-
-/*---Index---Pricing---*/
-.pricing-header h2 {
-    margin-bottom: 0px;
-    font-size: 3rem;
-}
-.card-wrapper {
-    padding-left: 10px;
-}
-
-.card-wrapper-md1 {
-    padding-right: 10px;
-    
-}
-
-.card-wrapper-md2 {
-    padding-right: 10px;
-    padding-left: 10px;
-    
-}
-
-.card-wrapper-md3 {
-    padding-left: 10px;
-    padding-right: 10px;
-    
-}
-
-.gold-membership {
-    margin-top: 1.25rem;
-    margin-bottom: 0;
-    padding-bottom: 37.333px;
-    
-    
-}
-
-.silver-membership {
-    margin-top: 1.25rem;
-    margin-bottom: 0;
-    padding-bottom: 37.333px;
-    
-    
-}
-
-.bronze-membership {
-    margin-top: 1.25rem;
-    margin-bottom: 0;
-    
-}
-
-.card-body {
-    padding: 20px 10px;
-}
-.card-body h3 {
-    padding-left: 10px;
-}
-
-.card-body ul {
-    padding-left: 40px;
-}
-
-
-.card-body ul li {
-    padding-left:0;
-}
-.card-text {
-    padding-left: 10px;
-}
-
-
-/*-----Members---*/
-
-.members-heading {
-    margin-top: 2rem;
-    font-size: 3rem;
-}
-
-.members-heading h2 {
-    font-size: 3.5rem;
-}
-
-
-.members-info {
-    margin-bottom: 1rem;
-}
-
-.members-info h6 {
-    font-size: 2rem;
-    font-weight: 400;
-}
-
-.members-form .form-group label {
-    font-size: 2rem;
-}
-
-.rememberMe p {
-    font-size: 1.5rem;
-}
-
-.big-checkbox {
-    width:18px;
-    height: 18px;
-    
-}
-
-.form-check-input-login {
-    margin-top: 0.68rem;
-}
-
-.form-group p.text-muted {
-    margin-left: 2px;
-}
-
-.additional-questions p {
-    font-size: 2rem;
-}
-
-.login-button-submit {
-    font-size: 2rem;
-}
-
-/*-----Meetings---*/
-
-.location-information {
-    padding-top:75px;
-}
-
-.location-picture-cambridge {
-    background-image: url(../images/cambridge.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: auto; 
-}
-
-.location-picture-leeds {
-    background-image: url(../images/leeds.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: auto; 
-}
-
-.location-picture-london {
-    background-image: url(../images/london2.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: auto; 
-}
-
-.location-picture-manchester {
-    background-image: url(../images/manchester3.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: auto; 
-}
-
-.location-picture-nottingham {
-    background-image: url(../images/nottingham2.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: auto; 
-}
-
-.location-picture-york {
-    background-image: url(../images/york.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: auto; 
-}
-
-.meetings-header {
-    padding-top: 1.75rem;
-    margin-bottom:0.8rem;
-    margin-top: 0;
-}
-
-.meetings-header h1 {
-      font-size: 3.5rem;
-}
-
-.meeting-info-text h5 {
-    font-size: 1.75rem;
-}
-
-.meeting-info-text p {
-    font-size: 1.5rem;
-}
-
-.location-information .drp-dwn-btn-design {
-    font-size: 1.5rem;
-    
-}
-    
-.location-wrapper {
-    padding-left: 48px;
-    padding-right: 48px;
-}
-
-.information-manchester p{
-    font-size: 1.25rem;
-    margin-bottom: 0;
-}
-
-.information-venue p{
-    font-size: 1.25rem;
-    margin-bottom: 0;
-    
-
-}
-
-.information-venue-bottom {
-    font-size: 1.25rem;
-}
-
-.meetings-date {
-    padding-left: 25px;
-}
-
-.location-header {
-    font-size: 1.5rem;
-    text-decoration: underline;
-    letter-spacing: 2px;
-}
-
-.location-information .location-wrapper-last {
-    padding-left: 48px; 
-    padding-right: 48px; 
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
-
-.information-venue-bottom .postcode {
-    padding-left: 0;
-}
-/*----Signup---*/
-
-.sign-up-header {
-    padding-top: 75px;
-   
-}  
-
-.sign-up-header h2 {
-    font-size: 3rem;
-}  
-
-.sign-up-header h5 {
-    font-size: 2rem;
-}  
-
-.signup-container {
-    padding: 40px 45px 0 45px;
-}
-
-.signup-container label {
-    font-size: 2rem;
-}
-
-.signup-container .form-control {
-    font-size: 1.5rem;
-}
-
-.container-membership {
-    margin-top: 1.5rem;
-    margin-bottom: 2.5rem;
-}
-
-.container-membership .form-check-label p {
-    font-size: 1.5rem;
-}
-
-.sign-up-button-submit{
-    font-size: 2rem;
-}
-
-/*---Modal------*/
-
-.modal-title {
-    padding-left: 7rem;
-}
-
-.contact-modal-p {
-    font-size: 2rem;
-}
-
-.contact-form-wrapper input {
-    font-size: 1.5rem;
-}
-
- #textArea {
-     font-size: 1.5rem
- }
-
-.modal-btn-wrapper {
-    margin: 2rem 0 1rem 0;
-
-}
-.modal-btn-wrapper button h5 {
-    font-size: 1.75rem;
-}
-
-.social-contact h3 {
-    margin: 1rem 0 1rem 0;
-    font-size: 1.75rem;
-}
-
-.social-contact {
-    margin: 0;
-}
-
-.contact-modal-p {
-    font-size: 1.5rem;
-  
-}
-
-
-
-
-}
-
-
-
-
-/* Medium devices - landscape  (iPad landscape)*/
-
-@media (min-width: 1024px) and (max-height: 800px) {
-
-.carousel-caption-edit-picture1, 
-.carousel-caption-edit-picture2, 
-.carousel-caption-edit-picture3 {
-    margin-top: 1.25rem;
-    margin-right: 0.5rem;
-}
-
-.about-text p {
-    font-size: 1.4rem;
-}
-
-.visit-text {
-    padding-left: 90px;
-    padding-right:90px;
-}
-
-.next-meeting-info p.visit-title {
-    font-size: 1.75rem;
-}
-
-.next-meeting-info-cambridge {
-    padding: 30px 12px;
-}
-
-.next-meeting-wrapper .next-meeting-pic .extra-padding {
-    padding-bottom: 30px;
-}
-
-/*Login Page* iPad landscape*/
-.members-heading h2 {
-    font-size: 2.5rem;
-    letter-spacing: 2px;
-}
-.members-info {
-    padding: 0 200px 10px 200px;
-
-}
-
-.members-info h6 {
-    font-size: 1.5rem;
-
-}
-
-.members-form {
-    padding: 0 60px;
-}
-
-.members-form .form-group label {
-    font-size: 1.5rem;
-}
-
-.rememberMe p {
-    font-size: 1rem;
-}
-
-input.form-check-input {
-    margin-top: 0.35rem;
-}
-
-.login-button-submit {
-    font-size: 1.5rem;
-}
-
-.additional-questions p {
-    font-size: 1.5rem;
-}
-
-.members-form .forgotten-password {
-    margin-bottom: 0;
-}
-
-/*Meetings*/
-
-#york{
-    margin-bottom: 80px;
-}
-
-.location-wrapper {
-    padding: 0 120px;
-}
-
-/*Modal*/
-
-.modal-wrapper .modal-content .modal-header {
-    padding-left: 120px;
-}
-
-.modal-about-text {
-    margin: 1rem 0;
-}
-
-.modal-btn-wrapper {
-    margin: 2rem 0 1rem 0;
-
-}
-.modal-btn-wrapper button h5 {
-    font-size: 1.75rem;
-}
-
-.social-contact h3 {
-    margin: 1rem 0;
-    font-size: 1.75rem;
-}
-
-.contact-modal-p {
-    font-size: 1.5rem;
-
-}
-
-
-.alternative-comm-wrapper h3{
-    margin-bottom: 2rem;
-}
-
-/*sign-up*/
-
-.signup-container .container-membership {
-    width:62.5%;
-    margin-right: 0;
-    margin-left: 87.5px;
-    margin-top: 1rem;
-}
-
-.form-check-inline input.form-check-input {
-    margin-top: 26px;
-    margin-right: 10px;
-}
-
-.sign-up-page .sign-up-header h2{
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    
-}
-
-.location-information .location-wrapper-last {
-    padding-left: 48px; 
-    padding-right: 48px; 
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
-
-#york {
-    margin-bottom: 0;
-}
-}
-
-/* iPad-Pro portrait */ 
-
-
-@media (min-width: 1024px) and (max-height: 1370px) {
-
-.carousel-caption-edit-picture1, 
-.carousel-caption-edit-picture2, 
-.carousel-caption-edit-picture3 {
-    margin-top: 1.25rem;
-    margin-right: 1rem;
-}
-
-.about-text p {
-    font-size: 1.4rem;
-}
-
-.next-meeting-info p.visit-title {
-    font-size: 1.75rem;
-}
-
-.next-meeting-info-cambridge {
-    padding: 30px 12px;
-}
-
-.next-meeting-wrapper .next-meeting-pic .extra-padding {
-    padding-bottom: 30px;
-}
-
-.visit-text {
-    padding-left: 90px;
-    padding-right:90px;
-}
-
-/*Login Page*/
-.members-heading h2 {
-    font-size: 2.5rem;
-    letter-spacing: 2px;
-}
-.members-info {
-    padding: 0 200px 10px 200px;
-
-}
-
-.members-info h6 {
-    font-size: 1.5rem;
-
-}
-
-.members-form {
-    padding: 0 60px;
-}
-
-.members-form .form-group label {
-    font-size: 1.5rem;
-}
-
-.rememberMe p {
-    font-size: 1rem;
-}
-
-input.form-check-input {
-    margin-top: 1.75rem;
-}
-
-.login-button-submit {
-    font-size: 1.5rem;
-}
-
-.additional-questions p {
-    font-size: 1.5rem;
-}
-
-.members-form .forgotten-password {
-    margin-bottom: 0;
-}
-
-/*Meetings*/
-
-#york{
-    margin-bottom: 80px;
-}
-
-.location-wrapper {
-    padding: 0 120px;
-}
-
-/*Modal*/
-
-.modal-wrapper .modal-content .modal-header {
-    padding-left: 80px;
-    
-}
-
-.modal-title {
-    font-size: 3.5rem;
-}
-
-.modal-about-text {
-    margin: 1rem 0;
-    
-}
-
-.modal-about-text h3{
-    font-size: 2.5rem;
-}
-.modal-btn-wrapper {
-    margin: 2rem 0 1rem 0;
-
-}
-.modal-btn-wrapper button h5 {
-    font-size: 1.75rem;
-}
-
-.social-contact h3 {
-    margin: 1rem 0;
-    font-size: 1.75rem;
-}
-
-.contact-modal-p {
-    font-size: 1.5rem;
-  
-}
-
-.alternative-comm-wrapper h3 {
-    margin-bottom: 2rem;
-}
-
-/*sign-up*/
-
-.signup-container .container-membership {
-    width:62.5%;
-    margin-right: 0;
-    margin-left: 87.5px;
-    margin-top: 1rem;
-
-}
-
-.form-check-inline input.form-check-input {
-    margin-top: 26px;
-    margin-right: 10px;
-}
-
-.sign-up-page .sign-up-header h2{
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    
-}
-
-.location-information .location-wrapper-last {
-    padding-left: 120px; 
-    padding-right: 120px; 
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
-
-#york {
-    margin-bottom: 0;
-}
-
-
-}
-
 /*iPad Pro Portrait only */
-@media (min-height: 1366px) {
-
-/*login page*/
-.members-heading {
-    margin-bottom: 1.5rem;
+ @media (min-height: 1366px) {
+    /*login page*/
+     .members-heading {
+         margin-bottom: 1.5rem;
+    }
+     .members-heading h2 {
+         font-size: 4.5rem;
+    }
+     .members-info {
+         padding: 0 150px;
+         margin-bottom: 2.5rem;
+    }
+     .members-info h6 {
+         font-size: 2.5rem;
+    }
+     .login-input {
+         margin-bottom: 2.5rem;
+    }
+     .members-form .form-group label {
+         font-size: 2.25rem;
+         margin-bottom: 2rem;
+    }
+     .members-form .form-group input {
+         font-size: 2rem;
+    }
+     .members-form .form-group p {
+         font-size: 1.5rem;
+    }
+     .members-form input.form-check-input {
+         margin-top: 1rem;
+    }
+     .members-form .form-group label.rememberMe p {
+         font-size: 2rem;
+    }
+     .login-button-submit {
+         font-size: 2.5rem;
+         margin-bottom: 2rem;
+    }
+     .members-form .additional-questions p {
+         font-size: 2.5rem;
+    }
 }
-.members-heading h2 {
-    font-size: 4.5rem;
-}
-
-.members-info {
-    padding: 0 150px;
-    margin-bottom: 2.5rem;
-}
-.members-info h6 {
-    font-size: 2.5rem;
-
-}
-
-.login-input {
-    margin-bottom: 2.5rem;
-}
-
-.members-form .form-group label {
-    font-size: 2.25rem;
-    margin-bottom: 2rem;
-}
-
-.members-form .form-group input {
-    font-size: 2rem;
-}
-
-.members-form .form-group p {
-    font-size: 1.5rem;
-}
-
-.members-form input.form-check-input {
-    margin-top: 1rem;
-   
-}
-
-.members-form .form-group label.rememberMe p {
-    font-size: 2rem;
-}
-.login-button-submit {
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
-}
-
-.members-form .additional-questions p {
-    font-size: 2.5rem;
-}
-}
-
-
 /*LARGE devices------*/
-@media (min-width: 968px) {
-
-/*Index page - Carousel---*/
-
-.carousel-item img {
-    position: absolute;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    height: auto;
-    
+ @media (min-width: 968px) {
+    /*Index page - Carousel---*/
+     .carousel-item img {
+         position: absolute;
+         object-fit: cover;
+         top: 0;
+         left: 0;
+         height: auto;
+    }
+     .carousel-item img.carousel-img-1 {
+         top: -100px;
+    }
+     .silver-membership, .gold-membership {
+         padding-bottom: 19px;
+    }
+    /*---Modal Contact Us----*/
+     .modal-dialog {
+         max-width: 700px;
+    }
+     .modal-body {
+         padding: 1rem 2rem;
+    }
+     .modal-content .modal-header button {
+         margin-left: 1rem;
+    }
+     .contact-form-wrapper {
+         padding-left: 30px;
+         padding-right: 30px;
+    }
+    /*---sign-up---*/
+     .container-membership {
+         width: 80%;
+         padding-left: 0;
+         padding-right: 0;
+    }
+     .sign-up-button-submit {
+         margin-top: 0.5rem;
+    }
+    /*---Login---*/
+     .members-heading h2 {
+         font-size: 3.5rem;
+    }
+     .members-info {
+         padding: 0 150px;
+         margin-bottom: 2.5rem;
+    }
+    /*----signup----*/
+     .lg-signup-form {
+         background-color: #eceff1;
+    }
+     .form-part-one {
+         padding-left: 60px;
+         padding-right: 60px;
+    }
+     .form-part-two {
+         padding-left: 60px;
+         padding-right: 60px;
+    }
+     .container-membership {
+         margin-top: 0;
+         margin-bottom: 32px;
+    }
+     .form-part-one label {
+         margin-bottom: 1rem;
+         margin-top: 1rem;
+    }
+     .form-part-two label {
+         margin-bottom: 1rem;
+         margin-top: 1rem;
+    }
+     .form-part-two .container-membership {
+         max-width: 60%;
+         padding-left: 0;
+         padding-right: 0;
+         margin-left: 0.5rem;
+         margin-bottom: 1rem;
+    }
+     .container-membership .form-group label, .form-check-input {
+         margin-top: 1.4rem;
+    }
+     .consent-wrapper {
+         text-align: center;
+    }
+     .form-check-inline .form-check-input{
+         margin-top: 3px;
+    }
+     .form-part-one select {
+         margin-bottom: 2rem;
+    }
+     .consent-wrapper label {
+         margin-bottom: 1.5rem;
+         margin-top: 1.5rem;
+    }
+     .sign-up-button-submit {
+         padding-left: 1rem;
+         padding-right: 1rem;
+         padding-top: 0.5rem;
+         padding-bottom: 0.75rem;
+         font-size: 1.5rem;
+         background-color: rgba(11,77,225,1);
+         border-color: rgba(11,77,225,1);
+         margin-bottom: 0;
+    }
 }
-
-.carousel-item img.carousel-img-1 {
-    top: -100px;
-}
-
-.silver-membership, .gold-membership {
-    padding-bottom: 19px;
-}
-
-/*---Modal Contact Us----*/
-
-.modal-dialog {
-    max-width: 700px;
-}
-
-.modal-body {
-    padding: 1rem 2rem;
-}
-
-
-
-
-
-.modal-content .modal-header button {
-    margin-left: 1rem;
-}
-.contact-form-wrapper {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-
-/*---sign-up---*/
-
-.container-membership {
-    width: 80%;
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.sign-up-button-submit {
-    margin-top: 0.5rem;
-}
-
-/*---Login---*/
-
-.members-heading h2 {
-    font-size: 3.5rem;
-}
-
-.members-info {
-    padding: 0 150px;
-    margin-bottom: 2.5rem;
-}
-
-
-/*----signup----*/
-
-.lg-signup-form {
-    background-color: #eceff1;
-}
-
-
-.form-part-one {
-    padding-left: 60px;
-    padding-right: 60px;
-}
-
-.form-part-two {
-    padding-left: 60px;
-    padding-right: 60px;
-}
-
-.container-membership {
-    margin-top: 0;
-    margin-bottom: 32px;
-}
-
-.form-part-one label {
-    margin-bottom: 1rem;
-    margin-top: 1rem;
- 
-}
-.form-part-two label {
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-
-}
-
-.form-part-two .container-membership {
-    max-width: 60%;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0.5rem;
-    margin-bottom: 1rem;
-}
-.container-membership .form-group label, .form-check-input {
-    margin-top: 1.4rem;
-}
-
-
-.consent-wrapper {
-    text-align: center;
-}
-
-.form-check-inline .form-check-input{
-    margin-top: 3px;
-}
-
-.form-part-one select {
-    margin-bottom: 2rem;
-}
-
-.consent-wrapper label {
-  
-    margin-bottom: 1.5rem;
-    margin-top: 1.5rem;
-}
-
-
-.sign-up-button-submit {
-   padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.75rem;
-    font-size: 1.5rem;
-    background-color: rgba(11,77,225,1);
-    border-color: rgba(11,77,225,1);
-    margin-bottom: 0;
-}
-
-}
-
 /*MDPi - laptop screens*/
-@media (min-width: 1280px) {
-
-/*Index page - Carousel---*/
-
-.carousel-item img {
-    position: absolute;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    height: auto;
+ @media (min-width: 1280px) {
+    /*Index page - Carousel---*/
+     .carousel-item img {
+         position: absolute;
+         object-fit: cover;
+         top: 0;
+         left: 0;
+         height: auto;
+    }
+     .carousel-item img.carousel-img-1 {
+         top: -300px;
+    }
+     .silver-membership, .gold-membership {
+         padding-bottom: 19px;
+    }
+     .about-text p{
+         font-size: 1.5rem;
+    }
+     .visit-text {
+         padding-left: 120px;
+         padding-right: 120px;
+    }
+     .next-meeting-info-cambridge {
+         padding-top: 48px;
+         padding-bottom: 48px;
+    }
+     .card-body {
+         padding-left: 50px;
+    }
+     .card-body ul {
+         padding-left: 60px;
+    }
+     .card-footnote {
+         padding-left: 40px 
+    }
+    /*Login Page*/
+     .members-heading h2 {
+         font-size: 3.5rem;
+    }
+     .members-info {
+         padding: 0 150px;
+         margin-bottom: 2.5rem;
+    }
+     .members-info h6 {
+         font-size: 2rem;
+    }
+     .login-input {
+         margin-bottom: 1rem;
+    }
+     .members-form .form-group label {
+         font-size: 1.75rem;
+         margin-bottom: 1rem;
+    }
+     .members-form .form-group input {
+         font-size: 1.25rem;
+    }
+     .members-form .form-group p {
+         font-size: 1.5rem;
+    }
+     .members-form input.form-check-input {
+         margin-top: 0.7rem;
+    }
+     .members-form .form-group label.rememberMe p {
+         font-size: 1.5rem;
+    }
+     .login-button-submit {
+         font-size: 1.75rem;
+         margin-bottom: 1rem;
+    }
+    /*Meetings Page*/
+     .location-wrapper {
+         padding: 48px 24px 0 24px;
+         margin-bottom: 0;
+    }
+     .location-information .location-wrapper-last {
+         padding: 48px 24px 0 24px;
+         margin-bottom: 0;
+    }
+     #york {
+         margin-bottom: 0;
+    }
+     .meeting-info-text h5 {
+         margin-bottom: 0;
+    }
+    /*---Modal Contact Us----*/
+     .modal-dialog {
+         max-width: 700px;
+    }
+     .modal-body {
+         padding: 1rem 2rem;
+    }
+     .modal-content .modal-header button {
+         margin-left: 1rem;
+    }
+     .contact-form-wrapper {
+         padding-left: 30px;
+         padding-right: 30px;
+    }
+    /*---sign-up---*/
+     .sign-up-large-screen {
+         padding-bottom: 32px;
+         background-color: #eceff1;
+    }
+     .container-membership {
+         width: 80%;
+         padding-left: 0;
+         padding-right: 0;
+    }
+     .sign-up-button-submit {
+         margin-top: 0.5rem;
+         margin-bottom: 0;
+    }
+     .lg-signup-form {
+         background-color: #eceff1;
+    }
+     .form-part-one {
+         padding-left: 80px;
+         padding-right: 60px;
+    }
+     .form-part-two {
+         padding-left: 60px;
+         padding-right: 60px;
+    }
+     .container-membership {
+         margin-top: 0;
+    }
+     .form-part-one label {
+         margin-bottom: 1rem;
+         margin-top: 1rem;
+         font-size: 1.75rem;
+    }
+     .form-part-one input {
+         font-size: 1.5rem;
+    }
+     .form-part-two input {
+         font-size: 1.5rem;
+    }
+     #inlineRadio {
+         margin-top: 2rem;
+         margin-left: -20px;
+    }
+     .form-part-two label {
+         margin-bottom: 1rem;
+         margin-top: 1rem;
+         font-size: 1.75rem;
+    }
+     .form-part-two .container-membership {
+         max-width: 70%;
+         padding-left: 0;
+         padding-right: 0;
+         margin-left: 0.5rem;
+         margin-bottom: 1rem;
+    }
+     .container-membership .form-group label, .form-check-input {
+         margin-top: 1.4rem;
+    }
+     .container-membership label.form-check-label {
+         font-size: 1.5rem;
+    }
+     .consent-wrapper {
+         text-align: center;
+    }
+     .form-check-inline .form-check-input{
+         margin-top: 3px;
+    }
+     .form-part-one select {
+         margin-bottom: 2rem;
+    }
+     .consent-wrapper label {
+         font-size: 1.5rem;
+         margin-bottom: 1.5rem;
+         margin-top: 1.5rem;
+    }
+     .consent-wrapper .consent-btn input {
+         margin-top: 3.5px;
+         width: 18px;
+         height: 18px;
+    }
+    /*iPad Pro lanscape */
+     @media (min-width: 1366px) {
+         .carousel-item img.carousel-img-1 {
+             top: -350px;
+        }
+         .carousel-item img {
+             position: absolute;
+             object-fit: cover;
+             top: 0;
+             left: 0;
+             height: auto;
+        }
+         .visit-text {
+             padding-left: 150px;
+             padding-right: 150px;
+        }
+         .next-meeting-wrapper-md-col2 .next-meeting-pic .extra-padding {
+             padding-bottom:66px;
+        }
+         .about-text-container1 .about-text {
+             padding-top: 40px;
+        }
+         .members-heading h2 {
+             color: black;
+        }
+    }
+    /*HiDPI laptops (desktops, 992px and up)*/
+     @media (min-width: 1400px) {
+         .carousel-item img.carousel-img-1 {
+             top: -350px;
+        }
+         .visit-text {
+             padding-left: 180px;
+             padding-right: 180px;
+        }
+         .next-meeting-info-cambridge {
+             padding-top: 30px;
+             padding-bottom: 30px;
+        }
+         .form-part-one, .form-part-two {
+             padding-left: 80px;
+             padding-right: 80px;
+        }
+         #york {
+             margin-bottom: 0;
+        }
+         .location-information .location-wrapper-last {
+             margin-bottom: 0;
+        }
+    }
     
-}
-
-.carousel-item img.carousel-img-1 {
-    top: -300px;
-}
-
-.silver-membership, .gold-membership {
-    padding-bottom: 19px;
-}
-
-.about-text p{
-    font-size: 1.5rem;
-}
-
-.visit-text {
-    padding-left: 120px;
-    padding-right: 120px;
-}
-
-.next-meeting-info-cambridge {
-    padding-top: 48px;
-    padding-bottom: 48px;
-}
-
-.card-body {
-    padding-left: 50px;
-}
-
-.card-body ul {
-    padding-left: 60px;
-}
-
-.card-footnote {
-    padding-left: 40px
-}
-
-/*Login Page*/
-
-.members-heading h2 {
-    font-size: 3.5rem;
-}
-
-.members-info {
-    padding: 0 150px;
-    margin-bottom: 2.5rem;
-}
-.members-info h6 {
-    font-size: 2rem;
-
-}
-
-.login-input {
-    margin-bottom: 1rem;
-}
-
-.members-form .form-group label {
-    font-size: 1.75rem;
-    margin-bottom: 1rem;
-}
-
-.members-form .form-group input {
-    font-size: 1.25rem;
-}
-
-.members-form .form-group p {
-    font-size: 1.5rem;
-}
-
-.members-form input.form-check-input {
-    margin-top: 0.7rem;
-   
-}
-
-.members-form .form-group label.rememberMe p {
-    font-size: 1.5rem;
-}
-.login-button-submit {
-    font-size: 1.75rem;
-    margin-bottom: 1rem;
-} 
-
-
-/*Meetings Page*/
-
-.location-wrapper {
-    padding: 48px 24px 0 24px;
-    margin-bottom: 0;
-}
-
-.location-information .location-wrapper-last {
-    padding: 48px 24px 0 24px;
-    margin-bottom: 0;
-}
-
-#york {
-    margin-bottom: 0;
-}
-
-.meeting-info-text h5 {
-    margin-bottom: 0;
-}
-
-/*---Modal Contact Us----*/
-
-.modal-dialog {
-    max-width: 700px;
-}
-
-.modal-body {
-    padding: 1rem 2rem;
-}
-
-.modal-content .modal-header button {
-    margin-left: 1rem;
-}
-.contact-form-wrapper {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-
-/*---sign-up---*/
-.sign-up-large-screen {
-    padding-bottom: 32px;
-    background-color: #eceff1;
-}
-.container-membership {
-    width: 80%;
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.sign-up-button-submit {
-    margin-top: 0.5rem;
-    margin-bottom: 0;
-}
-
-.lg-signup-form {
-    background-color: #eceff1;
-}
-
-
-.form-part-one {
-    padding-left: 80px;
-    padding-right: 60px;
-}
-
-.form-part-two {
-    padding-left: 60px;
-    padding-right: 60px;
-}
-
-.container-membership {
-    margin-top: 0;
-}
-
-.form-part-one label {
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    font-size: 1.75rem;
- 
-}
-
-.form-part-one input {
-    font-size: 1.5rem;
-}
-
-.form-part-two input {
-    font-size: 1.5rem;
-}
-
-#inlineRadio {
-    margin-top: 2rem;
-    margin-left: -20px;
-}
-
-.form-part-two label {
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    font-size: 1.75rem;
-
-}
-
-.form-part-two .container-membership {
-    max-width: 70%;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0.5rem;
-    margin-bottom: 1rem;
-}
-.container-membership .form-group label, .form-check-input {
-    margin-top: 1.4rem;
-}
-
-.container-membership label.form-check-label {
-    font-size: 1.5rem;
-}
-.consent-wrapper {
-    text-align: center;
-}
-
-.form-check-inline .form-check-input{
-    margin-top: 3px;
-}
-
-.form-part-one select {
-    margin-bottom: 2rem;
-}
-
-.consent-wrapper label {
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
-    margin-top: 1.5rem;
-}
-
-.consent-wrapper .consent-btn input {
-    margin-top: 3.5px;
-    width: 18px;
-    height: 18px;
-
-}
-
-
-
-
-
-/*iPad Pro lanscape */
-@media (min-width: 1366px) {
-
-.carousel-item img.carousel-img-1 {
-    top: -350px;
-}
-
-
-.carousel-item img {
-    position: absolute;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    height: auto;
-    
-}
-
-.visit-text {
-    padding-left: 150px;
-    padding-right: 150px;
-}
-
-.next-meeting-wrapper-md-col2 .next-meeting-pic .extra-padding {
-    padding-bottom:66px;
-}
-
-.about-text-container1 .about-text {
-    padding-top: 40px;
-}
-.members-heading h2 {
-    color: black;
-} 
-
-  
-}
-
-
-/*HiDPI laptops (desktops, 992px and up)*/
-@media (min-width: 1400px)  {
-.carousel-item img.carousel-img-1 {
-    top: -350px;
-}
-.visit-text {
-    padding-left: 180px;
-    padding-right: 180px;
-}
-
-.next-meeting-info-cambridge {
-     padding-top: 30px; 
-     padding-bottom: 30px; 
-}
-
-.form-part-one, .form-part-two {
-    padding-left: 80px;
-    padding-right: 80px;
-}
-
-#york {
-    margin-bottom: 0;
-}
-
-.location-information .location-wrapper-last {
-    margin-bottom: 0;
-}
-
-
-
-}
