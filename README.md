@@ -39,9 +39,55 @@ User Stories
 
 ___
 
+### Features
+In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+
+___
+
+### Existing Features
+   + Feature 1 - allows users X to achieve Y, by having them fill out Z
+
+### Features Left to Implement
+   + A login page
+___
+
+### Technologies Used
+
+######	Boostrap 
+   + The project uses Bootstrap to simplify the process of building a grid layout and creating buttons. 
+
+
 ### Testing
 
 Page      | Screen      | Desired outcome | Result 
 --------- | ----------- | --------------- | ---
 Home page | SM          | Design is as intended on the wireframes | True
+Home page | SM          | Design is as intended on the wireframes | True
+Home page | SM          | Design is as intended on the wireframes | True
+Home page | SM          | Design is as intended on the wireframes | True
+Home page | SM          | Design is as intended on the wireframes | True
+Home page | SM          | Design is as intended on the wireframes | True
+Home page | SM          | Design is as intended on the wireframes | True
+Home page | SM          | Design is as intended on the wireframes | True
+Home page | SM          | Design is as intended on the wireframes | True
+
+
+
+### Responsive Design
+___
+
+### Deployment
+
+
+___
+
+### Credit
+
+##### Media
+   + The photos used in this site were obtained from ...
+
+
+##### Acknowledgements
+
+___
 
