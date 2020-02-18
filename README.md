@@ -59,6 +59,9 @@ Contact Us – Modal
 Login Page
 
    1. As a user type, I want to submit my email and password and login into the members area. 
+   2. Remember me.
+   3. Sign up 
+   4. Forgotten password
 
 
 Meetings Page
@@ -68,6 +71,7 @@ Meetings Page
 Sign Up page
    
    1. As a user type, I want to be able to fill in a form and register an account. 
+   2. Consent button
 
 
 ___
