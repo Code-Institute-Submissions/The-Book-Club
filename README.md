@@ -33,6 +33,7 @@ The user should be able to gain the following information:
    + Information on how to find each place
    + Information on how to sign up.
 
+###### User Stories
 
 Navbar
 
@@ -54,6 +55,19 @@ Contact Us – Modal
    2.	As a user type, I want to click on the youtube icon, so that I see their youtube page.
    3.	As a user type, I want to click on the facebook icon on the Contact Us, so that I see their facebook page.
    4.	As a user type, I want to click on the twitter icon on the Contact Us, so that I see their twitter page.
+
+Login Page
+
+   1. As a user type, I want to submit my email and password and login into the members area. 
+
+
+Meetings Page
+
+   1. As a user type, I want to select a location out of pre-selected options and be taken straight to it. 
+
+Sign Up page
+   
+   1. As a user type, I want to be able to fill in a form and register an account. 
 
 
 ___
