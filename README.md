@@ -34,8 +34,27 @@ The user should be able to gain the following information:
    + Information on how to sign up.
 
 
-User Stories
-1.	As a user type, I want to click on the “meetings page”, so that I can see where the different meetings are held. 
+Navbar
+
+   1.	As a user type, I want to click on the “Home page”, so that I can see general information about the website and the book club. 
+   2.	As a user type, I want to click on the “Login page”, so that I can login into the members area and manage my details. 
+   3.	As a user type, I want to click on the “Pricing”, so that I can see the different pricing options, immediately. 
+   4.	As a user type, I want to click on the “Contact Us”, so that I can contact the The Book Club. I want to ask any questions that have not been answered by the information on the website. 
+   5.	As a user type, I want to click on the “Sign Up page”, so that I can register an account with The Book Club.  
+   6.	As a user type, I want to click on the “Logo”, so that I can go back to the home page.  
+
+Footer
+   1.	As a user type, I want to click on the facebook icon, so that I see their facebook page.
+   2.	As a user type, I want to click on the twitter icon, so that I see their twitter page.
+   3.	As a user type, I want to click on the instagram icon, so that I see their instagram page.
+   4.	As a user type, I want to click on the youtube icon, so that I see their youtube page.
+
+Contact Us – Modal
+   1.	As a user type, I want to send a message to the book club by filling out the form and submitting it.
+   2.	As a user type, I want to click on the youtube icon, so that I see their youtube page.
+   3.	As a user type, I want to click on the facebook icon on the Contact Us, so that I see their facebook page.
+   4.	As a user type, I want to click on the twitter icon on the Contact Us, so that I see their twitter page.
+
 
 ___
 
