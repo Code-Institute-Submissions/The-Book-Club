@@ -249,7 +249,25 @@ Sign-Up page | All screens        | Navbar link "Home" takes the user to the "In
 Sign-Up page | All screens        | Navbar link "Pricing" takes the user to the "Index" page and the "Pricing section"| True
 Sign-Up page | All screens        | Navbar link "Contact Us" opens the contact modal for the users| True
 Sign-Up page | All screens        | Navbar link "Meetings" takes the user to the "Meetings" page| True
-
+| | |
+Logo in navbar | All screens        | Navbar link embedded in the logo takes us to the "Index" page| True
+| | |
+Facebook icon in footer - all pages | All screens        |Icon takes the user to the Facebook Home page| True
+Twitter icon in footer - all pages | All screens        |Icon takes the user to the Twitter Home page| True
+Youtube icon in footer - all pages | All screens        |Icon takes the user to the Youtube Home page| True
+Instagram icon in footer - all pages | All screens        |Icon takes the user to the Instagram Home page| True
+| | |
+Contact Modal | All screens        |Facebook icon takes the user to the Facebook Home page| True
+Contact Modal | All screens        |Twitter icon takes the user to the Twitter Home page| True
+Contact Modal | All screens        |Receive an error message if the user doesn't put in an email address| True
+Contact Modal | All screens        |Receive an error message if the user doesn't put and @ sign in the email| True
+Contact Modal | All screens        |The user can click the cross at the top of the modal and it will close| True
+Contact Modal | All screens        |The user can click the "close" button at the bottom of the modal and it will close| True
+| | |
+Sign-Up | All screens        |Error message appears if I do not fill out any of the following: first name, last name, email, password, repeat password| True
+Sign-Up | All screens        |I consent button can be checked| True
+Sign-Up | All screens        |Sign-up button can be pressed and takes a user back to the "sign-up" page| True
+Sign-Up | All screens        |Any of the membership radio buttons can be selected| True
 
 
 
