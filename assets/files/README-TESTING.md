@@ -50,7 +50,6 @@ Login page | All screens        | Error message appears if an invalid email is i
 Login page | All screens        | User can check the "remember me" box| True
 Login page | All screens        | User can click the link for forgotten password and it will take refresh the page.| True
 Login page | All screens        | User can click the link for "sign-up" and it will take them to the sign up page| TrueLogin page
-
 | | |
 Meetings page | All screens        | Navbar link "Login" takes the user to the "Login" page| True
 Meetings page | All screens        | Navbar link "Home" takes the user to the "Index" page| True
@@ -70,7 +69,6 @@ Meetings page | xl        | Google Maps link will take you to the correct destin
 Meetings page | xl        | Google Maps link will take you to the correct destination - Manchester| True
 Meetings page | xl        | Google Maps link will take you to the correct destination - Nottingham| True
 Meetings page | xl        | Google Maps link will take you to the correct destination - York| True
-
 | | |
 Sign-Up page | All screens        | Navbar link "Login" takes the user to the "Login" page| True
 Sign-Up page | All screens        | Navbar link "Home" takes the user to the "Index" page| True
