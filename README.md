@@ -123,7 +123,7 @@ ___
 
 ### Existing Features
 
-#####Navbar
+##### Navbar
 
    1.	Links to all the other pages allows the user to navigate seamlessly between pages.
    2.	The navbar is consistent on every page and therefore a user can navigate to any part of the website from anywhere. 
@@ -187,10 +187,10 @@ Languages used
    2.	CSS
    3.	Javascript  
 
-Bootstrap – https://getbootstrap.com/
+Bootstrap – https://getbootstrap.com/  
 The project uses Bootstrap to simplify the process of building a grid layout, implementing carousels and forms, cards, and creating buttons. Bootstrap was also used for responsive design. 
 
-JQuery – https://jquery.com/
+JQuery – https://jquery.com/  
 JQuery was not used discreetly by me. However, elements of Bootstrap used JQuery and Javascript, therefore I have added the necessary scripts on each page. 
 
  
