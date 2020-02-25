@@ -123,7 +123,7 @@ ___
 
 ### Existing Features
 
-##### Navbar
+Navbar
 
    1.	Links to all the other pages allows the user to navigate seamlessly between pages.
    2.	The navbar is consistent on every page and therefore a user can navigate to any part of the website from anywhere. 
@@ -216,6 +216,28 @@ Home page | SM          | Design is as intended on the wireframes | True
 ___
 
 ### Deployment
+
+Deployment – Live Website  
+
+   1.	Create repository in GitHub and give it a relevant name.
+   2.	Click on your repository to open it.
+   3.	Find the “settings” tab and click on it.
+   4.	Scroll down until you arrive at the “GitHub Pages” sections.
+   5.	Under the “source” drop down menu, choose a branch. I chose “master branch” and select it. 
+   6.	You will then see a URL to your live webpage. In my case the URL is https://cgpalmer.github.io/The-Book-Club/
+
+Deployment – Run Locally  
+
+   1.	Again, click on the repository called The-Book-Club.
+   2.	Along the top bar, find the “clone or download” button. 
+   3.	Here you have several options
+       + Clone via HTTPS
+       + Clone via SSH
+   4.	Once you have chose your desired option, then click the copy icon next to the URL.
+   5.	Open Git Bash.
+   6.	Ensure you are in the correct directory which you want to copy the code into. If not, change the directory now.
+   7.	In the terminal, write the    $ git clone https://github.com/cgpalmer/The-Book-Club.git
+   8.	Press the enter button and your clone will be created.
 
 
 ___
