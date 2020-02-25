@@ -106,6 +106,18 @@ Sign-Up Page
    3.	As a user type, I want to submit my data via a clear button.
    4.	As a user type, I want to receive feedback that I have signed up. 
 
+### Wireframes
+
+Please find the links to my wireframes below:
+
+Index Page - mobile (assets/files/index-page-mobile.pdf)
+Index Page - tablet
+Index Page - desktop
+Login Page - all screens
+Meetings Page - mobile
+Meetings Page - tablet and desktop
+Sign-Up Page - all screeens
+
 
 
 ___
