@@ -200,12 +200,32 @@ JQuery was not used discreetly by me. However, elements of Bootstrap used JQuery
 
 Page      | Screen      | Desired outcome | Result 
 --------- | ----------- | --------------- | ---
-Home page | SM          | Design is as intended on the wireframes | True
-Home page | SM          | Design is as intended on the wireframes | True
-Home page | SM          | Design is as intended on the wireframes | True
-Home page | SM          | Design is as intended on the wireframes | True
-Home page | SM          | Design is as intended on the wireframes | True
-Home page | SM          | Design is as intended on the wireframes | True
+Index page | SM          | Design is as intended on the wireframes | True
+Meetings page | SM          | Design is as intended on the wireframes | True
+Contact us page | SM          | Design is as intended on the wireframes | True
+Login page | SM          | Design is as intended on the wireframes | True
+Sign-up page | SM          | Design is as intended on the wireframes | True
+--------- | ----------- | --------------- | ---
+Index page | MD        | Design is as intended on the wireframes | True
+Meetings page | MD          | Design is as intended on the wireframes | True
+Contact us page | MD         | Design is as intended on the wireframes | True
+Login page | MD     | Design is as intended on the wireframes | True
+Sign-up page | MD          | Design is as intended on the wireframes | True
+--------- | ----------- | --------------- | ---
+Index page | LG          | Design is as intended on the wireframes | True
+Meetings page | LG          | Design is as intended on the wireframes | True
+Contact us page | LG          | Design is as intended on the wireframes | True
+Login page | LG          | Design is as intended on the wireframes | True
+Sign-up page | LG          | Design is as intended on the wireframes | True
+--------- | ----------- | --------------- | ---
+Index page | XL        | Design is as intended on the wireframes | True
+Meetings page | XL          | Design is as intended on the wireframes | True
+Contact us page | XL         | Design is as intended on the wireframes | True
+Login page | XL     | Design is as intended on the wireframes | True
+Sign-up page | XL          | Design is as intended on the wireframes | True
+
+
+
 Home page | SM          | Design is as intended on the wireframes | True
 Home page | SM          | Design is as intended on the wireframes | True
 Home page | SM          | Design is as intended on the wireframes | True
