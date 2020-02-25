@@ -230,9 +230,7 @@ Deployment – Run Locally
 
    1.	Again, click on the repository called The-Book-Club.
    2.	Along the top bar, find the “clone or download” button. 
-   3.	Here you have several options
-       + Clone via HTTPS
-       + Clone via SSH
+   3.	Here you have the option to clone by HTTPS or SSH.
    4.	Once you have chose your desired option, then click the copy icon next to the URL.
    5.	Open Git Bash.
    6.	Ensure you are in the correct directory which you want to copy the code into. If not, change the directory now.
@@ -244,11 +242,20 @@ ___
 
 ### Credit
 
-##### Media
-   + The photos used in this site were obtained from ...
+Media
+
+The photos used in this site were obtained from Google. They were all free so share and edit. 
+
+Acknowledgements  
+
+I received inspiration for this project Love Running. I liked the idea of a website that helped people locate groups that they could join in with. I also really like their “next run” section, which I used as inspiration for my “next meeting” section. 
+I also received inspiration from the other projects I took part in during the course. 
+Some examples are:
+   + The landing page from The Whiskey Shop.
+   + The transitions from the Resume project.
 
 
-##### Acknowledgements
+
 
 ___
 
