@@ -185,9 +185,11 @@ ___
 Languages used
    1.	HTML
    2.	CSS
-   3.	Javascript
+   3.	Javascript  
+
 Bootstrap – https://getbootstrap.com/
 The project uses Bootstrap to simplify the process of building a grid layout, implementing carousels and forms, cards, and creating buttons. Bootstrap was also used for responsive design. 
+
 JQuery – https://jquery.com/
 JQuery was not used discreetly by me. However, elements of Bootstrap used JQuery and Javascript, therefore I have added the necessary scripts on each page. 
 
