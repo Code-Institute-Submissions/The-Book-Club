@@ -619,7 +619,7 @@ body {
      border: 0.0625rem solid #ced4da;
      border-radius: .25rem;
      transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-     margin-bottom: 26px;
+     margin-bottom: 40px;
      width: 90%;
      margin-left: auto;
      margin-right: auto;
@@ -635,18 +635,6 @@ body {
 }
  .container-membership .form-group label {
      margin-bottom: 0;
-}
-.consent-wrapper .consent-btn {
-    margin-bottom: 26px;
-}
-.consent-btn {
-    margin-left: 30px;
-}
-.consent-btn .form-check-input {
-    margin-right: 15px;
-    margin-top: 0;
-    width: 18px;
-    height: 18px;
 }
  .signup {
      text-align: center;
@@ -1230,10 +1218,6 @@ body {
      .sign-up-button-submit{
          font-size: 2rem;
     }
-    .consent-btn .form-check-input {
-         width: 25px;
-         height: 25px;
-    }
     /*---Modal------*/
      .modal-title {
          padding-left: 7rem;
@@ -1355,7 +1339,11 @@ body {
          margin-left: 87.5px;
          margin-top: 1rem;
     }
-    .sign-up-page .sign-up-header h2{
+     .form-check-inline input.form-check-input {
+         margin-top: 26px;
+         margin-right: 10px;
+    }
+     .sign-up-page .sign-up-header h2{
          margin-top: 2rem;
          margin-bottom: 1rem;
     }
@@ -1367,18 +1355,6 @@ body {
     }
      #york {
          margin-bottom: 0;
-    }
-    .consent-btn {
-         margin-left: 90px;
-    }
-    .consent-wrapper .consent-btn .form-check-inline {
-         margin-top: 0;
-         width: 25px;
-         height: 25px;
-    }
-    .consent-btn .form-check-label {
-         padding-top: 20px;
-         
     }
 }
 /* iPad-Pro portrait */
@@ -1477,7 +1453,6 @@ body {
          margin-right: 0;
          margin-left: 87.5px;
          margin-top: 1rem;
-         margin-bottom: 0;
     }
      .form-check-inline input.form-check-input {
          margin-top: 26px;
@@ -1495,10 +1470,6 @@ body {
     }
      #york {
          margin-bottom: 0;
-    }
-    .consent-btn .form-check-input {
-         width: 25px;
-         height: 25px;
     }
 }
 /*iPad Pro Portrait only */
@@ -1543,8 +1514,6 @@ body {
      .members-form .additional-questions p {
          font-size: 2.5rem;
     }
-    .consent-wrapper .consent-btn {
-         margin-bottom: 0;
 }
 /*LARGE devices------*/
  @media (min-width: 968px) {
@@ -1638,8 +1607,7 @@ body {
     }
      .consent-wrapper label {
          margin-bottom: 1.5rem;
-         margin-top: 10px;
-         padding-top: 20px;
+         margin-top: 1.5rem;
     }
      .sign-up-button-submit {
          padding-left: 1rem;
@@ -1831,7 +1799,7 @@ body {
          width: 18px;
          height: 18px;
     }
-    /*iPad Pro lancape */
+    /*iPad Pro lanscape */
      @media (min-width: 1366px) {
          .carousel-item img.carousel-img-1 {
              top: -350px;
@@ -1856,8 +1824,6 @@ body {
          .members-heading h2 {
              color: black;
         }
-        .consent-wrapper .consent-btn {
-            margin-bottom: 0;
     }
     /*HiDPI laptops (desktops, 992px and up)*/
      @media (min-width: 1400px) {
@@ -1882,3 +1848,5 @@ body {
          .location-information .location-wrapper-last {
              margin-bottom: 0;
         }
+    }
+    
