@@ -110,7 +110,7 @@ Sign-Up Page
 
 Please find the links to my wireframes below:
 
-Index Page - mobile (assets/files/index-page-mobile.pdf)
+Index Page - mobile (/assets/files/index-page-mobile.pdf "Link")
 Index Page - tablet
 Index Page - desktop
 Login Page - all screens
