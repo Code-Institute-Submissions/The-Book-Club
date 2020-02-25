@@ -201,7 +201,7 @@ JQuery was not used discreetly by me. However, elements of Bootstrap used JQuery
 
 ### Testing
 
-Please find the link to the test document here: [Link to testing page](assets/files/README-TESTING.md)  
+Please find the link to the test document here: [Link to testing page](assets/files/README-TESTING.md)   
 Please also find a log of bugs and other issues I came across during the process, here: [Link to testing and debugging](assets/files/testing-and-debugging.pdf)
 
 
