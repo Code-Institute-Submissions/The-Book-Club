@@ -177,6 +177,9 @@ Sign Up
    3.	Build a webpage that can support retrieving a password.
    4.	A success message when a user has successfully signed-up.
    5.	A success message when a user has successfully sent a message on the “contact” modal.
+   6.   Add in a automated check and error message if repeat password doesn't match when signing up.
+   7.   Add in error messaged if the email and password do not match when trying to log in. 
+   8.   Add an error messge if user doesn't leave a message on the modal.
 
 ___
 
