@@ -97,7 +97,7 @@ Contact Us
    7.	As a user type, I want to be able to click each social media link and be taken to a new tab that loads the specified social media.
    8.	As a user type, I want visual feedback when hovering or clicking the social media links.
    9.	As a user type, I want an alternative way to get in contact. I want to be able to see the information for telephone, email and address clearly. 
-   10.	 As a user type, I want to close the modal, whether I am at the top or bottom of the modal and be take back to the page I was on. 
+   10.	As a user type, I want to close the modal, whether I am at the top or bottom of the modal and be take back to the page I was on. 
 
 Sign-Up Page
 
@@ -117,21 +117,67 @@ Please find the links to my wireframes below:
 [Meetings Page - mobile](/assets/files/wireframes/meetings-page-mobile.pdf)  
 [Meetings Page - tablet and desktop](/assets/files/wireframes/meetings-page-tablet-and-desktop.pdf)  
 [Sign-Up Page - all screeens](/assets/files/wireframes/sign-up-page-all-screens.pdf)  
-
-
-
 ___
 
-### Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-
-___
+## Features
 
 ### Existing Features
-   + Feature 1 - allows users X to achieve Y, by having them fill out Z
+
+Navbar
+
+   1.	Links to all the other pages allows the user to navigate seamlessly between pages.
+   2.	The navbar is consistent on every page and therefore a user can navigate to any part of the website from anywhere. 
+   3.	The “Login” link will allow users to go to the “Login” page, where they can log in. 
+   4.	The “Meetings” link will allow users to go to the “Meetings” page, which has much more details on how to join in with a book meeting.
+   5.	The “Pricing” link will allow users to go straight to the prices on the index page. This is immediate and means you don’t have to scroll through the whole page.
+   6.	The “Contact Us” link will open a modal which contains all the contact details. 
+   7.	In mobile view the navbar is collapsed allowing the users more space on the screen. The users can click the “hamburger” icon and still receive the full menu as a drop down function.
+
+Footer
+
+   1.	Social media links allows the user to click on each individual icon and a new tab will open with the corresponding social media home page.
+
+Index Page
+
+   1.	Carousel – allows users to see what the club is offering and asks questions to ascertain if this is the right club for them.
+   2.	About section – allows uses to see more images of the club and offers more information as to what to expect when joining.
+   3.	Why not visit? – This section allows users to see when the next meeting is in each location so they can trial “The Book Club”.
+   4.	Pricing – Allows users to quickly and clearly see all the prices available to them so they can choose which plan they would like. 
+
+Login Page
+
+   1.	Login form – allows users to fill in their details and log into the members area, where they can manage their account.
+   2.	Remember me – This button allows the user to store their email address, meaning they will not have to type it in every time.
+   3.	Forgotten Password – This link will take users to another page where they can recover or change their password. 
+   4.	Sign Up link – This link will take users who do not have an account to the Sign-Up page.
+
+Meetings
+
+   1.	The information grids – Each grid contains all the information for a location so a user can read the grid and will know everything they need to in order to attend a meeting.
+   2.	Jump to Location – This feature allows users to jump to a desired location by choosing a location from the drop-down menu. 
+   3.	Google maps links – Users can use the google maps link to get directions from their location to the meetings. 
+
+Contact Us
+
+   1.	The contact modal – this modal overlays the top of the users current screen allowing them to contact “The Book Club” easily. It is designed to be immediate rather than scrolling to the bottom to click on a footer link and go through several pages before you can get contact information.
+   2.	Message – This allows the user to send a message immediately to “The Book Club” and receive an emailed response.
+   3.	Social media – this section allows the user to travel straight to “The Book Club”’s social media pages by clicking on the icons. 
+   4.	Alternatively – This section provides all the information needed to contact “The Book Club” via telephone, email or post. 
+   5.	Close buttons – these features allow the user to close the modal. There is a button at the top and bottom to make it more accessible.
+
+Sign Up 
+
+   1.	Sign Up form – allows users to put in their details in order to create and account. It includes and initial membership choice.
+
 
 ### Features Left to Implement
-   + A login page
+
+   1.	Add a text style to the website.
+   2.	To build a webpage that where members can put in their personal details (address etc), manage billing and payments, and change memberships.
+   3.	Build a webpage that can support retrieving a password.
+   4.	A success message when a user has successfully signed-up.
+   5.	A success message when a user has successfully sent a message on the “contact” modal.
+
 ___
 
 ### Technologies Used
