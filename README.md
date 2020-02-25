@@ -198,7 +198,7 @@ JQuery was not used discreetly by me. However, elements of Bootstrap used JQuery
 
 ### Testing
 
-Please find the link to the test document here: [Link to testing page] (assets/files/README-TESTING.md)
+Please find the link to the test document here: [Link to testing page](assets/files/README-TESTING.md)
 
 
 ## Responsive Design
