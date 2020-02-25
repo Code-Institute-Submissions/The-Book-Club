@@ -217,25 +217,24 @@ Meetings page | LG          | Design is as intended on the wireframes | True
 Contact us page | LG          | Design is as intended on the wireframes | True
 Login page | LG          | Design is as intended on the wireframes | True
 Sign-up page | LG          | Design is as intended on the wireframes | True
---------- | ----------- | --------------- | ---
+---| --- | --- | 
 Index page | XL        | Design is as intended on the wireframes | True
 Meetings page | XL          | Design is as intended on the wireframes | True
 Contact us page | XL         | Design is as intended on the wireframes | True
 Login page | XL     | Design is as intended on the wireframes | True
 Sign-up page | XL          | Design is as intended on the wireframes | True
+---| --- | --- | 
 
 
 
-Home page | SM          | Design is as intended on the wireframes | True
-Home page | SM          | Design is as intended on the wireframes | True
-Home page | SM          | Design is as intended on the wireframes | True
 
 
 
-### Responsive Design
+
+## Responsive Design
 ___
 
-### Deployment
+## Deployment
 
 Deployment – Live Website  
 
@@ -260,7 +259,7 @@ Deployment – Run Locally
 
 ___
 
-### Credit
+## Credit
 
 Media
 
