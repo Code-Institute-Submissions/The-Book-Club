@@ -76,7 +76,6 @@ Sign-Up page | All screens        | Navbar link "Pricing" takes the user to the 
 Sign-Up page | All screens        | Navbar link "Contact Us" opens the contact modal for the users| True
 Sign-Up page | All screens        | Navbar link "Meetings" takes the user to the "Meetings" page| True
 Sign-Up | All screens        |Error message appears if I do not fill out any of the following: first name, last name, email, password, repeat password| True
-Sign-Up | All screens        |I consent button can be checked| True
 Sign-Up | All screens        |Sign-up button can be pressed and takes a user back to the "sign-up" page| True
 Sign-Up | All screens        |Any of the membership radio buttons can be selected| True
 | | |

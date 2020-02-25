@@ -202,10 +202,27 @@ JQuery was not used discreetly by me. However, elements of Bootstrap used JQuery
 ### Testing
 
 Please find the link to the test document here: [Link to testing page](assets/files/README-TESTING.md)
+Please also find a log of bugs and other issues I came across during the process, here: [Link to testing and debuggin](assets/files/testing-and-debugging.pdf)
 
 
 ## Responsive Design
 ___
+Index page
+   1. The about section moved the pictures to along side the text on anything bigger than mobile view.
+   2. The pricing re-orientated themselves from top to bottom to left to right, still in price other. This is on any screen bigger than mobile view. 
+   3. The next meetings sections moved from 1 in a row to 3 in a row on screens larger than mobile view.
+
+Meetings page 
+   1. Mobile view had the pictures under the location heading and all the information is in on column.
+   2. Mobile view had all the locations under each other.
+   3. Tablet view and bigger had the picture next to most of the information, with two rows on information underneath.
+   4. On desktop view, each location changes from being underneath each other to two in a row and three columns. As there is less scrolling, I have take away the location drop-down-menu. 
+
+Sign-up Page
+   1. In desktop view, the form is split into two parts and they are set side by side. The sign=up button is central. 
+
+Navbar
+   1. The navbar is collapsed on mobile view but is fully across the top in tablet and above. 
 
 ## Deployment
 
