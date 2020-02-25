@@ -115,7 +115,7 @@ Please find the links to my wireframes below:
 [Index Page - desktop](/assets/files/wireframes/index-page-desktop.pdf)
 [Login Page - all screens](/assets/files/wireframes/login-page-all-screens.pdf)
 [Meetings Page - mobile](/assets/files/wireframes/meetings-page-mobile.pdf)
-[Meetings Page - tablet and desktop](/assets/files/wireframes/meetings-page-tablet.pdf)
+[Meetings Page - tablet and desktop](/assets/files/wireframes/meetings-page-tablet-and-desktop.pdf)
 [Sign-Up Page - all screeens](/assets/files/wireframes/sign-up-page-all-screens.pdf)
 
 
