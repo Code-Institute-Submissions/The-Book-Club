@@ -202,7 +202,14 @@ JQuery was not used discreetly by me. However, elements of Bootstrap used JQuery
 ### Testing
 
 Please find the link to the test document here: [Link to testing page](assets/files/README-TESTING.md)   
-Please also find a log of bugs and other issues I came across during the process, here: [Link to testing and debugging](assets/files/testing-and-debugging.pdf)
+Interesting bugs:  
+I came across two different bugs that caused me be creative. The first was when jumping to a location on the 
+"meetings" page, half of the grid was hidden behind the navbar. To overcome this, I put in a div which was the 
+same as the background colour. The div activated when it was targeted by the link in the drop-down menu. 
+Otherwise, it was hidden. I used the same solution for clicking on the "pricing" link on the navbar.   
+
+The second bug was that my carousel picture was too tall for the view-height of the carousel. I fixed this by 
+giving it a top position of -px, which brought the picture up enough to see the interesting part of the photo.  
 
 
 ## Responsive Design
