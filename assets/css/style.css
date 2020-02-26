@@ -165,26 +165,8 @@ body {
      left: 0;
      height: 37.5rem;
 }
- .carousel-caption-edit-picture1 {
-     position: absolute;
-     top: 1.25rem;
-     right: 0.3125rem;
-     z-index: 10;
-     padding: 1.25rem 1.25rem 1.25rem;
-     color: black;
-     text-align: center;
-     background-color: rgba(75, 74, 74, 0.8);
-}
- .carousel-caption-edit-picture2 {
-     position: absolute;
-     top: 1.25rem;
-     right: 0.3125rem;
-     z-index: 10;
-     padding: 1.25rem 1.25rem 1.25rem;
-     color: black;
-     text-align: center;
-     background-color: rgba(75, 74, 74, 0.8);
-}
+ .carousel-caption-edit-picture1,
+ .carousel-caption-edit-picture2,
  .carousel-caption-edit-picture3 {
      position: absolute;
      top: 1.25rem;
