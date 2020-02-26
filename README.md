@@ -202,7 +202,9 @@ JQuery was not used discreetly by me. However, elements of Bootstrap used JQuery
 ### Testing
 
 Please find the link to the test document here: [Link to testing page](assets/files/README-TESTING.md)   
-Interesting bugs:  
+
+Interesting bugs: 
+
 I came across two different bugs that caused me be creative. The first was when jumping to a location on the 
 "meetings" page, half of the grid was hidden behind the navbar. To overcome this, I put in a div which was the 
 same as the background colour. The div activated when it was targeted by the link in the drop-down menu. 
