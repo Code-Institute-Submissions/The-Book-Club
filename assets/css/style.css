@@ -388,28 +388,21 @@ body {
      display: inline-block;
      width: 100%;
 }
- .membership-card-header-gold {
-     background-color: gold;
+ .membership-common-class {
      background-clip: border-box;
      border-top-left-radius: 0.25rem;
      border-top-left-radius: 0.25rem;
      height: 3.125rem;
+}
+ .membership-card-header-gold {
+     background-color: gold;
 }
  .membership-card-header-silver {
      background-color:silver;
-     background-clip: border-box;
-     border-top-left-radius: 0.25rem;
-     border-top-left-radius: 0.25rem;
-     height: 3.125rem;
 }
  .membership-card-header-bronze {
      background-color: #cd7f32;
-     background-clip: border-box;
-     border-top-left-radius: 0.25rem;
-     border-top-left-radius: 0.25rem;
-     height: 3.125rem;
-     margin: 0;
-}
+ }
  .membership-card-header-bronze h3, .membership-card-header-silver h3, .membership-card-header-gold h3 {
      padding-top: 0.3125rem;
      padding-bottom: 0.3125rem;
