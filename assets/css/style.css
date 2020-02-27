@@ -600,16 +600,17 @@ body {
      margin-right: auto;
 }
  .container-membership .form-group label, .form-check-input {
-     margin-top: 1rem;
+     margin-top: 0;
 }
  .form-check-inline .form-check-input {
      position: static;
-     margin-top: 1rem;
+     margin-top: 0.5rem;
      margin-right: .3125rem;
      margin-left: 0;
 }
  .container-membership .form-group label {
      margin-bottom: 0;
+     padding-top: 5px;
 }
  .signup {
      text-align: center;
@@ -669,7 +670,7 @@ body {
      background-color: rgb(0, 65, 204);
      border-color: rgb(0, 65, 204);
 }
- .form-check-label p {
+ .form-check-label {
      font-size: 1rem;
      margin: 0;
 }
@@ -725,7 +726,7 @@ body {
      border-bottom: 0.125rem solid #dee2e6;
 }
  .form-group label {
-     font-size: 1.5rem;
+     font-size: 1rem;
      margin-bottom: 0.75rem;
 }
  .form-control {
@@ -1065,7 +1066,7 @@ body {
          height: 18px;
     }
      .form-check-input-login {
-         margin-top: 0.68rem;
+         margin-top: 1rem;
     }
      .form-group p.text-muted {
          margin-left: 2px;
@@ -1266,8 +1267,8 @@ body {
      .rememberMe p {
          font-size: 1rem;
     }
-     input.form-check-input {
-         margin-top: 0.35rem;
+     .form-group input.form-check-input {
+         margin-top: 0.75rem;
     }
      .login-button-submit {
          font-size: 1.5rem;
@@ -1377,6 +1378,7 @@ body {
     }
      input.form-check-input {
          margin-top: 1.75rem;
+         
     }
      .login-button-submit {
          font-size: 1.5rem;
@@ -1474,13 +1476,13 @@ body {
      .members-form .form-group input {
          font-size: 2rem;
     }
-     .members-form .form-group p {
+     .members-form .form-group span {
          font-size: 1.5rem;
     }
      .members-form input.form-check-input {
-         margin-top: 1rem;
+         margin-top: 1.25rem;
     }
-     .members-form .form-group label.rememberMe p {
+     .members-form .form-group label.rememberMe span {
          font-size: 2rem;
     }
      .login-button-submit {
@@ -1653,13 +1655,13 @@ body {
      .members-form .form-group input {
          font-size: 1.25rem;
     }
-     .members-form .form-group p {
+     .members-form .form-group span {
          font-size: 1.5rem;
     }
      .members-form input.form-check-input {
-         margin-top: 0.7rem;
+         margin-top: 1rem;
     }
-     .members-form .form-group label.rememberMe p {
+     .members-form .form-group label.rememberMe span {
          font-size: 1.5rem;
     }
      .login-button-submit {
